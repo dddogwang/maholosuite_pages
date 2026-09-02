@@ -1,0 +1,1278 @@
+{
+  "records": [
+    {
+      "title": "MaholoArena",
+      "key": "arena_overview",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_overview/front.png",
+          "collision": "collision/arena_overview/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_overview/left.png",
+          "collision": "collision/arena_overview/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_overview/back.png",
+          "collision": "collision/arena_overview/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_overview/right.png",
+          "collision": "collision/arena_overview/right.png"
+        }
+      ]
+    },
+    {
+      "title": "base_link",
+      "key": "table_base_link",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_base_link/front.png",
+          "collision": "collision/table_base_link/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_base_link/left.png",
+          "collision": "collision/table_base_link/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_base_link/back.png",
+          "collision": "collision/table_base_link/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_base_link/right.png",
+          "collision": "collision/table_base_link/right.png"
+        }
+      ]
+    },
+    {
+      "title": "base_deep freezer",
+      "key": "table_base_deep_freezer",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_base_deep_freezer/front.png",
+          "collision": "collision/table_base_deep_freezer/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_base_deep_freezer/left.png",
+          "collision": "collision/table_base_deep_freezer/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_base_deep_freezer/back.png",
+          "collision": "collision/table_base_deep_freezer/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_base_deep_freezer/right.png",
+          "collision": "collision/table_base_deep_freezer/right.png"
+        }
+      ]
+    },
+    {
+      "title": "side table_R1_FF",
+      "key": "table_side_table_r1_ff",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_side_table_r1_ff/front.png",
+          "collision": "collision/table_side_table_r1_ff/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_side_table_r1_ff/left.png",
+          "collision": "collision/table_side_table_r1_ff/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_side_table_r1_ff/back.png",
+          "collision": "collision/table_side_table_r1_ff/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_side_table_r1_ff/right.png",
+          "collision": "collision/table_side_table_r1_ff/right.png"
+        }
+      ]
+    },
+    {
+      "title": "main table",
+      "key": "table_main_table",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_main_table/front.png",
+          "collision": "collision/table_main_table/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_main_table/left.png",
+          "collision": "collision/table_main_table/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_main_table/back.png",
+          "collision": "collision/table_main_table/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_main_table/right.png",
+          "collision": "collision/table_main_table/right.png"
+        }
+      ]
+    },
+    {
+      "title": "side table_R2",
+      "key": "table_side_table_r2",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_side_table_r2/front.png",
+          "collision": "collision/table_side_table_r2/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_side_table_r2/left.png",
+          "collision": "collision/table_side_table_r2/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_side_table_r2/back.png",
+          "collision": "collision/table_side_table_r2/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_side_table_r2/right.png",
+          "collision": "collision/table_side_table_r2/right.png"
+        }
+      ]
+    },
+    {
+      "title": "incubator_table",
+      "key": "table_incubator_table",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_incubator_table/front.png",
+          "collision": "collision/table_incubator_table/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_incubator_table/left.png",
+          "collision": "collision/table_incubator_table/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_incubator_table/back.png",
+          "collision": "collision/table_incubator_table/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_incubator_table/right.png",
+          "collision": "collision/table_incubator_table/right.png"
+        }
+      ]
+    },
+    {
+      "title": "1.5ml tube storage_48",
+      "key": "arena_consum_1_5ml_tube_storage_48",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_1_5ml_tube_storage_48/front.png",
+          "collision": "collision/arena_consum_1_5ml_tube_storage_48/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_1_5ml_tube_storage_48/left.png",
+          "collision": "collision/arena_consum_1_5ml_tube_storage_48/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_1_5ml_tube_storage_48/back.png",
+          "collision": "collision/arena_consum_1_5ml_tube_storage_48/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_1_5ml_tube_storage_48/right.png",
+          "collision": "collision/arena_consum_1_5ml_tube_storage_48/right.png"
+        }
+      ]
+    },
+    {
+      "title": "1_5MLTUBE-MAIN RACK Multi-Omics",
+      "key": "arena_consum_1_5mltube_main_rack_multi_omics",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_1_5mltube_main_rack_multi_omics/front.png",
+          "collision": "collision/arena_consum_1_5mltube_main_rack_multi_omics/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_1_5mltube_main_rack_multi_omics/left.png",
+          "collision": "collision/arena_consum_1_5mltube_main_rack_multi_omics/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_1_5mltube_main_rack_multi_omics/back.png",
+          "collision": "collision/arena_consum_1_5mltube_main_rack_multi_omics/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_1_5mltube_main_rack_multi_omics/right.png",
+          "collision": "collision/arena_consum_1_5mltube_main_rack_multi_omics/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Chip BOX Rack_1000μl",
+      "key": "arena_consum_chip_box_rack_1000ul",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_chip_box_rack_1000ul/front.png",
+          "collision": "collision/arena_consum_chip_box_rack_1000ul/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_chip_box_rack_1000ul/left.png",
+          "collision": "collision/arena_consum_chip_box_rack_1000ul/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_chip_box_rack_1000ul/back.png",
+          "collision": "collision/arena_consum_chip_box_rack_1000ul/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_chip_box_rack_1000ul/right.png",
+          "collision": "collision/arena_consum_chip_box_rack_1000ul/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Chip BOX Rack_200μl",
+      "key": "arena_consum_chip_box_rack_200ul",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_chip_box_rack_200ul/front.png",
+          "collision": "collision/arena_consum_chip_box_rack_200ul/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_chip_box_rack_200ul/left.png",
+          "collision": "collision/arena_consum_chip_box_rack_200ul/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_chip_box_rack_200ul/back.png",
+          "collision": "collision/arena_consum_chip_box_rack_200ul/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_chip_box_rack_200ul/right.png",
+          "collision": "collision/arena_consum_chip_box_rack_200ul/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Chip BOX_200μl",
+      "key": "arena_consum_chip_box_200ul",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_chip_box_200ul/front.png",
+          "collision": "collision/arena_consum_chip_box_200ul/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_chip_box_200ul/left.png",
+          "collision": "collision/arena_consum_chip_box_200ul/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_chip_box_200ul/back.png",
+          "collision": "collision/arena_consum_chip_box_200ul/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_chip_box_200ul/right.png",
+          "collision": "collision/arena_consum_chip_box_200ul/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Chip BOX_5ml",
+      "key": "arena_consum_chip_box_5ml",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_chip_box_5ml/front.png",
+          "collision": "collision/arena_consum_chip_box_5ml/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_chip_box_5ml/left.png",
+          "collision": "collision/arena_consum_chip_box_5ml/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_chip_box_5ml/back.png",
+          "collision": "collision/arena_consum_chip_box_5ml/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_chip_box_5ml/right.png",
+          "collision": "collision/arena_consum_chip_box_5ml/right.png"
+        }
+      ]
+    },
+    {
+      "title": "PCR Plate Main Rack with Cooling(1)",
+      "key": "arena_consum_pcr_plate_main_rack_with_cooling_1",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_1/front.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_1/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_1/left.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_1/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_1/back.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_1/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_1/right.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_1/right.png"
+        }
+      ]
+    },
+    {
+      "title": "PCR Plate Main Rack with Cooling(2)",
+      "key": "arena_consum_pcr_plate_main_rack_with_cooling_2",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_2/front.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_2/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_2/left.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_2/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_2/back.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_2/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_2/right.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_2/right.png"
+        }
+      ]
+    },
+    {
+      "title": "PCR Plate Main Rack with Cooling(3)",
+      "key": "arena_consum_pcr_plate_main_rack_with_cooling_3",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_3/front.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_3/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_3/left.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_3/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_3/back.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_3/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_3/right.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_3/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Storage_15ml-6",
+      "key": "arena_consum_storage_15ml_6",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_storage_15ml_6/front.png",
+          "collision": "collision/arena_consum_storage_15ml_6/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_storage_15ml_6/left.png",
+          "collision": "collision/arena_consum_storage_15ml_6/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_storage_15ml_6/back.png",
+          "collision": "collision/arena_consum_storage_15ml_6/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_storage_15ml_6/right.png",
+          "collision": "collision/arena_consum_storage_15ml_6/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Storage_50ml x 6",
+      "key": "arena_consum_storage_50ml_x_6",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_storage_50ml_x_6/front.png",
+          "collision": "collision/arena_consum_storage_50ml_x_6/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_storage_50ml_x_6/left.png",
+          "collision": "collision/arena_consum_storage_50ml_x_6/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_storage_50ml_x_6/back.png",
+          "collision": "collision/arena_consum_storage_50ml_x_6/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_storage_50ml_x_6/right.png",
+          "collision": "collision/arena_consum_storage_50ml_x_6/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Workshop_15ml x 5",
+      "key": "arena_consum_workshop_15ml_x_5",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_workshop_15ml_x_5/front.png",
+          "collision": "collision/arena_consum_workshop_15ml_x_5/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_workshop_15ml_x_5/left.png",
+          "collision": "collision/arena_consum_workshop_15ml_x_5/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_workshop_15ml_x_5/back.png",
+          "collision": "collision/arena_consum_workshop_15ml_x_5/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_workshop_15ml_x_5/right.png",
+          "collision": "collision/arena_consum_workshop_15ml_x_5/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Workshop_50ml-3",
+      "key": "arena_consum_workshop_50ml_3",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_workshop_50ml_3/front.png",
+          "collision": "collision/arena_consum_workshop_50ml_3/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_workshop_50ml_3/left.png",
+          "collision": "collision/arena_consum_workshop_50ml_3/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_workshop_50ml_3/back.png",
+          "collision": "collision/arena_consum_workshop_50ml_3/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_workshop_50ml_3/right.png",
+          "collision": "collision/arena_consum_workshop_50ml_3/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Centrifuge tool",
+      "key": "arena_tool_centrifuge_tool",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_centrifuge_tool/front.png",
+          "collision": "collision/arena_tool_centrifuge_tool/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_centrifuge_tool/left.png",
+          "collision": "collision/arena_tool_centrifuge_tool/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_centrifuge_tool/back.png",
+          "collision": "collision/arena_tool_centrifuge_tool/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_centrifuge_tool/right.png",
+          "collision": "collision/arena_tool_centrifuge_tool/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Chip off",
+      "key": "arena_tool_chip_off",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_chip_off/front.png",
+          "collision": "collision/arena_tool_chip_off/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_chip_off/left.png",
+          "collision": "collision/arena_tool_chip_off/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_chip_off/back.png",
+          "collision": "collision/arena_tool_chip_off/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_chip_off/right.png",
+          "collision": "collision/arena_tool_chip_off/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Opener",
+      "key": "arena_tool_opener",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_opener/front.png",
+          "collision": "collision/arena_tool_opener/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_opener/left.png",
+          "collision": "collision/arena_tool_opener/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_opener/back.png",
+          "collision": "collision/arena_tool_opener/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_opener/right.png",
+          "collision": "collision/arena_tool_opener/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Pipette Push",
+      "key": "arena_tool_pipette_push",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_pipette_push/front.png",
+          "collision": "collision/arena_tool_pipette_push/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_pipette_push/left.png",
+          "collision": "collision/arena_tool_pipette_push/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_pipette_push/back.png",
+          "collision": "collision/arena_tool_pipette_push/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_pipette_push/right.png",
+          "collision": "collision/arena_tool_pipette_push/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Single Pipette Rack_4",
+      "key": "arena_tool_single_pipette_rack_4",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_single_pipette_rack_4/front.png",
+          "collision": "collision/arena_tool_single_pipette_rack_4/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_single_pipette_rack_4/left.png",
+          "collision": "collision/arena_tool_single_pipette_rack_4/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_single_pipette_rack_4/back.png",
+          "collision": "collision/arena_tool_single_pipette_rack_4/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_single_pipette_rack_4/right.png",
+          "collision": "collision/arena_tool_single_pipette_rack_4/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Single Pipette Rack_5",
+      "key": "arena_tool_single_pipette_rack_5",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_single_pipette_rack_5/front.png",
+          "collision": "collision/arena_tool_single_pipette_rack_5/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_single_pipette_rack_5/left.png",
+          "collision": "collision/arena_tool_single_pipette_rack_5/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_single_pipette_rack_5/back.png",
+          "collision": "collision/arena_tool_single_pipette_rack_5/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_single_pipette_rack_5/right.png",
+          "collision": "collision/arena_tool_single_pipette_rack_5/right.png"
+        }
+      ]
+    },
+    {
+      "title": "CoolIncubator4C",
+      "key": "equipment_coolincubator4c",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_coolincubator4c/front.png",
+          "collision": "collision/equipment_coolincubator4c/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_coolincubator4c/left.png",
+          "collision": "collision/equipment_coolincubator4c/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_coolincubator4c/back.png",
+          "collision": "collision/equipment_coolincubator4c/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_coolincubator4c/right.png",
+          "collision": "collision/equipment_coolincubator4c/right.png"
+        }
+      ]
+    },
+    {
+      "title": "CO2Incubator",
+      "key": "equipment_co2incubator",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_co2incubator/front.png",
+          "collision": "collision/equipment_co2incubator/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_co2incubator/left.png",
+          "collision": "collision/equipment_co2incubator/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_co2incubator/back.png",
+          "collision": "collision/equipment_co2incubator/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_co2incubator/right.png",
+          "collision": "collision/equipment_co2incubator/right.png"
+        }
+      ]
+    },
+    {
+      "title": "DeepFreezer",
+      "key": "equipment_deepfreezer",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_deepfreezer/front.png",
+          "collision": "collision/equipment_deepfreezer/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_deepfreezer/left.png",
+          "collision": "collision/equipment_deepfreezer/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_deepfreezer/back.png",
+          "collision": "collision/equipment_deepfreezer/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_deepfreezer/right.png",
+          "collision": "collision/equipment_deepfreezer/right.png"
+        }
+      ]
+    },
+    {
+      "title": "ThermalCycler",
+      "key": "equipment_thermalcycler",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_thermalcycler/front.png",
+          "collision": "collision/equipment_thermalcycler/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_thermalcycler/left.png",
+          "collision": "collision/equipment_thermalcycler/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_thermalcycler/back.png",
+          "collision": "collision/equipment_thermalcycler/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_thermalcycler/right.png",
+          "collision": "collision/equipment_thermalcycler/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MX307",
+      "key": "equipment_mx307",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_mx307/front.png",
+          "collision": "collision/equipment_mx307/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_mx307/left.png",
+          "collision": "collision/equipment_mx307/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_mx307/back.png",
+          "collision": "collision/equipment_mx307/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_mx307/right.png",
+          "collision": "collision/equipment_mx307/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MicrotubeMixer",
+      "key": "equipment_microtubemixer",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_microtubemixer/front.png",
+          "collision": "collision/equipment_microtubemixer/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_microtubemixer/left.png",
+          "collision": "collision/equipment_microtubemixer/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_microtubemixer/back.png",
+          "collision": "collision/equipment_microtubemixer/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_microtubemixer/right.png",
+          "collision": "collision/equipment_microtubemixer/right.png"
+        }
+      ]
+    },
+    {
+      "title": "VortexMixer",
+      "key": "equipment_vortexmixer",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_vortexmixer/front.png",
+          "collision": "collision/equipment_vortexmixer/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_vortexmixer/left.png",
+          "collision": "collision/equipment_vortexmixer/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_vortexmixer/back.png",
+          "collision": "collision/equipment_vortexmixer/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_vortexmixer/right.png",
+          "collision": "collision/equipment_vortexmixer/right.png"
+        }
+      ]
+    },
+    {
+      "title": "BlockThermostaticBath",
+      "key": "equipment_blockthermostaticbath",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_blockthermostaticbath/front.png",
+          "collision": "collision/equipment_blockthermostaticbath/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_blockthermostaticbath/left.png",
+          "collision": "collision/equipment_blockthermostaticbath/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_blockthermostaticbath/back.png",
+          "collision": "collision/equipment_blockthermostaticbath/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_blockthermostaticbath/right.png",
+          "collision": "collision/equipment_blockthermostaticbath/right.png"
+        }
+      ]
+    },
+    {
+      "title": "BlockThermostaticBath2",
+      "key": "equipment_blockthermostaticbath2",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_blockthermostaticbath2/front.png",
+          "collision": "collision/equipment_blockthermostaticbath2/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_blockthermostaticbath2/left.png",
+          "collision": "collision/equipment_blockthermostaticbath2/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_blockthermostaticbath2/back.png",
+          "collision": "collision/equipment_blockthermostaticbath2/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_blockthermostaticbath2/right.png",
+          "collision": "collision/equipment_blockthermostaticbath2/right.png"
+        }
+      ]
+    },
+    {
+      "title": "CoolBlockBath",
+      "key": "equipment_coolblockbath",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_coolblockbath/front.png",
+          "collision": "collision/equipment_coolblockbath/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_coolblockbath/left.png",
+          "collision": "collision/equipment_coolblockbath/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_coolblockbath/back.png",
+          "collision": "collision/equipment_coolblockbath/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_coolblockbath/right.png",
+          "collision": "collision/equipment_coolblockbath/right.png"
+        }
+      ]
+    },
+    {
+      "title": "P1000 pipette",
+      "key": "consum_p1000_pipette",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/consum_p1000_pipette/front.png",
+          "collision": "collision/consum_p1000_pipette/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/consum_p1000_pipette/left.png",
+          "collision": "collision/consum_p1000_pipette/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/consum_p1000_pipette/back.png",
+          "collision": "collision/consum_p1000_pipette/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/consum_p1000_pipette/right.png",
+          "collision": "collision/consum_p1000_pipette/right.png"
+        }
+      ]
+    },
+    {
+      "title": "1.5 mL tube",
+      "key": "consum_1_5_ml_tube",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/consum_1_5_ml_tube/front.png",
+          "collision": "collision/consum_1_5_ml_tube/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/consum_1_5_ml_tube/left.png",
+          "collision": "collision/consum_1_5_ml_tube/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/consum_1_5_ml_tube/back.png",
+          "collision": "collision/consum_1_5_ml_tube/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/consum_1_5_ml_tube/right.png",
+          "collision": "collision/consum_1_5_ml_tube/right.png"
+        }
+      ]
+    },
+    {
+      "title": "15 mL tube",
+      "key": "consum_15_ml_tube",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/consum_15_ml_tube/front.png",
+          "collision": "collision/consum_15_ml_tube/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/consum_15_ml_tube/left.png",
+          "collision": "collision/consum_15_ml_tube/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/consum_15_ml_tube/back.png",
+          "collision": "collision/consum_15_ml_tube/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/consum_15_ml_tube/right.png",
+          "collision": "collision/consum_15_ml_tube/right.png"
+        }
+      ]
+    },
+    {
+      "title": "50 mL tube",
+      "key": "consum_50_ml_tube",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/consum_50_ml_tube/front.png",
+          "collision": "collision/consum_50_ml_tube/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/consum_50_ml_tube/left.png",
+          "collision": "collision/consum_50_ml_tube/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/consum_50_ml_tube/back.png",
+          "collision": "collision/consum_50_ml_tube/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/consum_50_ml_tube/right.png",
+          "collision": "collision/consum_50_ml_tube/right.png"
+        }
+      ]
+    },
+    {
+      "title": "Opener 0184",
+      "key": "tool_opener_0184",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/tool_opener_0184/front.png",
+          "collision": "collision/tool_opener_0184/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/tool_opener_0184/left.png",
+          "collision": "collision/tool_opener_0184/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/tool_opener_0184/back.png",
+          "collision": "collision/tool_opener_0184/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/tool_opener_0184/right.png",
+          "collision": "collision/tool_opener_0184/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MaholoRight",
+      "key": "robot_maholoright",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/robot_maholoright/front.png",
+          "collision": "collision/robot_maholoright/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/robot_maholoright/left.png",
+          "collision": "collision/robot_maholoright/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/robot_maholoright/back.png",
+          "collision": "collision/robot_maholoright/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/robot_maholoright/right.png",
+          "collision": "collision/robot_maholoright/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MaholoLeft",
+      "key": "robot_mahololeft",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/robot_mahololeft/front.png",
+          "collision": "collision/robot_mahololeft/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/robot_mahololeft/left.png",
+          "collision": "collision/robot_mahololeft/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/robot_mahololeft/back.png",
+          "collision": "collision/robot_mahololeft/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/robot_mahololeft/right.png",
+          "collision": "collision/robot_mahololeft/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MaholoWithRight",
+      "key": "robot_maholowithright",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/robot_maholowithright/front.png",
+          "collision": "collision/robot_maholowithright/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/robot_maholowithright/left.png",
+          "collision": "collision/robot_maholowithright/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/robot_maholowithright/back.png",
+          "collision": "collision/robot_maholowithright/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/robot_maholowithright/right.png",
+          "collision": "collision/robot_maholowithright/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MaholoWithLeft",
+      "key": "robot_maholowithleft",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/robot_maholowithleft/front.png",
+          "collision": "collision/robot_maholowithleft/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/robot_maholowithleft/left.png",
+          "collision": "collision/robot_maholowithleft/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/robot_maholowithleft/back.png",
+          "collision": "collision/robot_maholowithleft/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/robot_maholowithleft/right.png",
+          "collision": "collision/robot_maholowithleft/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MaholoOnlyRight",
+      "key": "robot_maholoonlyright",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/robot_maholoonlyright/front.png",
+          "collision": "collision/robot_maholoonlyright/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/robot_maholoonlyright/left.png",
+          "collision": "collision/robot_maholoonlyright/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/robot_maholoonlyright/back.png",
+          "collision": "collision/robot_maholoonlyright/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/robot_maholoonlyright/right.png",
+          "collision": "collision/robot_maholoonlyright/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MaholoOnlyLeft",
+      "key": "robot_maholoonlyleft",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/robot_maholoonlyleft/front.png",
+          "collision": "collision/robot_maholoonlyleft/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/robot_maholoonlyleft/left.png",
+          "collision": "collision/robot_maholoonlyleft/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/robot_maholoonlyleft/back.png",
+          "collision": "collision/robot_maholoonlyleft/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/robot_maholoonlyleft/right.png",
+          "collision": "collision/robot_maholoonlyleft/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MaholoGripper",
+      "key": "gripper_maholo",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/gripper_maholo/front.png",
+          "collision": "collision/gripper_maholo/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/gripper_maholo/left.png",
+          "collision": "collision/gripper_maholo/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/gripper_maholo/back.png",
+          "collision": "collision/gripper_maholo/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/gripper_maholo/right.png",
+          "collision": "collision/gripper_maholo/right.png"
+        }
+      ]
+    },
+    {
+      "title": "MaholoMount",
+      "key": "mount_maholo",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/mount_maholo/front.png",
+          "collision": "collision/mount_maholo/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/mount_maholo/left.png",
+          "collision": "collision/mount_maholo/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/mount_maholo/back.png",
+          "collision": "collision/mount_maholo/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/mount_maholo/right.png",
+          "collision": "collision/mount_maholo/right.png"
+        }
+      ]
+    }
+  ]
+}

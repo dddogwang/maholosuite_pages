@@ -1,0 +1,987 @@
+{
+  "repo": ".",
+  "arena_xml": "robosuite/models/assets/arenas/maholo_arena.xml",
+  "records": [
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "MaholoLab_arena",
+      "title": "MaholoArena",
+      "image": "arena_overview.png",
+      "visual_image": "visual/arena_overview.png",
+      "collision_image": "collision/arena_overview.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 43,
+      "collision_geoms": 3234,
+      "camera": {
+        "azimuth": 135.0,
+        "elevation": -22.0,
+        "distance_scale": 2.65,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "base_link",
+      "title": "base_link",
+      "image": "table_base_link.png",
+      "visual_image": "visual/table_base_link.png",
+      "collision_image": "collision/table_base_link.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 2,
+      "collision_geoms": 1,
+      "camera": {
+        "azimuth": 135.0,
+        "elevation": -21.0,
+        "distance_scale": 2.45,
+        "lookat_bias": 0.04
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "base_deep freezer",
+      "title": "base_deep freezer",
+      "image": "table_base_deep_freezer.png",
+      "visual_image": "visual/table_base_deep_freezer.png",
+      "collision_image": "collision/table_base_deep_freezer.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 3,
+      "collision_geoms": 30,
+      "camera": {
+        "azimuth": 135.0,
+        "elevation": -21.0,
+        "distance_scale": 2.45,
+        "lookat_bias": 0.04
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "side table_R1_FF",
+      "title": "side table_R1_FF",
+      "image": "table_side_table_r1_ff.png",
+      "visual_image": "visual/table_side_table_r1_ff.png",
+      "collision_image": "collision/table_side_table_r1_ff.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 3,
+      "collision_geoms": 41,
+      "camera": {
+        "azimuth": 135.0,
+        "elevation": -22.0,
+        "distance_scale": 2.55,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "main table",
+      "title": "main table",
+      "image": "table_main_table.png",
+      "visual_image": "visual/table_main_table.png",
+      "collision_image": "collision/table_main_table.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 3,
+      "collision_geoms": 34,
+      "camera": {
+        "azimuth": 135.0,
+        "elevation": -22.0,
+        "distance_scale": 2.55,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "side table_R2",
+      "title": "side table_R2",
+      "image": "table_side_table_r2.png",
+      "visual_image": "visual/table_side_table_r2.png",
+      "collision_image": "collision/table_side_table_r2.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 3,
+      "collision_geoms": 43,
+      "camera": {
+        "azimuth": 135.0,
+        "elevation": -22.0,
+        "distance_scale": 2.55,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "incubator_table",
+      "title": "incubator_table",
+      "image": "table_incubator_table.png",
+      "visual_image": "visual/table_incubator_table.png",
+      "collision_image": "collision/table_incubator_table.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 3,
+      "collision_geoms": 24,
+      "camera": {
+        "azimuth": 135.0,
+        "elevation": -22.0,
+        "distance_scale": 2.55,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "1.5ml tube storage_48",
+      "title": "1.5ml tube storage_48",
+      "image": "arena_consum_1_5ml_tube_storage_48.png",
+      "visual_image": "visual/arena_consum_1_5ml_tube_storage_48.png",
+      "collision_image": "collision/arena_consum_1_5ml_tube_storage_48.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 171,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "1_5MLTUBE-MAIN RACK Multi-Omics",
+      "title": "1_5MLTUBE-MAIN RACK Multi-Omics",
+      "image": "arena_consum_1_5mltube_main_rack_multi_omics.png",
+      "visual_image": "visual/arena_consum_1_5mltube_main_rack_multi_omics.png",
+      "collision_image": "collision/arena_consum_1_5mltube_main_rack_multi_omics.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 382,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Chip BOX Rack_1000μl",
+      "title": "Chip BOX Rack_1000μl",
+      "image": "arena_consum_chip_box_rack_1000ul.png",
+      "visual_image": "visual/arena_consum_chip_box_rack_1000ul.png",
+      "collision_image": "collision/arena_consum_chip_box_rack_1000ul.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 2,
+      "collision_geoms": 234,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Chip BOX Rack_200μl",
+      "title": "Chip BOX Rack_200μl",
+      "image": "arena_consum_chip_box_rack_200ul.png",
+      "visual_image": "visual/arena_consum_chip_box_rack_200ul.png",
+      "collision_image": "collision/arena_consum_chip_box_rack_200ul.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 2,
+      "collision_geoms": 199,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Chip BOX_200μl",
+      "title": "Chip BOX_200μl",
+      "image": "arena_consum_chip_box_200ul.png",
+      "visual_image": "visual/arena_consum_chip_box_200ul.png",
+      "collision_image": "collision/arena_consum_chip_box_200ul.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 2,
+      "collision_geoms": 197,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Chip BOX_5ml",
+      "title": "Chip BOX_5ml",
+      "image": "arena_consum_chip_box_5ml.png",
+      "visual_image": "visual/arena_consum_chip_box_5ml.png",
+      "collision_image": "collision/arena_consum_chip_box_5ml.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 2,
+      "collision_geoms": 211,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "PCR Plate Main Rack with Cooling(1)",
+      "title": "PCR Plate Main Rack with Cooling(1)",
+      "image": "arena_consum_pcr_plate_main_rack_with_cooling_1.png",
+      "visual_image": "visual/arena_consum_pcr_plate_main_rack_with_cooling_1.png",
+      "collision_image": "collision/arena_consum_pcr_plate_main_rack_with_cooling_1.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 137,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "PCR Plate Main Rack with Cooling(2)",
+      "title": "PCR Plate Main Rack with Cooling(2)",
+      "image": "arena_consum_pcr_plate_main_rack_with_cooling_2.png",
+      "visual_image": "visual/arena_consum_pcr_plate_main_rack_with_cooling_2.png",
+      "collision_image": "collision/arena_consum_pcr_plate_main_rack_with_cooling_2.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 140,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "PCR Plate Main Rack with Cooling(3)",
+      "title": "PCR Plate Main Rack with Cooling(3)",
+      "image": "arena_consum_pcr_plate_main_rack_with_cooling_3.png",
+      "visual_image": "visual/arena_consum_pcr_plate_main_rack_with_cooling_3.png",
+      "collision_image": "collision/arena_consum_pcr_plate_main_rack_with_cooling_3.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 137,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Storage_15ml-6",
+      "title": "Storage_15ml-6",
+      "image": "arena_consum_storage_15ml_6.png",
+      "visual_image": "visual/arena_consum_storage_15ml_6.png",
+      "collision_image": "collision/arena_consum_storage_15ml_6.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 190,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Storage_50ml x 6",
+      "title": "Storage_50ml x 6",
+      "image": "arena_consum_storage_50ml_x_6.png",
+      "visual_image": "visual/arena_consum_storage_50ml_x_6.png",
+      "collision_image": "collision/arena_consum_storage_50ml_x_6.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 139,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Workshop_15ml x 5",
+      "title": "Workshop_15ml x 5",
+      "image": "arena_consum_workshop_15ml_x_5.png",
+      "visual_image": "visual/arena_consum_workshop_15ml_x_5.png",
+      "collision_image": "collision/arena_consum_workshop_15ml_x_5.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 316,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Workshop_50ml-3",
+      "title": "Workshop_50ml-3",
+      "image": "arena_consum_workshop_50ml_3.png",
+      "visual_image": "visual/arena_consum_workshop_50ml_3.png",
+      "collision_image": "collision/arena_consum_workshop_50ml_3.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 208,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Centrifuge tool",
+      "title": "Centrifuge tool",
+      "image": "arena_tool_centrifuge_tool.png",
+      "visual_image": "visual/arena_tool_centrifuge_tool.png",
+      "collision_image": "collision/arena_tool_centrifuge_tool.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 2,
+      "collision_geoms": 8,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Chip off",
+      "title": "Chip off",
+      "image": "arena_tool_chip_off.png",
+      "visual_image": "visual/arena_tool_chip_off.png",
+      "collision_image": "collision/arena_tool_chip_off.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 7,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Opener",
+      "title": "Opener",
+      "image": "arena_tool_opener.png",
+      "visual_image": "visual/arena_tool_opener.png",
+      "collision_image": "collision/arena_tool_opener.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 9,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Pipette Push",
+      "title": "Pipette Push",
+      "image": "arena_tool_pipette_push.png",
+      "visual_image": "visual/arena_tool_pipette_push.png",
+      "collision_image": "collision/arena_tool_pipette_push.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 31,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Single Pipette Rack_4",
+      "title": "Single Pipette Rack_4",
+      "image": "arena_tool_single_pipette_rack_4.png",
+      "visual_image": "visual/arena_tool_single_pipette_rack_4.png",
+      "collision_image": "collision/arena_tool_single_pipette_rack_4.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 153,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/arenas/maholo_arena.xml",
+      "body": "Single Pipette Rack_5",
+      "title": "Single Pipette Rack_5",
+      "image": "arena_tool_single_pipette_rack_5.png",
+      "visual_image": "visual/arena_tool_single_pipette_rack_5.png",
+      "collision_image": "collision/arena_tool_single_pipette_rack_5.png",
+      "ngeom": 3285,
+      "nbody": 83,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 191,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/cool_incubator_4c.xml",
+      "body": null,
+      "title": "CoolIncubator4C",
+      "image": "equipment_coolincubator4c.png",
+      "visual_image": "visual/equipment_coolincubator4c.png",
+      "collision_image": "collision/equipment_coolincubator4c.png",
+      "ngeom": 192,
+      "nbody": 8,
+      "njnt": 1,
+      "nq": 1,
+      "visual_geoms": 7,
+      "collision_geoms": 184,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -11.0,
+        "distance_scale": 2.5,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/co2_incubator.xml",
+      "body": null,
+      "title": "CO2Incubator",
+      "image": "equipment_co2incubator.png",
+      "visual_image": "visual/equipment_co2incubator.png",
+      "collision_image": "collision/equipment_co2incubator.png",
+      "ngeom": 191,
+      "nbody": 7,
+      "njnt": 3,
+      "nq": 3,
+      "visual_geoms": 5,
+      "collision_geoms": 185,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -11.0,
+        "distance_scale": 2.55,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/deep_freezer.xml",
+      "body": null,
+      "title": "DeepFreezer",
+      "image": "equipment_deepfreezer.png",
+      "visual_image": "visual/equipment_deepfreezer.png",
+      "collision_image": "collision/equipment_deepfreezer.png",
+      "ngeom": 303,
+      "nbody": 4,
+      "njnt": 1,
+      "nq": 1,
+      "visual_geoms": 2,
+      "collision_geoms": 300,
+      "camera": {
+        "azimuth": 285.0,
+        "elevation": -13.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/thermal_cycler.xml",
+      "body": null,
+      "title": "ThermalCycler",
+      "image": "equipment_thermalcycler.png",
+      "visual_image": "visual/equipment_thermalcycler.png",
+      "collision_image": "collision/equipment_thermalcycler.png",
+      "ngeom": 73,
+      "nbody": 5,
+      "njnt": 1,
+      "nq": 1,
+      "visual_geoms": 3,
+      "collision_geoms": 69,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -12.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/mx307.xml",
+      "body": null,
+      "title": "MX307",
+      "image": "equipment_mx307.png",
+      "visual_image": "visual/equipment_mx307.png",
+      "collision_image": "collision/equipment_mx307.png",
+      "ngeom": 227,
+      "nbody": 8,
+      "njnt": 1,
+      "nq": 1,
+      "visual_geoms": 5,
+      "collision_geoms": 221,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -12.0,
+        "distance_scale": 3.2,
+        "lookat_bias": 0.0
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/microtube_mixer.xml",
+      "body": null,
+      "title": "MicrotubeMixer",
+      "image": "equipment_microtubemixer.png",
+      "visual_image": "visual/equipment_microtubemixer.png",
+      "collision_image": "collision/equipment_microtubemixer.png",
+      "ngeom": 266,
+      "nbody": 6,
+      "njnt": 1,
+      "nq": 1,
+      "visual_geoms": 5,
+      "collision_geoms": 260,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -15.0,
+        "distance_scale": 2.2,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/vortex_mixer.xml",
+      "body": null,
+      "title": "VortexMixer",
+      "image": "equipment_vortexmixer.png",
+      "visual_image": "visual/equipment_vortexmixer.png",
+      "collision_image": "collision/equipment_vortexmixer.png",
+      "ngeom": 85,
+      "nbody": 7,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 5,
+      "collision_geoms": 79,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -16.0,
+        "distance_scale": 2.2,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/block_thermostatic_bath.xml",
+      "body": null,
+      "title": "BlockThermostaticBath",
+      "image": "equipment_blockthermostaticbath.png",
+      "visual_image": "visual/equipment_blockthermostaticbath.png",
+      "collision_image": "collision/equipment_blockthermostaticbath.png",
+      "ngeom": 59,
+      "nbody": 7,
+      "njnt": 1,
+      "nq": 1,
+      "visual_geoms": 6,
+      "collision_geoms": 52,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -17.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/block_thermostatic_bath_2.xml",
+      "body": null,
+      "title": "BlockThermostaticBath2",
+      "image": "equipment_blockthermostaticbath2.png",
+      "visual_image": "visual/equipment_blockthermostaticbath2.png",
+      "collision_image": "collision/equipment_blockthermostaticbath2.png",
+      "ngeom": 61,
+      "nbody": 7,
+      "njnt": 1,
+      "nq": 1,
+      "visual_geoms": 6,
+      "collision_geoms": 54,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -17.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/cool_block_bath.xml",
+      "body": null,
+      "title": "CoolBlockBath",
+      "image": "equipment_coolblockbath.png",
+      "visual_image": "visual/equipment_coolblockbath.png",
+      "collision_image": "collision/equipment_coolblockbath.png",
+      "ngeom": 198,
+      "nbody": 4,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 8,
+      "collision_geoms": 189,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -17.0,
+        "distance_scale": 2.25,
+        "lookat_bias": 0.03
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/P1000Pipette_withtip.xml",
+      "body": null,
+      "title": "P1000 pipette",
+      "image": "consum_p1000_pipette.png",
+      "visual_image": "visual/consum_p1000_pipette.png",
+      "collision_image": "collision/consum_p1000_pipette.png",
+      "ngeom": 30,
+      "nbody": 4,
+      "njnt": 1,
+      "nq": 1,
+      "visual_geoms": 5,
+      "collision_geoms": 24,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -10.0,
+        "distance_scale": 3.5,
+        "lookat_bias": 0.04
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/1.5ml_tube.xml",
+      "body": null,
+      "title": "1.5 mL tube",
+      "image": "consum_1_5_ml_tube.png",
+      "visual_image": "visual/consum_1_5_ml_tube.png",
+      "collision_image": "collision/consum_1_5_ml_tube.png",
+      "ngeom": 11,
+      "nbody": 4,
+      "njnt": 1,
+      "nq": 1,
+      "visual_geoms": 2,
+      "collision_geoms": 8,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -10.0,
+        "distance_scale": 1.9,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/15ml_tube.xml",
+      "body": null,
+      "title": "15 mL tube",
+      "image": "consum_15_ml_tube.png",
+      "visual_image": "visual/consum_15_ml_tube.png",
+      "collision_image": "collision/consum_15_ml_tube.png",
+      "ngeom": 5,
+      "nbody": 4,
+      "njnt": 2,
+      "nq": 2,
+      "visual_geoms": 2,
+      "collision_geoms": 2,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -11.0,
+        "distance_scale": 2.4,
+        "lookat_bias": 0.05
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/50ml_tube.xml",
+      "body": null,
+      "title": "50 mL tube",
+      "image": "consum_50_ml_tube.png",
+      "visual_image": "visual/consum_50_ml_tube.png",
+      "collision_image": "collision/consum_50_ml_tube.png",
+      "ngeom": 5,
+      "nbody": 4,
+      "njnt": 2,
+      "nq": 2,
+      "visual_geoms": 2,
+      "collision_geoms": 2,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -11.0,
+        "distance_scale": 2.4,
+        "lookat_bias": 0.05
+      }
+    },
+    {
+      "source": "robosuite/models/assets/objects/opener.xml",
+      "body": null,
+      "title": "Opener 0184",
+      "image": "tool_opener_0184.png",
+      "visual_image": "visual/tool_opener_0184.png",
+      "collision_image": "collision/tool_opener_0184.png",
+      "ngeom": 32,
+      "nbody": 3,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 30,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -12.0,
+        "distance_scale": 1.85,
+        "lookat_bias": 0.02,
+        "min_distance": 0.12
+      }
+    },
+    {
+      "source": "robosuite/models/assets/robots/maholo/maholo_right.xml",
+      "body": null,
+      "title": "MaholoRight",
+      "image": "robot_maholoright.png",
+      "visual_image": "visual/robot_maholoright.png",
+      "collision_image": "collision/robot_maholoright.png",
+      "ngeom": 281,
+      "nbody": 20,
+      "njnt": 8,
+      "nq": 8,
+      "visual_geoms": 23,
+      "collision_geoms": 257,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -16.0,
+        "distance_scale": 2.55,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/robots/maholo/maholo_left.xml",
+      "body": null,
+      "title": "MaholoLeft",
+      "image": "robot_mahololeft.png",
+      "visual_image": "visual/robot_mahololeft.png",
+      "collision_image": "collision/robot_mahololeft.png",
+      "ngeom": 281,
+      "nbody": 20,
+      "njnt": 8,
+      "nq": 8,
+      "visual_geoms": 23,
+      "collision_geoms": 257,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -16.0,
+        "distance_scale": 2.55,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/robots/maholo/maholo_with_right.xml",
+      "body": null,
+      "title": "MaholoWithRight",
+      "image": "robot_maholowithright.png",
+      "visual_image": "visual/robot_maholowithright.png",
+      "collision_image": "collision/robot_maholowithright.png",
+      "ngeom": 281,
+      "nbody": 20,
+      "njnt": 15,
+      "nq": 15,
+      "visual_geoms": 23,
+      "collision_geoms": 257,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -16.0,
+        "distance_scale": 2.6,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/robots/maholo/maholo_with_left.xml",
+      "body": null,
+      "title": "MaholoWithLeft",
+      "image": "robot_maholowithleft.png",
+      "visual_image": "visual/robot_maholowithleft.png",
+      "collision_image": "collision/robot_maholowithleft.png",
+      "ngeom": 281,
+      "nbody": 20,
+      "njnt": 15,
+      "nq": 15,
+      "visual_geoms": 23,
+      "collision_geoms": 257,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -16.0,
+        "distance_scale": 2.6,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/robots/maholo/maholo_only_right.xml",
+      "body": null,
+      "title": "MaholoOnlyRight",
+      "image": "robot_maholoonlyright.png",
+      "visual_image": "visual/robot_maholoonlyright.png",
+      "collision_image": "collision/robot_maholoonlyright.png",
+      "ngeom": 165,
+      "nbody": 19,
+      "njnt": 7,
+      "nq": 7,
+      "visual_geoms": 23,
+      "collision_geoms": 141,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -16.0,
+        "distance_scale": 2.55,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/robots/maholo/maholo_only_left.xml",
+      "body": null,
+      "title": "MaholoOnlyLeft",
+      "image": "robot_maholoonlyleft.png",
+      "visual_image": "visual/robot_maholoonlyleft.png",
+      "collision_image": "collision/robot_maholoonlyleft.png",
+      "ngeom": 164,
+      "nbody": 19,
+      "njnt": 7,
+      "nq": 7,
+      "visual_geoms": 23,
+      "collision_geoms": 140,
+      "camera": {
+        "azimuth": 225.0,
+        "elevation": -16.0,
+        "distance_scale": 2.55,
+        "lookat_bias": 0.02
+      }
+    },
+    {
+      "source": "robosuite/models/assets/grippers/maholo_gripper.xml",
+      "body": null,
+      "title": "MaholoGripper",
+      "image": "gripper_maholo.png",
+      "visual_image": "visual/gripper_maholo.png",
+      "collision_image": "collision/gripper_maholo.png",
+      "ngeom": 199,
+      "nbody": 8,
+      "njnt": 2,
+      "nq": 2,
+      "visual_geoms": 3,
+      "collision_geoms": 195,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -10.0,
+        "distance_scale": 2.8,
+        "lookat_bias": 0.0
+      }
+    },
+    {
+      "source": "robosuite/models/assets/bases/maholo_mount.xml",
+      "body": null,
+      "title": "MaholoMount",
+      "image": "mount_maholo.png",
+      "visual_image": "visual/mount_maholo.png",
+      "collision_image": "collision/mount_maholo.png",
+      "ngeom": 2,
+      "nbody": 2,
+      "njnt": 0,
+      "nq": 0,
+      "visual_geoms": 1,
+      "collision_geoms": 0,
+      "camera": {
+        "azimuth": 315.0,
+        "elevation": -15.0,
+        "distance_scale": 2.1,
+        "lookat_bias": 0.03
+      }
+    }
+  ]
+}
