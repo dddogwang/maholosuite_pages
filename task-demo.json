@@ -1,6 +1,6 @@
 {
   "schema_version": "v1",
-  "source": "tasks_demo/L1",
+  "source": "tasks_demo/L1 + tasks_demo/L2 + registry plans for L2/L3/L4",
   "levels": {
     "L1": {
       "status": "recorded",
@@ -11,11 +11,16 @@
           "subtasks": [
             {
               "target_instance": "CO2Incubator",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1018,
               "output_dir": "tasks_demo/L1/L1_reach_affordance/co2incubator",
               "prompt": "Use the active gripper of MaholoRight to reach CO2Incubator's registered CO2Incubator interaction affordance at world position [0.4768, -0.3157, 1.6315], align the registered orientation quaternion [0.7071, 0, 0.7071, 0], stop within 0.01 m position and 0.05 rad orientation error, and leave every equipment joint unchanged.",
@@ -79,11 +84,16 @@
             },
             {
               "target_instance": "CoolIncubator4C",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1019,
               "output_dir": "tasks_demo/L1/L1_reach_affordance/coolincubator4c",
               "prompt": "Use the active gripper of MaholoRight to reach CoolIncubator4C's registered CoolIncubator4C interaction affordance at world position [0.4754, -0.3277, 1.5578], align the registered orientation quaternion [0, 0.7071, 0, 0.7071], stop within 0.01 m position and 0.05 rad orientation error, and leave every equipment joint unchanged.",
@@ -147,11 +157,16 @@
             },
             {
               "target_instance": "DeepFreezer",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1033,
               "output_dir": "tasks_demo/L1/L1_reach_affordance/deep_freezer",
               "prompt": "Use the active gripper of MaholoRight to reach DeepFreezer's registered DeepFreezer interaction affordance at world position [0.0248, -0.6998, 0.6381], align the registered orientation quaternion [-0.7071, 0.7071, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and leave every equipment joint unchanged.",
@@ -215,11 +230,16 @@
             },
             {
               "target_instance": "MX307",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1029,
               "output_dir": "tasks_demo/L1/L1_reach_affordance/mx307",
               "prompt": "Use the active gripper of MaholoLeft to reach MX307's registered MX307 interaction affordance at world position [-0.5597, -0.4294, 0.841], align the registered orientation quaternion [0.7071, 0.7071, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and leave every equipment joint unchanged.",
@@ -283,11 +303,16 @@
             },
             {
               "target_instance": "Opener",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1011,
               "output_dir": "tasks_demo/L1/L1_reach_affordance/opener",
               "prompt": "Use the active gripper of MaholoLeft to reach Opener's registered Opener interaction affordance at world position [-0.6154, 0.1671, 0.9121], align the registered orientation quaternion [-0.7071, -0, -0, 0.7071], stop within 0.01 m position and 0.05 rad orientation error, and leave every equipment joint unchanged.",
@@ -351,11 +376,16 @@
             },
             {
               "target_instance": "Pipette004",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1016,
               "output_dir": "tasks_demo/L1/L1_reach_affordance/pipette004",
               "prompt": "Use the active gripper of MaholoRight to reach Pipette004's registered Pipette004 interaction affordance at world position [0.4828, -0.2149, 0.8757], align the registered orientation quaternion [0.5, 0.5, 0.5, 0.5], stop within 0.01 m position and 0.05 rad orientation error, and leave every equipment joint unchanged.",
@@ -419,11 +449,16 @@
             },
             {
               "target_instance": "Tube001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1022,
               "output_dir": "tasks_demo/L1/L1_reach_affordance/tube001",
               "prompt": "Use the active gripper of MaholoLeft to reach Tube001's registered Tube001 interaction affordance at world position [-0.7313, 0.2104, 0.9786], align the registered orientation quaternion [0.7071, 0.7071, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and leave every equipment joint unchanged.",
@@ -487,11 +522,16 @@
             },
             {
               "target_instance": "Tube15_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1020,
               "output_dir": "tasks_demo/L1/L1_reach_affordance/tube15_001",
               "prompt": "Use the active gripper of MaholoRight to reach Tube15_001's registered Tube15_001 interaction affordance at world position [-0.2758, 0.503, 1.0109], align the registered orientation quaternion [1, 0, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and leave every equipment joint unchanged.",
@@ -555,11 +595,16 @@
             },
             {
               "target_instance": "Tube50_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1017,
               "output_dir": "tasks_demo/L1/L1_reach_affordance/tube50_001",
               "prompt": "Use the active gripper of MaholoRight to reach Tube50_001's registered Tube50_001 interaction affordance at world position [-0.1158, 0.503, 0.9964], align the registered orientation quaternion [1, 0, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and leave every equipment joint unchanged.",
@@ -629,11 +674,16 @@
           "subtasks": [
             {
               "target_instance": "CO2Incubator",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1028,
               "output_dir": "tasks_demo/L1/L1_reach_target_pose/co2incubator",
               "prompt": "Use the active gripper of MaholoRight to reach CO2Incubator's registered target pose at world position [0.4768, -0.3157, 1.6315], align quaternion [0.7071, 0, 0.7071, 0], stop within 0.01 m position and 0.05 rad orientation error, and do not touch other assets or change equipment joints.",
@@ -693,11 +743,16 @@
             },
             {
               "target_instance": "CoolIncubator4C",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1019,
               "output_dir": "tasks_demo/L1/L1_reach_target_pose/coolincubator4c",
               "prompt": "Use the active gripper of MaholoRight to reach CoolIncubator4C's registered target pose at world position [0.4754, -0.3277, 1.5578], align quaternion [0, 0.7071, 0, 0.7071], stop within 0.01 m position and 0.05 rad orientation error, and do not touch other assets or change equipment joints.",
@@ -757,11 +812,16 @@
             },
             {
               "target_instance": "DeepFreezer",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 601,
               "output_dir": "tasks_demo/L1/L1_reach_target_pose/deep_freezer",
               "prompt": "Use the active gripper of MaholoRight to reach DeepFreezer's registered target pose at world position [0.0248, -0.6998, 0.6381], align quaternion [-0.7071, 0.7071, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and do not touch other assets or change equipment joints.",
@@ -821,11 +881,16 @@
             },
             {
               "target_instance": "MX307",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1029,
               "output_dir": "tasks_demo/L1/L1_reach_target_pose/mx307",
               "prompt": "Use the active gripper of MaholoLeft to reach MX307's registered target pose at world position [-0.5597, -0.4294, 0.841], align quaternion [0.7071, 0.7071, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and do not touch other assets or change equipment joints.",
@@ -885,11 +950,16 @@
             },
             {
               "target_instance": "Opener",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1011,
               "output_dir": "tasks_demo/L1/L1_reach_target_pose/opener",
               "prompt": "Use the active gripper of MaholoLeft to reach Opener's registered target pose at world position [-0.6154, 0.1671, 0.9121], align quaternion [-0.7071, -0, -0, 0.7071], stop within 0.01 m position and 0.05 rad orientation error, and do not touch other assets or change equipment joints.",
@@ -949,11 +1019,16 @@
             },
             {
               "target_instance": "Pipette004",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1016,
               "output_dir": "tasks_demo/L1/L1_reach_target_pose/pipette004",
               "prompt": "Use the active gripper of MaholoRight to reach Pipette004's registered target pose at world position [0.4828, -0.2149, 0.8757], align quaternion [0.5, 0.5, 0.5, 0.5], stop within 0.01 m position and 0.05 rad orientation error, and do not touch other assets or change equipment joints.",
@@ -1013,11 +1088,16 @@
             },
             {
               "target_instance": "Tube001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1022,
               "output_dir": "tasks_demo/L1/L1_reach_target_pose/tube001",
               "prompt": "Use the active gripper of MaholoLeft to reach Tube001's registered target pose at world position [-0.7313, 0.2104, 0.9786], align quaternion [0.7071, 0.7071, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and do not touch other assets or change equipment joints.",
@@ -1077,11 +1157,16 @@
             },
             {
               "target_instance": "Tube15_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1020,
               "output_dir": "tasks_demo/L1/L1_reach_target_pose/tube15_001",
               "prompt": "Use the active gripper of MaholoRight to reach Tube15_001's registered target pose at world position [-0.2758, 0.503, 1.0109], align quaternion [1, 0, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and do not touch other assets or change equipment joints.",
@@ -1141,11 +1226,16 @@
             },
             {
               "target_instance": "Tube50_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": null,
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1017,
               "output_dir": "tasks_demo/L1/L1_reach_target_pose/tube50_001",
               "prompt": "Use the active gripper of MaholoRight to reach Tube50_001's registered target pose at world position [-0.1158, 0.503, 0.9964], align quaternion [1, 0, 0, 0], stop within 0.01 m position and 0.05 rad orientation error, and do not touch other assets or change equipment joints.",
@@ -1211,11 +1301,16 @@
           "subtasks": [
             {
               "target_instance": "Opener",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1430,
               "output_dir": "tasks_demo/L1/L1_grasp_object/opener",
               "prompt": "Use the right gripper of MaholoLeft: approach Opener's registered standby point at world position [-0.6154, 0.1671, 0.9121], move to Opener's configured grasp point at world position [-0.6154, 0.2671, 0.9121] using orientation quaternion [-0.7071, -0, -0, 0.7071], close both fingers until stable contact and achieve at least 0.095 m grasp depth, and finish with Opener grasped at that point without lifting or transporting it.",
@@ -1331,11 +1426,16 @@
             },
             {
               "target_instance": "Pipette004",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1430,
               "output_dir": "tasks_demo/L1/L1_grasp_object/pipette004",
               "prompt": "Use the right gripper of MaholoRight: approach Pipette004's registered standby point at world position [0.4828, -0.2149, 0.8757], move to Pipette004's configured grasp point at world position [0.5178, -0.2149, 0.8757] using orientation quaternion [0.5, 0.5, 0.5, 0.5], close both fingers until stable contact and achieve at least 0.03 m grasp depth, and finish with Pipette004 grasped at that point without lifting or transporting it.",
@@ -1451,11 +1551,16 @@
             },
             {
               "target_instance": "Tube001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1430,
               "output_dir": "tasks_demo/L1/L1_grasp_object/tube001",
               "prompt": "Use the right gripper of MaholoLeft: approach Tube001's registered standby point at world position [-0.7313, 0.2104, 0.9786], move to Tube001's configured grasp point at world position [-0.7313, 0.2104, 0.9586] using orientation quaternion [0.7071, 0.7071, 0, 0], close both fingers until stable contact, and finish with Tube001 grasped at that point without lifting or transporting it.",
@@ -1563,11 +1668,16 @@
             },
             {
               "target_instance": "Tube15_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1430,
               "output_dir": "tasks_demo/L1/L1_grasp_object/tube15_001",
               "prompt": "Use the right gripper of MaholoRight: approach Tube15_001's registered standby point at world position [-0.2758, 0.503, 1.0109], move to Tube15_001's configured grasp point at world position [-0.2758, 0.503, 0.9609] using orientation quaternion [1, 0, 0, 0], close both fingers until stable contact, and finish with Tube15_001 grasped at that point without lifting or transporting it.",
@@ -1675,11 +1785,16 @@
             },
             {
               "target_instance": "Tube50_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1430,
               "output_dir": "tasks_demo/L1/L1_grasp_object/tube50_001",
               "prompt": "Use the right gripper of MaholoRight: approach Tube50_001's registered standby point at world position [-0.1158, 0.503, 0.9964], move to Tube50_001's configured grasp point at world position [-0.1158, 0.503, 0.9564] using orientation quaternion [1, 0, 0, 0], close both fingers until stable contact, and finish with Tube50_001 grasped at that point without lifting or transporting it.",
@@ -1793,11 +1908,16 @@
           "subtasks": [
             {
               "target_instance": "Opener",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1600,
               "output_dir": "tasks_demo/L1/L1_release_object/opener",
               "prompt": "Keep the previously grasped Opener at Opener's configured release pose at world position [-0.6154, 0.2671, 0.9121], open the right gripper of MaholoLeft, and finish only when Opener is released within 0.02 m of that pose and is no longer held.",
@@ -1905,11 +2025,16 @@
             },
             {
               "target_instance": "Pipette004",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1600,
               "output_dir": "tasks_demo/L1/L1_release_object/pipette004",
               "prompt": "Keep the previously grasped Pipette004 at Pipette004's configured release pose at world position [0.5178, -0.2149, 0.8757], open the right gripper of MaholoRight, and finish only when Pipette004 is released within 0.02 m of that pose and is no longer held.",
@@ -2017,11 +2142,16 @@
             },
             {
               "target_instance": "Tube001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1600,
               "output_dir": "tasks_demo/L1/L1_release_object/tube001",
               "prompt": "Keep the previously grasped Tube001 at Tube001's configured release pose at world position [-0.7313, 0.2104, 0.9586], open the right gripper of MaholoLeft, and finish only when Tube001 is released within 0.02 m of that pose and is no longer held.",
@@ -2125,11 +2255,16 @@
             },
             {
               "target_instance": "Tube15_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1600,
               "output_dir": "tasks_demo/L1/L1_release_object/tube15_001",
               "prompt": "Keep the previously grasped Tube15_001 at Tube15_001's configured release pose at world position [-0.2758, 0.503, 0.9609], open the right gripper of MaholoRight, and finish only when Tube15_001 is released within 0.02 m of that pose and is no longer held.",
@@ -2233,11 +2368,16 @@
             },
             {
               "target_instance": "Tube50_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1600,
               "output_dir": "tasks_demo/L1/L1_release_object/tube50_001",
               "prompt": "Keep the previously grasped Tube50_001 at Tube50_001's configured release pose at world position [-0.1158, 0.503, 0.9564], open the right gripper of MaholoRight, and finish only when Tube50_001 is released within 0.02 m of that pose and is no longer held.",
@@ -2347,11 +2487,16 @@
           "subtasks": [
             {
               "target_instance": "Opener",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1620,
               "output_dir": "tasks_demo/L1/L1_lift_object/opener",
               "prompt": "Keep Opener grasped at Opener's configured grasp point at world position [-0.6154, 0.2671, 0.9121] using orientation quaternion [-0.7071, -0, -0, 0.7071], raise it vertically by 0.05 m to the configured lift pose [-0.6154, 0.2671, 0.9621] (success threshold ≥0.04 m), and finish with the grasp closed.",
@@ -2475,11 +2620,16 @@
             },
             {
               "target_instance": "Pipette004",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1620,
               "output_dir": "tasks_demo/L1/L1_lift_object/pipette004",
               "prompt": "Keep Pipette004 grasped at Pipette004's configured grasp point at world position [0.5178, -0.2149, 0.8757] using orientation quaternion [0.5, 0.5, 0.5, 0.5], raise it vertically by 0.05 m to the configured lift pose [0.5178, -0.2149, 0.9257] (success threshold ≥0.04 m), and finish with the grasp closed.",
@@ -2603,11 +2753,16 @@
             },
             {
               "target_instance": "Tube001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1620,
               "output_dir": "tasks_demo/L1/L1_lift_object/tube001",
               "prompt": "Keep Tube001 grasped at Tube001's configured grasp point at world position [-0.7313, 0.2104, 0.9586] using orientation quaternion [0.7071, 0.7071, 0, 0], raise it vertically by 0.05 m to the configured lift pose [-0.7313, 0.2104, 1.0086] (success threshold ≥0.04 m), and finish with the grasp closed.",
@@ -2723,11 +2878,16 @@
             },
             {
               "target_instance": "Tube15_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1620,
               "output_dir": "tasks_demo/L1/L1_lift_object/tube15_001",
               "prompt": "Keep Tube15_001 grasped at Tube15_001's configured grasp point at world position [-0.2758, 0.503, 0.9609] using orientation quaternion [1, 0, 0, 0], raise it vertically by 0.05 m to the configured lift pose [-0.2758, 0.503, 1.0109] (success threshold ≥0.02 m), and finish with the grasp closed.",
@@ -2843,11 +3003,16 @@
             },
             {
               "target_instance": "Tube50_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1620,
               "output_dir": "tasks_demo/L1/L1_lift_object/tube50_001",
               "prompt": "Keep Tube50_001 grasped at Tube50_001's configured grasp point at world position [-0.1158, 0.503, 0.9564] using orientation quaternion [1, 0, 0, 0], raise it vertically by 0.05 m to the configured lift pose [-0.1158, 0.503, 1.0064] (success threshold ≥0.02 m), and finish with the grasp closed.",
@@ -2969,11 +3134,16 @@
           "subtasks": [
             {
               "target_instance": "Opener",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1640,
               "output_dir": "tasks_demo/L1/L1_remove_object/opener",
               "prompt": "Grasp the initially occupied Opener at Opener's configured grasp point at world position [-0.6154, 0.2671, 0.9121] using orientation quaternion [-0.7071, -0, -0, 0.7071], lift its reference point by 0.15 m to [-0.6154, 0.2671, 1.0621] (success threshold ≥0.05 m clear of the slot), and finish without opening the right gripper of MaholoLeft.",
@@ -3089,11 +3259,16 @@
             },
             {
               "target_instance": "Tube001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1640,
               "output_dir": "tasks_demo/L1/L1_remove_object/tube001",
               "prompt": "Grasp the initially occupied Tube001 at Tube001's configured grasp point at world position [-0.7313, 0.2104, 0.9586] using orientation quaternion [0.7071, 0.7071, 0, 0], lift its reference point by 0.15 m to [-0.7313, 0.2104, 1.1086] (success threshold ≥0.05 m clear of the slot), and finish without opening the right gripper of MaholoLeft.",
@@ -3205,11 +3380,16 @@
             },
             {
               "target_instance": "Tube008",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1640,
               "output_dir": "tasks_demo/L1/L1_remove_object/tube008",
               "prompt": "Grasp the initially occupied Tube008 at Tube008's configured grasp point at world position [-0.2256, 0.442, 0.9619] using orientation quaternion [1, 0, 0, 0], lift its reference point by 0.15 m to [-0.2256, 0.442, 1.1119] (success threshold ≥0.05 m clear of the slot), and finish without opening the right gripper of MaholoLeft.",
@@ -3321,11 +3501,16 @@
             },
             {
               "target_instance": "Tube15_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1640,
               "output_dir": "tasks_demo/L1/L1_remove_object/tube15_001",
               "prompt": "Grasp the initially occupied Tube15_001 at Tube15_001's configured grasp point at world position [-0.2758, 0.503, 0.9609] using orientation quaternion [1, 0, 0, 0], lift its reference point by 0.15 m to [-0.2758, 0.503, 1.1109] (success threshold ≥0.05 m clear of the slot), and finish without opening the right gripper of MaholoRight.",
@@ -3437,11 +3622,16 @@
             },
             {
               "target_instance": "Tube50_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 1640,
               "output_dir": "tasks_demo/L1/L1_remove_object/tube50_001",
               "prompt": "Grasp the initially occupied Tube50_001 at Tube50_001's configured grasp point at world position [-0.1158, 0.503, 0.9564] using orientation quaternion [1, 0, 0, 0], lift its reference point by 0.15 m to [-0.1158, 0.503, 1.1064] (success threshold ≥0.05 m clear of the slot), and finish without opening the right gripper of MaholoRight.",
@@ -3559,11 +3749,16 @@
           "subtasks": [
             {
               "target_instance": "Pipette004",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 963,
               "output_dir": "tasks_demo/L1/L1_hold_operate/pipette004",
               "prompt": "Bring the right gripper of MaholoRight to Pipette004's configured grasp point at world position [0.5178, -0.2149, 0.8757] using orientation quaternion [0.5, 0.5, 0.5, 0.5], establish the configured grasp condition on Pipette004, and hold it for 120 consecutive control steps without lifting or transporting the object.",
@@ -3673,11 +3868,16 @@
           "subtasks": [
             {
               "target_instance": "Opener",
+              "target_label": null,
               "destination_standby_point": "Tube008",
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2720,
               "output_dir": "tasks_demo/L1/L1_transport_object/opener",
               "prompt": "Grasp Opener at Opener's configured grasp point at world position [-0.6154, 0.2671, 0.9121] using orientation quaternion [-0.7071, -0, -0, 0.7071], carry it along the validated collision-free route to Tube008's registered standby point at world position [-0.2256, 0.442, 1.0119], finish within 0.02 m of that destination reference point, and keep the right gripper of MaholoLeft closed.",
@@ -3813,11 +4013,16 @@
             },
             {
               "target_instance": "Pipette004",
+              "target_label": null,
               "destination_standby_point": "Tube008",
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2720,
               "output_dir": "tasks_demo/L1/L1_transport_object/pipette004",
               "prompt": "Grasp Pipette004 at Pipette004's configured grasp point at world position [0.5178, -0.2149, 0.8757] using orientation quaternion [0.5, 0.5, 0.5, 0.5], carry it along the validated collision-free route to Tube008's registered standby point at world position [-0.2256, 0.442, 1.0119], finish within 0.02 m of that destination reference point, and keep the right gripper of MaholoLeft closed.",
@@ -3953,11 +4158,16 @@
             },
             {
               "target_instance": "Tube001",
+              "target_label": null,
               "destination_standby_point": "Tube008",
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2720,
               "output_dir": "tasks_demo/L1/L1_transport_object/tube001",
               "prompt": "Grasp Tube001 at Tube001's configured grasp point at world position [-0.7313, 0.2104, 0.9586] using orientation quaternion [0.7071, 0.7071, 0, 0], carry it along the validated collision-free route to Tube008's registered standby point at world position [-0.2256, 0.442, 1.0119], finish within 0.02 m of that destination reference point, and keep the right gripper of MaholoLeft closed.",
@@ -4089,11 +4299,16 @@
             },
             {
               "target_instance": "Tube15_001",
+              "target_label": null,
               "destination_standby_point": "Tube15_006",
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2720,
               "output_dir": "tasks_demo/L1/L1_transport_object/tube15_001",
               "prompt": "Grasp Tube15_001 at Tube15_001's configured grasp point at world position [-0.2758, 0.503, 0.9609] using orientation quaternion [1, 0, 0, 0], carry it along the validated collision-free route to Tube15_006's registered standby point at world position [-1.0603, 0.3004, 0.9566], finish within 0.02 m of that destination reference point, and keep the right gripper of MaholoRight closed.",
@@ -4225,11 +4440,16 @@
             },
             {
               "target_instance": "Tube50_001",
+              "target_label": null,
               "destination_standby_point": "Tube50_006",
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2720,
               "output_dir": "tasks_demo/L1/L1_transport_object/tube50_001",
               "prompt": "Grasp Tube50_001 at Tube50_001's configured grasp point at world position [-0.1158, 0.503, 0.9564] using orientation quaternion [1, 0, 0, 0], carry it along the validated collision-free route to Tube50_006's registered standby point at world position [0.2844, 0.3628, 1.0223], finish within 0.02 m of that destination reference point, and keep the right gripper of MaholoRight closed.",
@@ -4367,11 +4587,16 @@
           "subtasks": [
             {
               "target_instance": "Opener",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2140,
               "output_dir": "tasks_demo/L1/L1_place_object/opener",
               "prompt": "Grasp Opener at Opener's configured grasp point at world position [-0.6154, 0.2671, 0.9121] using orientation quaternion [-0.7071, -0, -0, 0.7071], carry it to the Opener dedicated placement point at world position [-0.6159, 0.2776, 0.8235], release it, and finish only when the object settles within 0.02 m of that placement point.",
@@ -4487,11 +4712,16 @@
             },
             {
               "target_instance": "Pipette004",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2140,
               "output_dir": "tasks_demo/L1/L1_place_object/pipette004",
               "prompt": "Grasp Pipette004 at Pipette004's configured grasp point at world position [0.5178, -0.2149, 0.8757] using orientation quaternion [0.5, 0.5, 0.5, 0.5], carry it to the Pipette003 rack slot (the destination for Pipette004) at world position [0.5408, -0.1299, 0.8757], release it, and finish only when the object settles within 0.02 m of that placement point.",
@@ -4607,11 +4837,16 @@
             },
             {
               "target_instance": "Tube001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2140,
               "output_dir": "tasks_demo/L1/L1_place_object/tube001",
               "prompt": "Grasp Tube001 at Tube001's configured grasp point at world position [-0.7313, 0.2104, 0.9586] using orientation quaternion [0.7071, 0.7071, 0, 0], carry it to the Tube002 rack slot (the destination for Tube001) at world position [-0.7303, 0.2353, 0.9453], release it, and finish only when the object settles within 0.02 m of that placement point.",
@@ -4723,11 +4958,16 @@
             },
             {
               "target_instance": "Tube15_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2140,
               "output_dir": "tasks_demo/L1/L1_place_object/tube15_001",
               "prompt": "Grasp Tube15_001 at Tube15_001's configured grasp point at world position [-0.2758, 0.503, 0.9609] using orientation quaternion [1, 0, 0, 0], carry it to the Tube15_001 rack slot at world position [-0.2758, 0.503, 0.9456], release it, and finish only when the object settles within 0.02 m of that placement point.",
@@ -4839,11 +5079,16 @@
             },
             {
               "target_instance": "Tube50_001",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 2140,
               "output_dir": "tasks_demo/L1/L1_place_object/tube50_001",
               "prompt": "Grasp Tube50_001 at Tube50_001's configured grasp point at world position [-0.1158, 0.503, 0.9564] using orientation quaternion [1, 0, 0, 0], carry it to the Tube50_002 rack slot (the destination for Tube50_001) at world position [-0.1658, 0.503, 0.9426], release it, and finish only when the object settles within 0.02 m of that placement point.",
@@ -4961,11 +5206,16 @@
           "subtasks": [
             {
               "target_instance": "Pipette004",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoWithLeft",
               "active_arm": "both",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 9576,
               "output_dir": "tasks_demo/L1/L1_press_control/pipette004_over_tube15_001",
               "prompt": "Use the left gripper of MaholoWithLeft to hold Pipette004 at grasp point [0.5178, -0.2149, 0.8757], move it above Tube15_001 standby point [-0.2758, 0.503, 1.0109], then use the right gripper of MaholoWithLeft to press the pipette head at operation point [-0.2758, 0.503, 1.1509] until qpos reaches -0.006 m (±0.0015 m, minimum change 0.002 m).",
@@ -5091,11 +5341,16 @@
           "subtasks": [
             {
               "target_instance": "MicrotubeMixer",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 4415,
               "output_dir": "tasks_demo/L1/L1_rotate_control/microtube_mixer",
               "prompt": "Use the right gripper of MaholoRight to approach MicrotubeMixer's registered standby point [-0.6137, 0.0543, 0.9402], contact the adjustment knob at the interaction approach point [-0.6737, 0.0543, 0.9402], rotate it to qpos 1.2 (±0.05 rad, minimum change 0.2 rad), and stop after the joint change is achieved.",
@@ -5181,11 +5436,16 @@
           "subtasks": [
             {
               "target_instance": "BlockThermostaticBath",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_open_articulated_part/blockthermostaticbath",
               "prompt": "Use the right gripper of MaholoLeft to approach BlockThermostaticBath's registered standby point at world position [-1.2194, -0.0721, 1.2777], move to BlockThermostaticBath's registered seam hook waypoint at world position [-1.102, -0.0811, 1.0111], hook the seam and retract, and finish with lid moving from qpos -1.9199 to 0 (open; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -5293,11 +5553,16 @@
             },
             {
               "target_instance": "BlockThermostaticBath2",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_open_articulated_part/blockthermostaticbath2",
               "prompt": "Use the right gripper of MaholoLeft to approach BlockThermostaticBath2's registered standby point at world position [-1.2192, 0.1479, 1.2804], move to BlockThermostaticBath2's registered seam hook waypoint at world position [-1.1234, 0.1672, 1.0566], hook the seam and retract, and finish with lid moving from qpos -1.9199 to 0 (open; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -5405,11 +5670,16 @@
             },
             {
               "target_instance": "CO2Incubator",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_open_articulated_part/co2incubator",
               "prompt": "Use the right gripper of MaholoRight to approach CO2Incubator's registered standby point at world position [0.4768, -0.3157, 1.6315], move to CO2Incubator's registered seam hook waypoint at world position [0.5479, -0.2721, 1.6145], hook the seam and retract, and finish with outer door moving from qpos 0 to 3.1416 (open; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -5517,11 +5787,16 @@
             },
             {
               "target_instance": "CoolIncubator4C",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_open_articulated_part/coolincubator4c",
               "prompt": "Use the right gripper of MaholoRight to approach CoolIncubator4C's registered standby point at world position [0.4754, -0.3277, 1.5578], move to CoolIncubator4C's registered seam hook waypoint at world position [0.6134, -0.4567, 1.4838], hook the seam and retract, and finish with door moving from qpos 0 to -2.618 (open; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -5629,11 +5904,16 @@
             },
             {
               "target_instance": "DeepFreezer",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_open_articulated_part/deepfreezer",
               "prompt": "Use the right gripper of MaholoRight to approach DeepFreezer's registered standby point at world position [0.0248, -0.6998, 0.6381], move to DeepFreezer's registered seam hook waypoint at world position [0.0248, -0.6998, 0.6424], hook the seam and retract, and finish with lid moving from qpos 0 to 3.1416 (open; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -5741,11 +6021,16 @@
             },
             {
               "target_instance": "MX307",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_open_articulated_part/mx307",
               "prompt": "Use the right gripper of MaholoLeft to approach MX307's registered standby point at world position [-0.5597, -0.4294, 0.841], move to MX307's registered seam hook waypoint at world position [-0.6596, -0.4443, 0.8644], hook the seam and retract, and finish with MX307 lid moving from qpos 1.4813 to 0 (open; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -5859,11 +6144,16 @@
           "subtasks": [
             {
               "target_instance": "BlockThermostaticBath",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_close_articulated_part/blockthermostaticbath",
               "prompt": "Use the right gripper of MaholoLeft to approach BlockThermostaticBath's registered standby point at world position [-1.2194, -0.0721, 1.2777], move to BlockThermostaticBath's registered seam hook waypoint at world position [-1.102, -0.0811, 1.0111], catch the edge and retract, and finish with lid moving from qpos 0 to -1.9199 (closed; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -5971,11 +6261,16 @@
             },
             {
               "target_instance": "BlockThermostaticBath2",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_close_articulated_part/blockthermostaticbath2",
               "prompt": "Use the right gripper of MaholoLeft to approach BlockThermostaticBath2's registered standby point at world position [-1.2192, 0.1479, 1.2804], move to BlockThermostaticBath2's registered seam hook waypoint at world position [-1.1234, 0.1672, 1.0566], catch the edge and retract, and finish with lid moving from qpos 0 to -1.9199 (closed; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -6083,11 +6378,16 @@
             },
             {
               "target_instance": "CO2Incubator",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_close_articulated_part/co2incubator",
               "prompt": "Use the right gripper of MaholoRight to approach CO2Incubator's registered standby point at world position [0.4768, -0.3157, 1.6315], move to CO2Incubator's registered seam hook waypoint at world position [0.5479, -0.2721, 1.6145], catch the edge and retract, and finish with outer door moving from qpos 3.1416 to 0 (closed; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -6195,11 +6495,16 @@
             },
             {
               "target_instance": "CoolIncubator4C",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_close_articulated_part/coolincubator4c",
               "prompt": "Use the right gripper of MaholoRight to approach CoolIncubator4C's registered standby point at world position [0.4754, -0.3277, 1.5578], move to CoolIncubator4C's registered seam hook waypoint at world position [0.6134, -0.4567, 1.4838], catch the edge and retract, and finish with door moving from qpos -2.618 to 0 (closed; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -6307,11 +6612,16 @@
             },
             {
               "target_instance": "DeepFreezer",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_close_articulated_part/deepfreezer",
               "prompt": "Use the right gripper of MaholoRight to approach DeepFreezer's registered standby point at world position [0.0248, -0.6998, 0.6381], move to DeepFreezer's registered seam hook waypoint at world position [0.0248, -0.6998, 0.6424], catch the edge and retract, and finish with lid moving from qpos 3.1416 to 0 (closed; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -6419,11 +6729,16 @@
             },
             {
               "target_instance": "MX307",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_close_articulated_part/mx307",
               "prompt": "Use the right gripper of MaholoLeft to approach MX307's registered standby point at world position [-0.5597, -0.4294, 0.841], move to MX307's registered seam hook waypoint at world position [-0.6596, -0.4443, 0.8644], catch the edge and retract, and finish with MX307 lid moving from qpos 0 to 1.4813 (closed; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -6531,11 +6846,16 @@
             },
             {
               "target_instance": "ThermalCycler",
+              "target_label": null,
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
               "controller": "JOINT_POSITION",
               "success": true,
+              "status": "recorded",
+              "maturity": null,
+              "note": null,
+              "note_zh": null,
               "steps": 660,
               "output_dir": "tasks_demo/L1/L1_close_articulated_part/thermalcycler",
               "prompt": "Use the right gripper of MaholoRight to approach ThermalCycler's registered standby point at world position [0.5261, 0.2575, 1.3086], move to ThermalCycler's registered seam hook waypoint at world position [0.6706, 0.2969, 1.1587], catch the edge and retract, and finish with lid moving from qpos 0 to 1.5708 (closed; tolerance ±0.05 rad, minimum change 0.1 rad).",
@@ -6634,16 +6954,3777 @@
       ]
     },
     "L2": {
-      "status": "no recorded demos",
-      "tasks": []
+      "status": "recorded-and-planned",
+      "tasks": [
+        {
+          "purpose": "Retrieve a P1000, operate it over Tube15_001, and return it.",
+          "purpose_zh": "取出 P1000，在 Tube15_001 上方完成按压操作，再将其放回。",
+          "maturity": "geometry-first",
+          "status": "recorded",
+          "note": "The geometric bimanual press cycle is executable; tip attachment, liquid volume, and rack occupancy are not simulated.",
+          "note_zh": "几何双臂按压流程可执行；吸头连接、液体体积和架子占用没有仿真。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoWithLeft"
+            },
+            {
+              "name": "active_arm",
+              "value": "both"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "16000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "task_id": "L2_p1000_cycle",
+          "task_family": "p1000_cycle",
+          "subtasks": [
+            {
+              "target_instance": "Pipette004",
+              "target_label": "Pipette004 → Tube15_001",
+              "destination_standby_point": null,
+              "robot": "MaholoWithLeft",
+              "active_arm": "both",
+              "controller": "JOINT_POSITION",
+              "success": true,
+              "status": "recorded",
+              "maturity": "geometry-first",
+              "note": "The geometric bimanual press cycle is executable; tip attachment, liquid volume, and rack occupancy are not simulated.",
+              "note_zh": "几何双臂按压流程可执行；吸头连接、液体体积和架子占用没有仿真。",
+              "steps": 12756,
+              "output_dir": "tasks_demo/L2/L2_p1000_cycle/pipette004_tube15_001",
+              "prompt": "Keep Pipette004 grasped in the left hand, move it above Tube15_001, press its head slide with the right hand, hold, return it, and release it.",
+              "prompt_zh": "左手抓住 Pipette004，将其移到 Tube15_001 上方；右手按压 pipette_head_slide，保持后返回原位并释放。",
+              "parameters": [
+                {
+                  "name": "target_instance",
+                  "value": "Pipette004"
+                },
+                {
+                  "name": "robot",
+                  "value": "MaholoWithLeft"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "both"
+                },
+                {
+                  "name": "holding_arm",
+                  "value": "left"
+                },
+                {
+                  "name": "interaction_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "16000"
+                },
+                {
+                  "name": "equipment",
+                  "value": "[Pipette004, Tube15_001]"
+                },
+                {
+                  "name": "standby_pos",
+                  "value": "[0.4828, -0.2149, 0.8757]"
+                },
+                {
+                  "name": "standby_quat_xyzw",
+                  "value": "[0.5, 0.5, 0.5, 0.5]"
+                },
+                {
+                  "name": "grasp_pos",
+                  "value": "[0.5178, -0.2149, 0.8757]"
+                },
+                {
+                  "name": "target_pos",
+                  "value": "[0.475, -0.214, 0.945]"
+                },
+                {
+                  "name": "destination_instance",
+                  "value": "Tube15_001"
+                },
+                {
+                  "name": "destination_pos",
+                  "value": "[-0.2758, 0.503, 1.1509]"
+                },
+                {
+                  "name": "joint_tolerance",
+                  "value": "0.0015"
+                },
+                {
+                  "name": "press_joint_stiffness",
+                  "value": "50"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "target_config.operation",
+                  "value": "press"
+                },
+                {
+                  "name": "target_config.joint",
+                  "value": "pipette_head_slide"
+                },
+                {
+                  "name": "target_config.target_qpos",
+                  "value": "-0.006"
+                },
+                {
+                  "name": "target_config.joint_tolerance",
+                  "value": "0.0015"
+                },
+                {
+                  "name": "target_config.require_interaction",
+                  "value": "true"
+                },
+                {
+                  "name": "target_config.require_joint_change",
+                  "value": "true"
+                },
+                {
+                  "name": "target_config.min_joint_delta",
+                  "value": "0.002"
+                },
+                {
+                  "name": "target_config.interaction_arm",
+                  "value": "right"
+                }
+              ],
+              "video": "/task-demo-media/L2/L2_p1000_cycle/pipette004_tube15_001/L2_p1000_cycle__Pipette004_over_Tube15_001.mp4",
+              "poster": "/task-demo-media/L2/L2_p1000_cycle/pipette004_tube15_001/final.jpg"
+            }
+          ]
+        },
+        {
+          "task_id": "L2_tube_transfer",
+          "task_family": "tube_transfer",
+          "purpose": "Open, transfer, place, retrieve, close, and return a 1.5 / 15 / 50 mL tube.",
+          "purpose_zh": "打开、转移、放置、取回、关闭并放回 1.5 / 15 / 50 mL 试管。",
+          "maturity": "blocked-by-affordance-model",
+          "status": "planned",
+          "note": "Requires an explicit destination slot/site for the selected tube variant; closure is geometric state.",
+          "note_zh": "需要为选定试管变体提供明确目标槽位/站点；关闭只表示几何状态。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 → CoolIncubator4C",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-affordance-model",
+              "note": "Requires an explicit destination slot/site for the selected tube variant; closure is geometric state.",
+              "note_zh": "需要为选定试管变体提供明确目标槽位/站点；关闭只表示几何状态。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_tube_transfer/tube008",
+              "prompt": "Transfer Tube008 to CoolIncubator4C and return it to Tube008 after restoring its closure.",
+              "prompt_zh": "将 Tube008 转移到 CoolIncubator4C，恢复关闭状态后再将其放回 Tube008。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_variant",
+                  "value": "1.5ml"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_instance",
+                  "value": "CoolIncubator4C"
+                },
+                {
+                  "name": "workflow_config.parameters.return_destination_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.return_to_initial",
+                  "value": "true"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[CoolIncubator4C, Tube008]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.open_articulated_part, L1.close_articulated_part, L1.rotate_control]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[tube_returned, closure_closed]"
+                },
+                {
+                  "name": "scope_tags",
+                  "value": "[geometry_first, closure_state_explicit]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[1.5ml / 15ml / 50ml tube variant, held-out destination slot]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_cool_incubator_transfer",
+          "task_family": "cool_incubator_transfer",
+          "purpose": "Open the 4 °C incubator, place a tube, and close it.",
+          "purpose_zh": "打开 4 °C 培养箱，放入试管并关闭。",
+          "maturity": "blocked-by-affordance-model",
+          "status": "planned",
+          "note": "Requires a validated incubator sample slot.",
+          "note_zh": "需要经过验证的培养箱样品槽位。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 → CoolIncubator4C",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-affordance-model",
+              "note": "Requires a validated incubator sample slot.",
+              "note_zh": "需要经过验证的培养箱样品槽位。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_cool_incubator_transfer/tube008",
+              "prompt": "Open CoolIncubator4C, place Tube008 in its configured slot, and close CoolIncubator4C.",
+              "prompt_zh": "打开 CoolIncubator4C，将 Tube008 放入其配置槽位并关闭 CoolIncubator4C。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.device_instance",
+                  "value": "CoolIncubator4C"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_instance",
+                  "value": "CoolIncubator4C"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[CoolIncubator4C, Tube008]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.open_articulated_part, L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.close_articulated_part]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[device_closed, object_placed]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out tube instance, held-out sample slot]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_co2_incubator_transfer",
+          "task_family": "co2_incubator_transfer",
+          "purpose": "Operate the outer door, latch, inner door, tube transfer, and reset closure.",
+          "purpose_zh": "操作外门、锁扣和内门，完成试管转移，再复位关闭。",
+          "maturity": "blocked-by-affordance-model",
+          "status": "planned",
+          "note": "Requires a validated CO₂ incubator sample slot; the current opening sequence is not a full transfer benchmark.",
+          "note_zh": "需要经过验证的 CO₂ 培养箱样品槽位；当前开门序列还不是完整转移基准。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 → CO2Incubator",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-affordance-model",
+              "note": "Requires a validated CO₂ incubator sample slot; the current opening sequence is not a full transfer benchmark.",
+              "note_zh": "需要经过验证的 CO₂ 培养箱样品槽位；当前开门序列还不是完整转移基准。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_co2_incubator_transfer/tube008",
+              "prompt": "Transfer Tube008 through the outer door, latch, and inner door of CO2Incubator, then reset and close it.",
+              "prompt_zh": "操作 CO2Incubator 的外门、锁扣和内门转移 Tube008，再复位并关闭设备。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.device_instance",
+                  "value": "CO2Incubator"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_instance",
+                  "value": "CO2Incubator"
+                },
+                {
+                  "name": "workflow_config.parameters.latch_target",
+                  "value": "0.5"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[CO2Incubator, Tube008]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.open_articulated_part, L1.rotate_control, L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.close_articulated_part]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[outer_door_closed, inner_door_closed, latch_reset]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out tube instance, outer / inner door closure order]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_deep_freezer_transfer",
+          "task_family": "deep_freezer_transfer",
+          "purpose": "Open the freezer, place a tube, and close it.",
+          "purpose_zh": "打开冷冻柜，放入试管并关闭。",
+          "maturity": "blocked-by-affordance-model",
+          "status": "planned",
+          "note": "Requires a validated deep-freezer sample slot.",
+          "note_zh": "需要经过验证的冷冻柜样品槽位。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 → DeepFreezer",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-affordance-model",
+              "note": "Requires a validated deep-freezer sample slot.",
+              "note_zh": "需要经过验证的冷冻柜样品槽位。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_deep_freezer_transfer/tube008",
+              "prompt": "Open DeepFreezer, place Tube008 in its configured slot, and close DeepFreezer.",
+              "prompt_zh": "打开 DeepFreezer，将 Tube008 放入其配置槽位并关闭 DeepFreezer。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.device_instance",
+                  "value": "DeepFreezer"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_instance",
+                  "value": "DeepFreezer"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[DeepFreezer, Tube008]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.open_articulated_part, L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.close_articulated_part]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[device_closed, object_placed]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out tube instance, held-out freezer slot]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_thermal_cycler_plate_cycle",
+          "task_family": "thermal_cycler_plate_cycle",
+          "purpose": "Load a PCR plate, run a program, and unload it.",
+          "purpose_zh": "装载 PCR 板、运行程序并取出。",
+          "maturity": "blocked-by-state-model",
+          "status": "planned",
+          "note": "PCR plate, plate slot, program, and running state are not modeled.",
+          "note_zh": "PCR 板、板槽、程序和运行状态没有建模。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "ThermalCycler",
+              "target_label": "PCRPlate001 → ThermalCycler",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-state-model",
+              "note": "PCR plate, plate slot, program, and running state are not modeled.",
+              "note_zh": "PCR 板、板槽、程序和运行状态没有建模。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_thermal_cycler_plate_cycle/thermalcycler",
+              "prompt": "Load a PCR plate into ThermalCycler, run the symbolic program, and unload it.",
+              "prompt_zh": "将 PCR 板装入 ThermalCycler，运行符号程序并卸载。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.device_instance",
+                  "value": "ThermalCycler"
+                },
+                {
+                  "name": "workflow_config.parameters.plate_instance",
+                  "value": "PCRPlate001"
+                },
+                {
+                  "name": "workflow_config.parameters.plate_slot",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "workflow_config.parameters.program",
+                  "value": "<not modeled>"
+                },
+                {
+                  "name": "workflow_config.parameters.allow_blocked",
+                  "value": "false"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[ThermalCycler]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.open_articulated_part, L1.close_articulated_part]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[program_complete, device_closed]"
+                },
+                {
+                  "name": "scope_tags",
+                  "value": "[symbolic_program_state]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out program, held-out plate slot]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_mx307_cycle",
+          "task_family": "mx307_cycle",
+          "purpose": "Open the lid, load or unload a tube, and close the MX307.",
+          "purpose_zh": "打开盖子，装入或取出试管，再关闭 MX307。",
+          "maturity": "audit-gated",
+          "status": "planned",
+          "note": "The real use workflow and movable load structure require audit evidence.",
+          "note_zh": "真实使用流程和可移动负载结构需要审核证据。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 → MX307",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "audit-gated",
+              "note": "The real use workflow and movable load structure require audit evidence.",
+              "note_zh": "真实使用流程和可移动负载结构需要审核证据。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_mx307_cycle/tube008",
+              "prompt": "Open MX307, load or unload Tube008 at the registered position, and close the lid.",
+              "prompt_zh": "打开 MX307，在注册位置装入或取出 Tube008，再关闭盖子。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.device_instance",
+                  "value": "MX307"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[MX307, Tube008]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.open_articulated_part, L1.close_articulated_part, L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[device_closed, object_placed]"
+                },
+                {
+                  "name": "scope_tags",
+                  "value": "[workflow_audit_required]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[audited load / unload sequence, held-out tube instance]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_microtube_mixer_cycle",
+          "task_family": "microtube_mixer_cycle",
+          "purpose": "Place a tube, set the mixer, mark mixing explicitly, and remove the tube.",
+          "purpose_zh": "放置试管、设置混匀器、显式标记混合完成并取出试管。",
+          "maturity": "blocked-by-affordance-model",
+          "status": "planned",
+          "note": "Requires a validated tube slot/operation pose; mixing result is symbolic.",
+          "note_zh": "需要经过验证的试管槽位/操作位姿；混合结果是符号状态。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 → MicrotubeMixer",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-affordance-model",
+              "note": "Requires a validated tube slot/operation pose; mixing result is symbolic.",
+              "note_zh": "需要经过验证的试管槽位/操作位姿；混合结果是符号状态。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_microtube_mixer_cycle/tube008",
+              "prompt": "Place Tube008 in MicrotubeMixer, perform the registered mixing operation, and return it.",
+              "prompt_zh": "将 Tube008 放入 MicrotubeMixer，完成注册的混匀操作并将其取回。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.device_instance",
+                  "value": "MicrotubeMixer"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_instance",
+                  "value": "MicrotubeMixer"
+                },
+                {
+                  "name": "workflow_config.parameters.knob_target",
+                  "value": "2.3562"
+                },
+                {
+                  "name": "workflow_config.parameters.hold_steps",
+                  "value": "3"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "workflow_config.parameters.operation_pos",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[MicrotubeMixer, Tube008]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.rotate_control]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[mix_complete, tube_returned]"
+                },
+                {
+                  "name": "scope_tags",
+                  "value": "[geometry_only, external_state_gated]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out tube instance, held-out knob target / operation pose]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_vortex_mixer_cycle",
+          "task_family": "vortex_mixer_cycle",
+          "purpose": "Place a tube, hold the operation, mark completion explicitly, and remove the tube.",
+          "purpose_zh": "放置试管、保持操作、显式标记完成并取出试管。",
+          "maturity": "blocked-by-affordance-model",
+          "status": "planned",
+          "note": "Requires a registered contact affordance; static contact does not imply physical mixing.",
+          "note_zh": "需要注册接触操作位；固定接触不等于真实混合。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 → VortexMixer",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-affordance-model",
+              "note": "Requires a registered contact affordance; static contact does not imply physical mixing.",
+              "note_zh": "需要注册接触操作位；固定接触不等于真实混合。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_vortex_mixer_cycle/tube008",
+              "prompt": "Hold Tube008 at the registered contact position of VortexMixer and return it after the cycle.",
+              "prompt_zh": "将 Tube008 保持在 VortexMixer 的注册接触位，完成周期后将其取回。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.device_instance",
+                  "value": "VortexMixer"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_instance",
+                  "value": "VortexMixer"
+                },
+                {
+                  "name": "workflow_config.parameters.hold_steps",
+                  "value": "3"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "workflow_config.parameters.operation_pos",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[VortexMixer, Tube008]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.hold_operate]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[vortex_complete, tube_returned]"
+                },
+                {
+                  "name": "scope_tags",
+                  "value": "[geometry_only, external_state_gated]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out tube instance, held-out contact pose]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_block_thermostatic_bath_cycle",
+          "task_family": "block_thermostatic_bath_cycle",
+          "purpose": "Open a bath, load or wait with a tube, unload it, and close.",
+          "purpose_zh": "打开浴槽，装入试管并等待，取出后关闭。",
+          "maturity": "blocked-by-affordance-model",
+          "status": "planned",
+          "note": "Requires a validated bath slot; temperature and wait state are symbolic.",
+          "note_zh": "需要经过验证的浴槽槽位；温度和等待状态是符号状态。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 → BlockThermostaticBath",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-affordance-model",
+              "note": "Requires a validated bath slot; temperature and wait state are symbolic.",
+              "note_zh": "需要经过验证的浴槽槽位；温度和等待状态是符号状态。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_block_thermostatic_bath_cycle/tube008",
+              "prompt": "Open BlockThermostaticBath, load or wait with Tube008, unload it, and close the bath.",
+              "prompt_zh": "打开 BlockThermostaticBath，装入 Tube008 并等待，取出后关闭浴槽。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.bath_instance",
+                  "value": "BlockThermostaticBath"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_instance",
+                  "value": "BlockThermostaticBath"
+                },
+                {
+                  "name": "workflow_config.parameters.hold_steps",
+                  "value": "3"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "workflow_config.parameters.operation_pos",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[BlockThermostaticBath, Tube008]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.open_articulated_part, L1.close_articulated_part, L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.hold_operate]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[bath_wait_complete, bath_closed]"
+                },
+                {
+                  "name": "scope_tags",
+                  "value": "[geometry_only, external_state_gated]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out tube instance, held-out bath slot]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_cool_block_bath_cycle",
+          "task_family": "cool_block_bath_cycle",
+          "purpose": "Place a tube in the cool-block slot, hold, mark cooling, and remove it.",
+          "purpose_zh": "将试管放入冷却块槽位，保持、标记冷却完成并取出。",
+          "maturity": "blocked-by-affordance-model",
+          "status": "planned",
+          "note": "Requires a validated placement affordance; cooling is symbolic.",
+          "note_zh": "需要经过验证的放置操作位；冷却是符号状态。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 → CoolBlockBath",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-affordance-model",
+              "note": "Requires a validated placement affordance; cooling is symbolic.",
+              "note_zh": "需要经过验证的放置操作位；冷却是符号状态。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_cool_block_bath_cycle/tube008",
+              "prompt": "Place Tube008 in CoolBlockBath, complete the registered cooling cycle, and return it.",
+              "prompt_zh": "将 Tube008 放入 CoolBlockBath，完成注册的冷却周期并将其取回。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.device_instance",
+                  "value": "CoolBlockBath"
+                },
+                {
+                  "name": "workflow_config.parameters.tube_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_instance",
+                  "value": "CoolBlockBath"
+                },
+                {
+                  "name": "workflow_config.parameters.hold_steps",
+                  "value": "3"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "workflow_config.parameters.operation_pos",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[CoolBlockBath, Tube008]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.hold_operate]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[cooling_complete, tube_returned]"
+                },
+                {
+                  "name": "scope_tags",
+                  "value": "[geometry_only, external_state_gated]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out tube instance, held-out cool-block slot]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_rack_box_tip_tool_cycle",
+          "task_family": "rack_box_tip_tool_cycle",
+          "purpose": "Change tips, dispose of waste, and complete the rack / box interaction.",
+          "purpose_zh": "完成换吸头、废弃处理以及架子/盒体交互。",
+          "maturity": "blocked-by-state-model",
+          "status": "planned",
+          "note": "Dynamic tips, waste, occupancy, and contamination state are not modeled.",
+          "note_zh": "动态吸头、废弃物、占用和污染状态没有建模。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Pipette004",
+              "target_label": "Pipette004 / tip rack and waste",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-state-model",
+              "note": "Dynamic tips, waste, occupancy, and contamination state are not modeled.",
+              "note_zh": "动态吸头、废弃物、占用和污染状态没有建模。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_rack_box_tip_tool_cycle/pipette004",
+              "prompt": "Perform the configured tip-change workflow with Pipette004.",
+              "prompt_zh": "使用 Pipette004 完成配置的换吸头工作流。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.pipette_instance",
+                  "value": "Pipette004"
+                },
+                {
+                  "name": "workflow_config.parameters.tip_instance",
+                  "value": "<not modeled>"
+                },
+                {
+                  "name": "workflow_config.parameters.waste_slot",
+                  "value": "<not modeled>"
+                },
+                {
+                  "name": "workflow_config.parameters.tip_attachment",
+                  "value": "<not modeled>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[Pipette004]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.reach_target_pose, L1.grasp_object, L1.press_control]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[tip_change_complete]"
+                },
+                {
+                  "name": "scope_tags",
+                  "value": "[symbolic_tip_state]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out tip rack layout, held-out waste slot]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L2_opener_tool_cycle",
+          "task_family": "opener_tool_cycle",
+          "purpose": "Take the Opener, align it with the support, operate, and return it.",
+          "purpose_zh": "取出 Opener，与支撑件对齐，完成操作并放回。",
+          "maturity": "blocked-by-affordance-model",
+          "status": "planned",
+          "note": "Requires a registered operation affordance; the cap-opening result is not modeled.",
+          "note_zh": "需要注册操作位；开盖结果没有建模。",
+          "common_parameters": [
+            {
+              "name": "robot",
+              "value": "MaholoRight"
+            },
+            {
+              "name": "active_arm",
+              "value": "right"
+            },
+            {
+              "name": "controller",
+              "value": "JOINT_POSITION"
+            },
+            {
+              "name": "control_freq",
+              "value": "20"
+            },
+            {
+              "name": "horizon",
+              "value": "1000"
+            },
+            {
+              "name": "use_camera_obs",
+              "value": "false"
+            },
+            {
+              "name": "use_object_obs",
+              "value": "true"
+            },
+            {
+              "name": "renderer",
+              "value": "mjviewer"
+            },
+            {
+              "name": "cameras",
+              "value": "[frontview, birdview, sideview, agentview]"
+            },
+            {
+              "name": "render_layout",
+              "value": "2x2"
+            },
+            {
+              "name": "render_stride",
+              "value": "4"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "equipment_joint_guard",
+              "value": "true"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Opener",
+              "target_label": "Opener + CoolIncubator4C",
+              "destination_standby_point": null,
+              "robot": "MaholoRight",
+              "active_arm": "right",
+              "controller": "JOINT_POSITION",
+              "success": false,
+              "status": "planned",
+              "maturity": "blocked-by-affordance-model",
+              "note": "Requires a registered operation affordance; the cap-opening result is not modeled.",
+              "note_zh": "需要注册操作位；开盖结果没有建模。",
+              "steps": null,
+              "output_dir": "tasks_demo/L2/L2_opener_tool_cycle/opener",
+              "prompt": "Use Opener with CoolIncubator4C to complete the registered opening workflow, then return the tool.",
+              "prompt_zh": "使用 Opener 配合 CoolIncubator4C 完成注册的开盖工作流，然后将工具放回。",
+              "parameters": [
+                {
+                  "name": "robot",
+                  "value": "MaholoRight"
+                },
+                {
+                  "name": "active_arm",
+                  "value": "right"
+                },
+                {
+                  "name": "controller",
+                  "value": "JOINT_POSITION"
+                },
+                {
+                  "name": "control_freq",
+                  "value": "20"
+                },
+                {
+                  "name": "horizon",
+                  "value": "1000"
+                },
+                {
+                  "name": "use_camera_obs",
+                  "value": "false"
+                },
+                {
+                  "name": "use_object_obs",
+                  "value": "true"
+                },
+                {
+                  "name": "renderer",
+                  "value": "mjviewer"
+                },
+                {
+                  "name": "cameras",
+                  "value": "[frontview, birdview, sideview, agentview]"
+                },
+                {
+                  "name": "render_layout",
+                  "value": "2x2"
+                },
+                {
+                  "name": "render_stride",
+                  "value": "4"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "equipment_joint_guard",
+                  "value": "true"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.tool_instance",
+                  "value": "Opener"
+                },
+                {
+                  "name": "workflow_config.parameters.support_instance",
+                  "value": "CoolIncubator4C"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_instance",
+                  "value": "CoolIncubator4C"
+                },
+                {
+                  "name": "workflow_config.parameters.hold_steps",
+                  "value": "3"
+                },
+                {
+                  "name": "workflow_config.parameters.destination_site",
+                  "value": "<not registered>"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[Opener, CoolIncubator4C]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[opening_complete, tool_returned]"
+                },
+                {
+                  "name": "scope_tags",
+                  "value": "[geometry_only, external_state_gated]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out support pose, held-out opening affordance]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        }
+      ]
     },
     "L3": {
-      "status": "no recorded demos",
-      "tasks": []
+      "status": "planned",
+      "tasks": [
+        {
+          "task_id": "L3_retrieve_and_place_tube",
+          "task_family": "retrieve_and_place_tube",
+          "purpose": "Retrieve a tube from one device, transport it to a target slot, and close the source and target devices.",
+          "purpose_zh": "从源设备取出试管，转运至目标设备槽位，并完成源设备与目标设备关闭。",
+          "maturity": "geometry-first",
+          "status": "planned",
+          "note": "First real-robot validation candidate; source/target slots and controller evidence still require review.",
+          "note_zh": "首个真实机器人验证候选；源/目标槽位和控制器证据仍需审核。",
+          "common_parameters": [
+            {
+              "name": "runner",
+              "value": "MaholoLevel3Single"
+            },
+            {
+              "name": "action_schema",
+              "value": "structured_event"
+            },
+            {
+              "name": "smoke_event",
+              "value": "{\"event\":\"evaluate\"}"
+            },
+            {
+              "name": "horizon",
+              "value": "8"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "recovery_policy",
+              "value": "task-specific; see task parameters"
+            },
+            {
+              "name": "safe_stop_policy",
+              "value": "record-and-hold"
+            },
+            {
+              "name": "physical_outcome_available",
+              "value": "false"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "CoolIncubator4C → DeepFreezer",
+              "destination_standby_point": null,
+              "robot": null,
+              "active_arm": null,
+              "controller": null,
+              "success": false,
+              "status": "planned",
+              "maturity": "geometry-first",
+              "note": "First real-robot validation candidate; source/target slots and controller evidence still require review.",
+              "note_zh": "首个真实机器人验证候选；源/目标槽位和控制器证据仍需审核。",
+              "steps": null,
+              "output_dir": "tasks_demo/L3/L3_retrieve_and_place_tube/tube008",
+              "prompt": "Retrieve Tube008 from CoolIncubator4C, transport it to DeepFreezer at target_slot, and close both devices.",
+              "prompt_zh": "从 CoolIncubator4C 取出 Tube008，将其搬运到 DeepFreezer 的 target_slot，并关闭两个设备。",
+              "parameters": [
+                {
+                  "name": "runner",
+                  "value": "MaholoLevel3Single"
+                },
+                {
+                  "name": "action_schema",
+                  "value": "structured_event"
+                },
+                {
+                  "name": "smoke_event",
+                  "value": "{\"event\":\"evaluate\"}"
+                },
+                {
+                  "name": "horizon",
+                  "value": "8"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "task-specific; see task parameters"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.source_device",
+                  "value": "CoolIncubator4C"
+                },
+                {
+                  "name": "workflow_config.parameters.target_device",
+                  "value": "DeepFreezer"
+                },
+                {
+                  "name": "workflow_config.parameters.sample_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.source_slot",
+                  "value": "source_slot"
+                },
+                {
+                  "name": "workflow_config.parameters.target_slot",
+                  "value": "target_slot"
+                },
+                {
+                  "name": "workflow_config.parameters.sample_id",
+                  "value": "sample-001"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[CoolIncubator4C, DeepFreezer]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.open_articulated_part, L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.close_articulated_part, L2.tube_transfer]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[sample_placed, source_device_closed, target_device_closed]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out source / target device pair, held-out source / target slot]"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "safe-stop"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "validation_target",
+                  "value": "simulation-and-real-robot-review"
+                },
+                {
+                  "name": "real_robot_validation_candidate",
+                  "value": "true"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L3_retrieve_operate_and_return_sample",
+          "task_family": "retrieve_operate_and_return_sample",
+          "purpose": "Retrieve a sample, run an operation, and return it to the source device.",
+          "purpose_zh": "取出样本，执行操作，再将样本返回源设备。",
+          "maturity": "symbolic-only",
+          "status": "planned",
+          "note": "Operation completion, liquid transfer, volume, contamination, and device state remain symbolic ledger facts.",
+          "note_zh": "操作完成、液体转移、体积、污染和设备状态仍是符号账本事实。",
+          "common_parameters": [
+            {
+              "name": "runner",
+              "value": "MaholoLevel3Single"
+            },
+            {
+              "name": "action_schema",
+              "value": "structured_event"
+            },
+            {
+              "name": "smoke_event",
+              "value": "{\"event\":\"evaluate\"}"
+            },
+            {
+              "name": "horizon",
+              "value": "8"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "recovery_policy",
+              "value": "task-specific; see task parameters"
+            },
+            {
+              "name": "safe_stop_policy",
+              "value": "record-and-hold"
+            },
+            {
+              "name": "physical_outcome_available",
+              "value": "false"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "CoolIncubator4C → MicrotubeMixer → return",
+              "destination_standby_point": null,
+              "robot": null,
+              "active_arm": null,
+              "controller": null,
+              "success": false,
+              "status": "planned",
+              "maturity": "symbolic-only",
+              "note": "Operation completion, liquid transfer, volume, contamination, and device state remain symbolic ledger facts.",
+              "note_zh": "操作完成、液体转移、体积、污染和设备状态仍是符号账本事实。",
+              "steps": null,
+              "output_dir": "tasks_demo/L3/L3_retrieve_operate_and_return_sample/tube008",
+              "prompt": "Retrieve Tube008 from CoolIncubator4C, operate it with Pipette004 at MicrotubeMixer, and return it.",
+              "prompt_zh": "从 CoolIncubator4C 取出 Tube008，使用 Pipette004 在 MicrotubeMixer 上操作，然后将其返回。",
+              "parameters": [
+                {
+                  "name": "runner",
+                  "value": "MaholoLevel3Single"
+                },
+                {
+                  "name": "action_schema",
+                  "value": "structured_event"
+                },
+                {
+                  "name": "smoke_event",
+                  "value": "{\"event\":\"evaluate\"}"
+                },
+                {
+                  "name": "horizon",
+                  "value": "8"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "task-specific; see task parameters"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.source_device",
+                  "value": "CoolIncubator4C"
+                },
+                {
+                  "name": "workflow_config.parameters.operation_device",
+                  "value": "MicrotubeMixer"
+                },
+                {
+                  "name": "workflow_config.parameters.sample_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.pipette_instance",
+                  "value": "Pipette004"
+                },
+                {
+                  "name": "workflow_config.parameters.source_slot",
+                  "value": "source_slot"
+                },
+                {
+                  "name": "workflow_config.parameters.operation_slot",
+                  "value": "operation_slot"
+                },
+                {
+                  "name": "workflow_config.parameters.sample_id",
+                  "value": "sample-001"
+                },
+                {
+                  "name": "workflow_config.parameters.operation_fact",
+                  "value": "operation_complete"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[CoolIncubator4C, MicrotubeMixer]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.open_articulated_part, L1.reach_target_pose, L1.grasp_object, L1.transport_object, L1.place_object, L1.close_articulated_part, L2.p1000_cycle, L2.tube_transfer]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[operation_complete, sample_returned, source_device_closed]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out operation device, held-out operation fact / slot]"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "safe-stop"
+                },
+                {
+                  "name": "validation_target",
+                  "value": "symbolic-sim-only"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L3_load_run_unload_device",
+          "task_family": "load_run_unload_device",
+          "purpose": "Load a sample, start a device program, complete the run, and unload it.",
+          "purpose_zh": "装载样本，启动设备程序，完成运行并卸载。",
+          "maturity": "symbolic-only",
+          "status": "planned",
+          "note": "Program state and physical sample result are not modeled by current XML assets.",
+          "note_zh": "程序状态和样本物理结果没有由当前 XML 资产建模。",
+          "common_parameters": [
+            {
+              "name": "runner",
+              "value": "MaholoLevel3Single"
+            },
+            {
+              "name": "action_schema",
+              "value": "structured_event"
+            },
+            {
+              "name": "smoke_event",
+              "value": "{\"event\":\"evaluate\"}"
+            },
+            {
+              "name": "horizon",
+              "value": "8"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "recovery_policy",
+              "value": "task-specific; see task parameters"
+            },
+            {
+              "name": "safe_stop_policy",
+              "value": "record-and-hold"
+            },
+            {
+              "name": "physical_outcome_available",
+              "value": "false"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "PCRPlate001",
+              "target_label": "PCRPlate001 → ThermalCycler",
+              "destination_standby_point": null,
+              "robot": null,
+              "active_arm": null,
+              "controller": null,
+              "success": false,
+              "status": "planned",
+              "maturity": "symbolic-only",
+              "note": "Program state and physical sample result are not modeled by current XML assets.",
+              "note_zh": "程序状态和样本物理结果没有由当前 XML 资产建模。",
+              "steps": null,
+              "output_dir": "tasks_demo/L3/L3_load_run_unload_device/pcrplate001",
+              "prompt": "Load PCRPlate001 into ThermalCycler at plate_slot, run the program, unload it, and close ThermalCycler.",
+              "prompt_zh": "将 PCRPlate001 装入 ThermalCycler 的 plate_slot，运行程序，卸载并关闭 ThermalCycler。",
+              "parameters": [
+                {
+                  "name": "runner",
+                  "value": "MaholoLevel3Single"
+                },
+                {
+                  "name": "action_schema",
+                  "value": "structured_event"
+                },
+                {
+                  "name": "smoke_event",
+                  "value": "{\"event\":\"evaluate\"}"
+                },
+                {
+                  "name": "horizon",
+                  "value": "8"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "task-specific; see task parameters"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.device_instance",
+                  "value": "ThermalCycler"
+                },
+                {
+                  "name": "workflow_config.parameters.sample_instance",
+                  "value": "PCRPlate001"
+                },
+                {
+                  "name": "workflow_config.parameters.device_slot",
+                  "value": "plate_slot"
+                },
+                {
+                  "name": "workflow_config.parameters.sample_id",
+                  "value": "plate-001"
+                },
+                {
+                  "name": "workflow_config.parameters.run_fact",
+                  "value": "run_complete"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[ThermalCycler]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L1.open_articulated_part, L1.reach_target_pose, L1.grasp_object, L1.remove_object, L1.transport_object, L1.place_object, L1.close_articulated_part, L2.thermal_cycler_plate_cycle]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[run_complete, sample_unloaded, device_closed]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out plate instance, held-out device program]"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "reset-required"
+                },
+                {
+                  "name": "validation_target",
+                  "value": "symbolic-sim-only"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L3_sequential_equipment_workflow",
+          "task_family": "sequential_equipment_workflow",
+          "purpose": "Compose multiple Level 2 workflows into an ordered equipment sequence.",
+          "purpose_zh": "将多个 Level 2 工作流组合成有序的设备操作序列。",
+          "maturity": "planned",
+          "status": "planned",
+          "note": "Component workflows must pass their own Level 1/2 affordance and state gates first.",
+          "note_zh": "组件工作流必须先通过各自的 Level 1/2 操作位和状态门控。",
+          "common_parameters": [
+            {
+              "name": "runner",
+              "value": "MaholoLevel3Single"
+            },
+            {
+              "name": "action_schema",
+              "value": "structured_event"
+            },
+            {
+              "name": "smoke_event",
+              "value": "{\"event\":\"evaluate\"}"
+            },
+            {
+              "name": "horizon",
+              "value": "8"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "recovery_policy",
+              "value": "task-specific; see task parameters"
+            },
+            {
+              "name": "safe_stop_policy",
+              "value": "record-and-hold"
+            },
+            {
+              "name": "physical_outcome_available",
+              "value": "false"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Tube008",
+              "target_label": "Tube008 / L2.tube_transfer → L2.p1000_cycle",
+              "destination_standby_point": null,
+              "robot": null,
+              "active_arm": null,
+              "controller": null,
+              "success": false,
+              "status": "planned",
+              "maturity": "planned",
+              "note": "Component workflows must pass their own Level 1/2 affordance and state gates first.",
+              "note_zh": "组件工作流必须先通过各自的 Level 1/2 操作位和状态门控。",
+              "steps": null,
+              "output_dir": "tasks_demo/L3/L3_sequential_equipment_workflow/tube008",
+              "prompt": "Execute the configured Level 2 workflows for Tube008 in order, acknowledging each component stage.",
+              "prompt_zh": "按顺序为 Tube008 执行配置的 Level 2 工作流，并确认每个组件阶段。",
+              "parameters": [
+                {
+                  "name": "runner",
+                  "value": "MaholoLevel3Single"
+                },
+                {
+                  "name": "action_schema",
+                  "value": "structured_event"
+                },
+                {
+                  "name": "smoke_event",
+                  "value": "{\"event\":\"evaluate\"}"
+                },
+                {
+                  "name": "horizon",
+                  "value": "8"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "task-specific; see task parameters"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "workflow_config.parameters.sequence",
+                  "value": "[L2.tube_transfer, L2.p1000_cycle]"
+                },
+                {
+                  "name": "workflow_config.parameters.sample_instance",
+                  "value": "Tube008"
+                },
+                {
+                  "name": "workflow_config.parameters.sample_id",
+                  "value": "sample-001"
+                },
+                {
+                  "name": "required_equipment",
+                  "value": "[declared by component workflows]"
+                },
+                {
+                  "name": "depends_on",
+                  "value": "[L2.tube_transfer, L2.p1000_cycle]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[sequence_complete, sample_returned]"
+                },
+                {
+                  "name": "test_variations",
+                  "value": "[held-out component order, held-out component parameters]"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "safe-stop"
+                },
+                {
+                  "name": "validation_target",
+                  "value": "catalog-only"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        }
+      ]
     },
     "L4": {
-      "status": "no recorded demos",
-      "tasks": []
+      "status": "planned",
+      "tasks": [
+        {
+          "task_id": "L4_sample_storage_protocol",
+          "task_family": "sample_storage_protocol",
+          "purpose": "Register a sample, place it in a device slot, retrieve it, and return it to storage.",
+          "purpose_zh": "登记样本，将其放入设备槽位，取出后返回存储。",
+          "maturity": "symbolic-only",
+          "status": "planned",
+          "note": "Sample identity and slot transitions are explicit; temperature and viability are not measured.",
+          "note_zh": "显式记录样本身份与槽位转换；不测量温度和活性。",
+          "common_parameters": [
+            {
+              "name": "runner",
+              "value": "MaholoLevel4Single"
+            },
+            {
+              "name": "action_schema",
+              "value": "structured_protocol_event"
+            },
+            {
+              "name": "smoke_event",
+              "value": "{\"event\":\"complete_step\"}"
+            },
+            {
+              "name": "horizon",
+              "value": "8"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "recovery_policy",
+              "value": "task-specific; see task parameters"
+            },
+            {
+              "name": "safe_stop_policy",
+              "value": "record-and-hold"
+            },
+            {
+              "name": "physical_outcome_available",
+              "value": "false"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "sample-001",
+              "target_label": "sample-001 → CoolIncubator4C / sample_slot",
+              "destination_standby_point": null,
+              "robot": null,
+              "active_arm": null,
+              "controller": null,
+              "success": false,
+              "status": "planned",
+              "maturity": "symbolic-only",
+              "note": "Sample identity and slot transitions are explicit; temperature and viability are not measured.",
+              "note_zh": "显式记录样本身份与槽位转换；不测量温度和活性。",
+              "steps": null,
+              "output_dir": "tasks_demo/L4/L4_sample_storage_protocol/sample_001",
+              "prompt": "Register, store, retrieve, and return sample-001 in CoolIncubator4C at sample_slot.",
+              "prompt_zh": "在 CoolIncubator4C 的 sample_slot 登记、存储、取回并返回 sample-001。",
+              "parameters": [
+                {
+                  "name": "runner",
+                  "value": "MaholoLevel4Single"
+                },
+                {
+                  "name": "action_schema",
+                  "value": "structured_protocol_event"
+                },
+                {
+                  "name": "smoke_event",
+                  "value": "{\"event\":\"complete_step\"}"
+                },
+                {
+                  "name": "horizon",
+                  "value": "8"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "task-specific; see task parameters"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "protocol_id",
+                  "value": "L4.sample_storage_protocol"
+                },
+                {
+                  "name": "parameters.sample_id",
+                  "value": "sample-001"
+                },
+                {
+                  "name": "parameters.container_id",
+                  "value": "tube-001"
+                },
+                {
+                  "name": "parameters.device_id",
+                  "value": "CoolIncubator4C"
+                },
+                {
+                  "name": "parameters.slot_id",
+                  "value": "sample_slot"
+                },
+                {
+                  "name": "steps",
+                  "value": "[register_sample, place_sample, retrieve_sample, return_sample]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[sample_returned, sample_stored]"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "non_claims",
+                  "value": "[temperature_measured, viability, biological_outcome]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L4_pipetting_workflow_with_tip_change",
+          "task_family": "pipetting_workflow_with_tip_change",
+          "purpose": "Register samples, attach/replace a tip, aspirate, dispense, and detach the tip.",
+          "purpose_zh": "登记样本，安装/更换吸头，完成吸取、吐出并卸下吸头。",
+          "maturity": "symbolic-only",
+          "status": "planned",
+          "note": "Tip attachment, transfer volume, and contamination are symbolic ledger inputs.",
+          "note_zh": "吸头连接、转移体积和污染属于符号账本输入。",
+          "common_parameters": [
+            {
+              "name": "runner",
+              "value": "MaholoLevel4Single"
+            },
+            {
+              "name": "action_schema",
+              "value": "structured_protocol_event"
+            },
+            {
+              "name": "smoke_event",
+              "value": "{\"event\":\"complete_step\"}"
+            },
+            {
+              "name": "horizon",
+              "value": "8"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "recovery_policy",
+              "value": "task-specific; see task parameters"
+            },
+            {
+              "name": "safe_stop_policy",
+              "value": "record-and-hold"
+            },
+            {
+              "name": "physical_outcome_available",
+              "value": "false"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "Pipette004",
+              "target_label": "sample-001 → sample-002 / Pipette004",
+              "destination_standby_point": null,
+              "robot": null,
+              "active_arm": null,
+              "controller": null,
+              "success": false,
+              "status": "planned",
+              "maturity": "symbolic-only",
+              "note": "Tip attachment, transfer volume, and contamination are symbolic ledger inputs.",
+              "note_zh": "吸头连接、转移体积和污染属于符号账本输入。",
+              "steps": null,
+              "output_dir": "tasks_demo/L4/L4_pipetting_workflow_with_tip_change/pipette004",
+              "prompt": "Perform the symbolic pipetting workflow from sample-001 to sample-002 with Pipette004, including a tip change.",
+              "prompt_zh": "使用 Pipette004 完成从 sample-001 到 sample-002 的符号移液工作流，包括更换吸头。",
+              "parameters": [
+                {
+                  "name": "runner",
+                  "value": "MaholoLevel4Single"
+                },
+                {
+                  "name": "action_schema",
+                  "value": "structured_protocol_event"
+                },
+                {
+                  "name": "smoke_event",
+                  "value": "{\"event\":\"complete_step\"}"
+                },
+                {
+                  "name": "horizon",
+                  "value": "8"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "task-specific; see task parameters"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "protocol_id",
+                  "value": "L4.pipetting_workflow_with_tip_change"
+                },
+                {
+                  "name": "parameters.pipette_id",
+                  "value": "Pipette004"
+                },
+                {
+                  "name": "parameters.tip_id",
+                  "value": "tip-001"
+                },
+                {
+                  "name": "parameters.source_sample_id",
+                  "value": "sample-001"
+                },
+                {
+                  "name": "parameters.destination_sample_id",
+                  "value": "sample-002"
+                },
+                {
+                  "name": "steps",
+                  "value": "[register_samples, attach_tip, aspirate, dispense, detach_tip]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[tip_changed, dispensed]"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "non_claims",
+                  "value": "[measured_volume, concentration, contamination_free, biological_outcome]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L4_prepare_dilution_series",
+          "task_family": "prepare_dilution_series",
+          "purpose": "Register a dilution series, transfer an aliquot, request mixing, and complete the series.",
+          "purpose_zh": "登记稀释序列，转移等分液，请求混匀并完成系列。",
+          "maturity": "symbolic-only",
+          "status": "planned",
+          "note": "Lineage and requested volumes are tracked; concentration and mixing quality are not simulated.",
+          "note_zh": "记录谱系和请求体积；不仿真浓度和混匀质量。",
+          "common_parameters": [
+            {
+              "name": "runner",
+              "value": "MaholoLevel4Single"
+            },
+            {
+              "name": "action_schema",
+              "value": "structured_protocol_event"
+            },
+            {
+              "name": "smoke_event",
+              "value": "{\"event\":\"complete_step\"}"
+            },
+            {
+              "name": "horizon",
+              "value": "8"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "recovery_policy",
+              "value": "task-specific; see task parameters"
+            },
+            {
+              "name": "safe_stop_policy",
+              "value": "record-and-hold"
+            },
+            {
+              "name": "physical_outcome_available",
+              "value": "false"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "sample-001",
+              "target_label": "sample-001 / dilution ×3",
+              "destination_standby_point": null,
+              "robot": null,
+              "active_arm": null,
+              "controller": null,
+              "success": false,
+              "status": "planned",
+              "maturity": "symbolic-only",
+              "note": "Lineage and requested volumes are tracked; concentration and mixing quality are not simulated.",
+              "note_zh": "记录谱系和请求体积；不仿真浓度和混匀质量。",
+              "steps": null,
+              "output_dir": "tasks_demo/L4/L4_prepare_dilution_series/sample_001",
+              "prompt": "Prepare the symbolic dilution series from sample-001 with 3 series levels.",
+              "prompt_zh": "从 sample-001 准备包含 3 个层级的符号稀释序列。",
+              "parameters": [
+                {
+                  "name": "runner",
+                  "value": "MaholoLevel4Single"
+                },
+                {
+                  "name": "action_schema",
+                  "value": "structured_protocol_event"
+                },
+                {
+                  "name": "smoke_event",
+                  "value": "{\"event\":\"complete_step\"}"
+                },
+                {
+                  "name": "horizon",
+                  "value": "8"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "task-specific; see task parameters"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "protocol_id",
+                  "value": "L4.prepare_dilution_series"
+                },
+                {
+                  "name": "parameters.source_sample_id",
+                  "value": "sample-001"
+                },
+                {
+                  "name": "parameters.series_prefix",
+                  "value": "dilution"
+                },
+                {
+                  "name": "parameters.series_count",
+                  "value": "3"
+                },
+                {
+                  "name": "steps",
+                  "value": "[register_series, attach_series_tip, transfer_aliquot, mix_series, complete_series]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[series_complete]"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "non_claims",
+                  "value": "[concentration, mixing_quality, measured_volume, biological_outcome]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L4_pcr_preparation_and_run",
+          "task_family": "pcr_preparation_and_run",
+          "purpose": "Prepare and seal a PCR plate, run the thermal-cycler program, and unload it.",
+          "purpose_zh": "准备并封装 PCR 板，运行热循环程序并卸载。",
+          "maturity": "symbolic-only",
+          "status": "planned",
+          "note": "Program state is tracked symbolically; temperature trajectory and PCR readout are not modeled.",
+          "note_zh": "程序状态是符号记录；温度轨迹和 PCR 读数没有建模。",
+          "common_parameters": [
+            {
+              "name": "runner",
+              "value": "MaholoLevel4Single"
+            },
+            {
+              "name": "action_schema",
+              "value": "structured_protocol_event"
+            },
+            {
+              "name": "smoke_event",
+              "value": "{\"event\":\"complete_step\"}"
+            },
+            {
+              "name": "horizon",
+              "value": "8"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "recovery_policy",
+              "value": "task-specific; see task parameters"
+            },
+            {
+              "name": "safe_stop_policy",
+              "value": "record-and-hold"
+            },
+            {
+              "name": "physical_outcome_available",
+              "value": "false"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "PCRPlate001",
+              "target_label": "PCRPlate001 → ThermalCycler / A1",
+              "destination_standby_point": null,
+              "robot": null,
+              "active_arm": null,
+              "controller": null,
+              "success": false,
+              "status": "planned",
+              "maturity": "symbolic-only",
+              "note": "Program state is tracked symbolically; temperature trajectory and PCR readout are not modeled.",
+              "note_zh": "程序状态是符号记录；温度轨迹和 PCR 读数没有建模。",
+              "steps": null,
+              "output_dir": "tasks_demo/L4/L4_pcr_preparation_and_run/pcrplate001",
+              "prompt": "Prepare PCRPlate001, load it into ThermalCycler at A1, run the symbolic program, and unload it.",
+              "prompt_zh": "准备 PCRPlate001，将其在 ThermalCycler 的 A1 装载，运行符号程序并卸载。",
+              "parameters": [
+                {
+                  "name": "runner",
+                  "value": "MaholoLevel4Single"
+                },
+                {
+                  "name": "action_schema",
+                  "value": "structured_protocol_event"
+                },
+                {
+                  "name": "smoke_event",
+                  "value": "{\"event\":\"complete_step\"}"
+                },
+                {
+                  "name": "horizon",
+                  "value": "8"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "task-specific; see task parameters"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "protocol_id",
+                  "value": "L4.pcr_preparation_and_run"
+                },
+                {
+                  "name": "parameters.device_id",
+                  "value": "ThermalCycler"
+                },
+                {
+                  "name": "parameters.plate_id",
+                  "value": "PCRPlate001"
+                },
+                {
+                  "name": "parameters.well_id",
+                  "value": "A1"
+                },
+                {
+                  "name": "steps",
+                  "value": "[prepare_plate, seal_plate, load_thermal_cycler, start_program, wait_program, unload_plate]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[program_complete, plate_unloaded]"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "non_claims",
+                  "value": "[temperature_measured, reaction_result, pcr_readout, concentration]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        },
+        {
+          "task_id": "L4_device_incubation_protocol",
+          "task_family": "device_incubation_protocol",
+          "purpose": "Load a sample, start incubation, record requested duration, and unload it.",
+          "purpose_zh": "装载样本，启动培养，记录请求时长并卸载。",
+          "maturity": "symbolic-only",
+          "status": "planned",
+          "note": "Requested zone and duration are recorded, not measured temperature or biological response.",
+          "note_zh": "记录请求温区和时长，不测量温度或生物学响应。",
+          "common_parameters": [
+            {
+              "name": "runner",
+              "value": "MaholoLevel4Single"
+            },
+            {
+              "name": "action_schema",
+              "value": "structured_protocol_event"
+            },
+            {
+              "name": "smoke_event",
+              "value": "{\"event\":\"complete_step\"}"
+            },
+            {
+              "name": "horizon",
+              "value": "8"
+            },
+            {
+              "name": "seed",
+              "value": "0"
+            },
+            {
+              "name": "recovery_policy",
+              "value": "task-specific; see task parameters"
+            },
+            {
+              "name": "safe_stop_policy",
+              "value": "record-and-hold"
+            },
+            {
+              "name": "physical_outcome_available",
+              "value": "false"
+            },
+            {
+              "name": "physical_validation_status",
+              "value": "not_performed"
+            }
+          ],
+          "subtasks": [
+            {
+              "target_instance": "sample-001",
+              "target_label": "sample-001 → CoolIncubator4C / 4C",
+              "destination_standby_point": null,
+              "robot": null,
+              "active_arm": null,
+              "controller": null,
+              "success": false,
+              "status": "planned",
+              "maturity": "symbolic-only",
+              "note": "Requested zone and duration are recorded, not measured temperature or biological response.",
+              "note_zh": "记录请求温区和时长，不测量温度或生物学响应。",
+              "steps": null,
+              "output_dir": "tasks_demo/L4/L4_device_incubation_protocol/sample_001",
+              "prompt": "Load sample-001 into CoolIncubator4C at sample_slot, record the 4C incubation, and unload it.",
+              "prompt_zh": "将 sample-001 装入 CoolIncubator4C 的 sample_slot，记录 4C 培养并卸载。",
+              "parameters": [
+                {
+                  "name": "runner",
+                  "value": "MaholoLevel4Single"
+                },
+                {
+                  "name": "action_schema",
+                  "value": "structured_protocol_event"
+                },
+                {
+                  "name": "smoke_event",
+                  "value": "{\"event\":\"complete_step\"}"
+                },
+                {
+                  "name": "horizon",
+                  "value": "8"
+                },
+                {
+                  "name": "seed",
+                  "value": "0"
+                },
+                {
+                  "name": "recovery_policy",
+                  "value": "task-specific; see task parameters"
+                },
+                {
+                  "name": "safe_stop_policy",
+                  "value": "record-and-hold"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "physical_validation_status",
+                  "value": "not_performed"
+                },
+                {
+                  "name": "protocol_id",
+                  "value": "L4.device_incubation_protocol"
+                },
+                {
+                  "name": "parameters.device_id",
+                  "value": "CoolIncubator4C"
+                },
+                {
+                  "name": "parameters.sample_id",
+                  "value": "sample-001"
+                },
+                {
+                  "name": "parameters.slot_id",
+                  "value": "sample_slot"
+                },
+                {
+                  "name": "parameters.temperature_zone",
+                  "value": "4C"
+                },
+                {
+                  "name": "steps",
+                  "value": "[load_device, start_incubation, wait_duration, stop_incubation, unload_device]"
+                },
+                {
+                  "name": "required_final_facts",
+                  "value": "[incubation_stopped, sample_unloaded]"
+                },
+                {
+                  "name": "physical_outcome_available",
+                  "value": "false"
+                },
+                {
+                  "name": "non_claims",
+                  "value": "[temperature_measured, incubation_result, viability, biological_outcome]"
+                }
+              ],
+              "video": null,
+              "poster": null
+            }
+          ]
+        }
+      ]
     }
   }
 }
