@@ -26,13 +26,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "CO2Incubator: **MaholoRight** **→** move to **CO2Incubator standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "CO2Incubator：**MaholoRight** **→** 移动至**CO2Incubator待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "CO2Incubator：**MaholoRight** **→** **CO2Incubatorの待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -118,7 +116,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -150,13 +148,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "CoolIncubator4C: **MaholoRight** **→** move to **CoolIncubator4C standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "CoolIncubator4C：**MaholoRight** **→** 移动至**CoolIncubator4C待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "CoolIncubator4C：**MaholoRight** **→** **CoolIncubator4Cの待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -242,7 +238,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -274,13 +270,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "DeepFreezer: **MaholoRight** **→** move to **DeepFreezer standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "DeepFreezer：**MaholoRight** **→** 移动至**DeepFreezer待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "DeepFreezer：**MaholoRight** **→** **DeepFreezerの待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -366,7 +360,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -398,13 +392,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "MX307: **MaholoLeft** **→** move to **MX307 standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "MX307：**MaholoLeft** **→** 移动至**MX307待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "MX307：**MaholoLeft** **→** **MX307の待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -490,7 +482,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -522,13 +514,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "MicrotubeMixer: **MaholoRight** **→** move to **MicrotubeMixer standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "MicrotubeMixer：**MaholoRight** **→** 移动至**MicrotubeMixer待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "MicrotubeMixer：**MaholoRight** **→** **MicrotubeMixerの待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -614,7 +604,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -646,13 +636,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "BlockThermostaticBath: **MaholoLeft** **→** move to **BlockThermostaticBath standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "BlockThermostaticBath：**MaholoLeft** **→** 移动至**BlockThermostaticBath待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "BlockThermostaticBath：**MaholoLeft** **→** **BlockThermostaticBathの待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -738,7 +726,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -770,13 +758,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "BlockThermostaticBath2: **MaholoLeft** **→** move to **BlockThermostaticBath2 standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "BlockThermostaticBath2：**MaholoLeft** **→** 移动至**BlockThermostaticBath2待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "BlockThermostaticBath2：**MaholoLeft** **→** **BlockThermostaticBath2の待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -862,7 +848,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -894,13 +880,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "ThermalCycler: **MaholoRight** **→** move to **ThermalCycler standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "ThermalCycler：**MaholoRight** **→** 移动至**ThermalCycler待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "ThermalCycler：**MaholoRight** **→** **ThermalCyclerの待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -986,7 +970,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -1018,13 +1002,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Pipette004: **MaholoRight** **→** move to **Pipette004 standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Pipette004：**MaholoRight** **→** 移动至**Pipette004待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Pipette004：**MaholoRight** **→** **Pipette004の待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -1118,7 +1100,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -1150,13 +1132,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Opener: **MaholoLeft** **→** move to **Opener standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Opener：**MaholoLeft** **→** 移动至**Opener待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Opener：**MaholoLeft** **→** **Openerの待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -1250,7 +1230,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -1282,13 +1262,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "04_1.5mL_Tube_Holder_Left: **MaholoRight** **→** move to **04_1.5mL_Tube_Holder_Left standby pose** (CoolIncubator4C door open; position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "04_1.5mL_Tube_Holder_Left：**MaholoRight** **→** 移动至**04_1.5mL_Tube_Holder_Left待机位**（CoolIncubator4C 门已打开；位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "04_1.5mL_Tube_Holder_Left：**MaholoRight** **→** **04_1.5mL_Tube_Holder_Left待機姿勢**へ移動（CoolIncubator4C ドアは開いた状態；位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -1382,7 +1360,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -1414,13 +1392,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "05_1.5mL_Tube_Holder_Right: **MaholoRight** **→** move to **05_1.5mL_Tube_Holder_Right standby pose** (CoolIncubator4C door open; position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "05_1.5mL_Tube_Holder_Right：**MaholoRight** **→** 移动至**05_1.5mL_Tube_Holder_Right待机位**（CoolIncubator4C 门已打开；位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "05_1.5mL_Tube_Holder_Right：**MaholoRight** **→** **05_1.5mL_Tube_Holder_Right待機姿勢**へ移動（CoolIncubator4C ドアは開いた状態；位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -1514,7 +1490,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -1546,13 +1522,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001: **MaholoLeft** **→** move to **Tube001 standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube001：**MaholoLeft** **→** 移动至**Tube001待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube001：**MaholoLeft** **→** **Tube001の待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -1654,7 +1628,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -1686,13 +1660,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube009: **MaholoLeft** **→** move to **Tube009 standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube009：**MaholoLeft** **→** 移动至**Tube009待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube009：**MaholoLeft** **→** **Tube009の待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -1794,7 +1766,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -1826,13 +1798,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube011: **MaholoLeft** **→** move to **Tube011 standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube011：**MaholoLeft** **→** 移动至**Tube011待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube011：**MaholoLeft** **→** **Tube011の待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -1938,7 +1908,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -1970,13 +1940,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube013: **MaholoLeft** **→** move to **Tube013 standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube013：**MaholoLeft** **→** 移动至**Tube013待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube013：**MaholoLeft** **→** **Tube013の待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -2082,7 +2050,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -2114,13 +2082,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube15_001: **MaholoLeft** **→** move to **Tube15_001 standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube15_001：**MaholoLeft** **→** 移动至**Tube15_001待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube15_001：**MaholoLeft** **→** **Tube15_001の待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -2222,7 +2188,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -2254,13 +2220,11 @@
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube50_001: **MaholoRight** **→** move to **Tube50_001 standby pose** (position error ≤0.01 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube50_001：**MaholoRight** **→** 移动至**Tube50_001待机位**（位置误差 ≤0.01 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube50_001：**MaholoRight** **→** **Tube50_001の待機姿勢**へ移動（位置誤差 ≤0.01 m、姿勢誤差 ≤0.05 rad）",
@@ -2362,7 +2326,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach"
+                  "value": "approach(goal)"
                 },
                 {
                   "name": "draft_status",
@@ -2398,21 +2362,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Pipette004: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Pipette004** (maintain **Blender 注册的 Pipette夹爪 orientation**; position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Pipette004：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Pipette004**（保持**Blender 注册的 Pipette夹爪姿态**；位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Pipette004：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Pipette004**を把持（保持**Blender 注册的 Pipetteグリッパ姿態**；位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -2498,11 +2466,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -2530,21 +2498,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Opener: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Opener** (maintain **Blender 注册的 Opener夹爪 orientation**; position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Opener：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Opener**（保持**Blender 注册的 Opener夹爪姿态**；位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Opener：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Opener**を把持（保持**Blender 注册的 Openerグリッパ姿態**；位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -2630,11 +2602,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -2662,21 +2634,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "04_1.5mL_Tube_Holder_Left: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **04_1.5mL_Tube_Holder_Left** (maintain **Blender 注册的 holder夹爪 orientation**; door open; position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "04_1.5mL_Tube_Holder_Left：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**04_1.5mL_Tube_Holder_Left**（保持**Blender 注册的 holder夹爪姿态**；门已打开；位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "04_1.5mL_Tube_Holder_Left：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **04_1.5mL_Tube_Holder_Left**を把持（保持**Blender 注册的 holderグリッパ姿態**；ドアは開いた状態；位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -2762,11 +2738,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -2794,21 +2770,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "05_1.5mL_Tube_Holder_Right: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **05_1.5mL_Tube_Holder_Right** (maintain **Blender 注册的 holder夹爪 orientation**; door open; position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "05_1.5mL_Tube_Holder_Right：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**05_1.5mL_Tube_Holder_Right**（保持**Blender 注册的 holder夹爪姿态**；门已打开；位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "05_1.5mL_Tube_Holder_Right：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **05_1.5mL_Tube_Holder_Right**を把持（保持**Blender 注册的 holderグリッパ姿態**；ドアは開いた状態；位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -2894,11 +2874,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -2926,21 +2906,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** (position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube001：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001**（位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube001：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持（位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -3034,11 +3018,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -3066,21 +3050,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube009: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube009** (position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube009：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube009**（位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube009：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube009**を把持（位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -3174,11 +3162,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -3206,21 +3194,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube011: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube011** (position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube011：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube011**（位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube011：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube011**を把持（位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -3326,11 +3318,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -3358,21 +3350,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube013: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube013** (position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube013：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube013**（位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube013：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube013**を把持（位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -3478,11 +3474,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -3510,21 +3506,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube15_001: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube15_001** (position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube15_001：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube15_001**（位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube15_001：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube15_001**を把持（位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -3618,11 +3618,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -3650,21 +3650,25 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 2,
+              "steps": 3,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube50_001: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube50_001** (position error ≤0.005 m, orientation error ≤0.05 rad)",
               "prompt_zh": "Tube50_001：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube50_001**（位置误差 ≤0.005 m、姿态误差 ≤0.05 rad）",
               "prompt_ja": "Tube50_001：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Tube50_001**を把持（位置誤差 ≤0.005 m、姿勢誤差 ≤0.05 rad）",
@@ -3758,11 +3762,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "2"
+                  "value": "3"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp"
+                  "value": "approach(standby) → approach(goal) → close_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -3798,29 +3802,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Pipette004: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Pipette004** **→** release **Pipette004** **→** return to **Pipette004 standby pose** (maintain **Blender 注册的 Pipette夹爪 orientation**; release position tolerance ≤0.02 m)",
               "prompt_zh": "Pipette004：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Pipette004** **→** 释放**Pipette004** **→** 返回**Pipette004待机位**（保持**Blender 注册的 Pipette夹爪姿态**；释放位置容差 ≤0.02 m）",
               "prompt_ja": "Pipette004：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Pipette004**を把持 **→** **Pipette004**を解放 **→** **Pipette004の待機姿勢**へ戻る（保持**Blender 注册的 Pipetteグリッパ姿態**；解放位置許容差 ≤0.02 m）",
@@ -3910,11 +3920,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -3942,29 +3952,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Opener: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Opener** **→** release **Opener** **→** return to **Opener standby pose** (maintain **Blender 注册的 Opener夹爪 orientation**; release position tolerance ≤0.02 m)",
               "prompt_zh": "Opener：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Opener** **→** 释放**Opener** **→** 返回**Opener待机位**（保持**Blender 注册的 Opener夹爪姿态**；释放位置容差 ≤0.02 m）",
               "prompt_ja": "Opener：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Opener**を把持 **→** **Opener**を解放 **→** **Openerの待機姿勢**へ戻る（保持**Blender 注册的 Openerグリッパ姿態**；解放位置許容差 ≤0.02 m）",
@@ -4054,11 +4070,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -4086,29 +4102,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "04_1.5mL_Tube_Holder_Left: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **04_1.5mL_Tube_Holder_Left** **→** release **04_1.5mL_Tube_Holder_Left** **→** return to **04_1.5mL_Tube_Holder_Left standby pose** (maintain **Blender 注册的 holder夹爪 orientation**; door held open; release position tolerance ≤0.02 m)",
               "prompt_zh": "04_1.5mL_Tube_Holder_Left：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**04_1.5mL_Tube_Holder_Left** **→** 释放**04_1.5mL_Tube_Holder_Left** **→** 返回**04_1.5mL_Tube_Holder_Left待机位**（保持**Blender 注册的 holder夹爪姿态**；门保持打开；释放位置容差 ≤0.02 m）",
               "prompt_ja": "04_1.5mL_Tube_Holder_Left：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **04_1.5mL_Tube_Holder_Left**を把持 **→** **04_1.5mL_Tube_Holder_Left**を解放 **→** **04_1.5mL_Tube_Holder_Left待機姿勢**へ戻る（保持**Blender 注册的 holderグリッパ姿態**；ドア開いたまま保持；解放位置許容差 ≤0.02 m）",
@@ -4198,11 +4220,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -4230,29 +4252,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "05_1.5mL_Tube_Holder_Right: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **05_1.5mL_Tube_Holder_Right** **→** release **05_1.5mL_Tube_Holder_Right** **→** return to **05_1.5mL_Tube_Holder_Right standby pose** (maintain **Blender 注册的 holder夹爪 orientation**; door held open; release position tolerance ≤0.02 m)",
               "prompt_zh": "05_1.5mL_Tube_Holder_Right：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**05_1.5mL_Tube_Holder_Right** **→** 释放**05_1.5mL_Tube_Holder_Right** **→** 返回**05_1.5mL_Tube_Holder_Right待机位**（保持**Blender 注册的 holder夹爪姿态**；门保持打开；释放位置容差 ≤0.02 m）",
               "prompt_ja": "05_1.5mL_Tube_Holder_Right：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **05_1.5mL_Tube_Holder_Right**を把持 **→** **05_1.5mL_Tube_Holder_Right**を解放 **→** **05_1.5mL_Tube_Holder_Right待機姿勢**へ戻る（保持**Blender 注册的 holderグリッパ姿態**；ドア開いたまま保持；解放位置許容差 ≤0.02 m）",
@@ -4342,11 +4370,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -4374,29 +4402,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** release **Tube001** **→** return to **Tube001 standby pose** (release position tolerance ≤0.02 m)",
               "prompt_zh": "Tube001：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 释放**Tube001** **→** 返回**Tube001待机位**（释放位置容差 ≤0.02 m）",
               "prompt_ja": "Tube001：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** **Tube001**を解放 **→** **Tube001の待機姿勢**へ戻る（解放位置許容差 ≤0.02 m）",
@@ -4494,11 +4528,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -4526,29 +4560,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube009: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube009** **→** release **Tube009** **→** return to **Tube009 standby pose** (release position tolerance ≤0.02 m)",
               "prompt_zh": "Tube009：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube009** **→** 释放**Tube009** **→** 返回**Tube009待机位**（释放位置容差 ≤0.02 m）",
               "prompt_ja": "Tube009：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube009**を把持 **→** **Tube009**を解放 **→** **Tube009の待機姿勢**へ戻る（解放位置許容差 ≤0.02 m）",
@@ -4646,11 +4686,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -4678,29 +4718,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube011: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube011** **→** release **Tube011** **→** return to **Tube011 standby pose** (release position tolerance ≤0.02 m)",
               "prompt_zh": "Tube011：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube011** **→** 释放**Tube011** **→** 返回**Tube011待机位**（释放位置容差 ≤0.02 m）",
               "prompt_ja": "Tube011：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube011**を把持 **→** **Tube011**を解放 **→** **Tube011の待機姿勢**へ戻る（解放位置許容差 ≤0.02 m）",
@@ -4810,11 +4856,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -4842,29 +4888,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube013: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube013** **→** release **Tube013** **→** return to **Tube013 standby pose** (release position tolerance ≤0.02 m)",
               "prompt_zh": "Tube013：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube013** **→** 释放**Tube013** **→** 返回**Tube013待机位**（释放位置容差 ≤0.02 m）",
               "prompt_ja": "Tube013：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube013**を把持 **→** **Tube013**を解放 **→** **Tube013の待機姿勢**へ戻る（解放位置許容差 ≤0.02 m）",
@@ -4974,11 +5026,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -5006,29 +5058,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube15_001: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube15_001** **→** release **Tube15_001** **→** return to **Tube15_001 standby pose** (release position tolerance ≤0.02 m)",
               "prompt_zh": "Tube15_001：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube15_001** **→** 释放**Tube15_001** **→** 返回**Tube15_001待机位**（释放位置容差 ≤0.02 m）",
               "prompt_ja": "Tube15_001：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube15_001**を把持 **→** **Tube15_001**を解放 **→** **Tube15_001の待機姿勢**へ戻る（解放位置許容差 ≤0.02 m）",
@@ -5126,11 +5184,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -5158,29 +5216,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 4,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "release",
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "withdraw",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube50_001: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube50_001** **→** release **Tube50_001** **→** return to **Tube50_001 standby pose** (release position tolerance ≤0.02 m)",
               "prompt_zh": "Tube50_001：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube50_001** **→** 释放**Tube50_001** **→** 返回**Tube50_001待机位**（释放位置容差 ≤0.02 m）",
               "prompt_ja": "Tube50_001：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Tube50_001**を把持 **→** **Tube50_001**を解放 **→** **Tube50_001の待機姿勢**へ戻る（解放位置許容差 ≤0.02 m）",
@@ -5278,11 +5342,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "4"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → release → withdraw"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_gripper → withdraw"
                 },
                 {
                   "name": "draft_status",
@@ -5318,25 +5382,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Pipette004: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Pipette004** **→** lift **Pipette004** 0.05 m (maintain **Blender 注册的 Pipette夹爪 orientation**; success threshold ≥0.04 m)",
               "prompt_zh": "Pipette004：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Pipette004** **→** 抬升**Pipette004** 0.05 m（保持**Blender 注册的 Pipette夹爪姿态**；成功阈值 ≥0.04 m）",
               "prompt_ja": "Pipette004：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Pipette004**を把持 **→** **Pipette004**を持ち上げ 0.05 m（保持**Blender 注册的 Pipetteグリッパ姿態**；成功閾値 ≥0.04 m）",
@@ -5426,11 +5495,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → lift"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift"
                 },
                 {
                   "name": "draft_status",
@@ -5458,25 +5527,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Opener: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Opener** **→** lift **Opener** 0.05 m (maintain **Blender 注册的 Opener夹爪 orientation**; success threshold ≥0.04 m)",
               "prompt_zh": "Opener：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Opener** **→** 抬升**Opener** 0.05 m（保持**Blender 注册的 Opener夹爪姿态**；成功阈值 ≥0.04 m）",
               "prompt_ja": "Opener：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Opener**を把持 **→** **Opener**を持ち上げ 0.05 m（保持**Blender 注册的 Openerグリッパ姿態**；成功閾値 ≥0.04 m）",
@@ -5566,11 +5640,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → lift"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift"
                 },
                 {
                   "name": "draft_status",
@@ -5598,25 +5672,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** lift **Tube001** 0.05 m (success threshold ≥0.04 m)",
               "prompt_zh": "Tube001：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 抬升**Tube001** 0.05 m（成功阈值 ≥0.04 m）",
               "prompt_ja": "Tube001：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** **Tube001**を持ち上げ 0.05 m（成功閾値 ≥0.04 m）",
@@ -5714,11 +5793,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → lift"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift"
                 },
                 {
                   "name": "draft_status",
@@ -5746,25 +5825,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube009: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube009** **→** lift **Tube009** 0.05 m (success threshold ≥0.04 m)",
               "prompt_zh": "Tube009：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube009** **→** 抬升**Tube009** 0.05 m（成功阈值 ≥0.04 m）",
               "prompt_ja": "Tube009：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube009**を把持 **→** **Tube009**を持ち上げ 0.05 m（成功閾値 ≥0.04 m）",
@@ -5862,11 +5946,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → lift"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift"
                 },
                 {
                   "name": "draft_status",
@@ -5894,25 +5978,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube011: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube011** **→** lift **Tube011** 0.05 m (success threshold ≥0.04 m)",
               "prompt_zh": "Tube011：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube011** **→** 抬升**Tube011** 0.05 m（成功阈值 ≥0.04 m）",
               "prompt_ja": "Tube011：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube011**を把持 **→** **Tube011**を持ち上げ 0.05 m（成功閾値 ≥0.04 m）",
@@ -6022,11 +6111,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → lift"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift"
                 },
                 {
                   "name": "draft_status",
@@ -6054,25 +6143,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube013: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube013** **→** lift **Tube013** 0.05 m (success threshold ≥0.04 m)",
               "prompt_zh": "Tube013：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube013** **→** 抬升**Tube013** 0.05 m（成功阈值 ≥0.04 m）",
               "prompt_ja": "Tube013：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube013**を把持 **→** **Tube013**を持ち上げ 0.05 m（成功閾値 ≥0.04 m）",
@@ -6182,11 +6276,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → lift"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift"
                 },
                 {
                   "name": "draft_status",
@@ -6214,25 +6308,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube15_001: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube15_001** **→** lift **Tube15_001** 0.05 m (success threshold ≥0.04 m)",
               "prompt_zh": "Tube15_001：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube15_001** **→** 抬升**Tube15_001** 0.05 m（成功阈值 ≥0.04 m）",
               "prompt_ja": "Tube15_001：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube15_001**を把持 **→** **Tube15_001**を持ち上げ 0.05 m（成功閾値 ≥0.04 m）",
@@ -6330,11 +6429,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → lift"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift"
                 },
                 {
                   "name": "draft_status",
@@ -6362,25 +6461,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube50_001: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube50_001** **→** lift **Tube50_001** 0.05 m (success threshold ≥0.04 m)",
               "prompt_zh": "Tube50_001：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube50_001** **→** 抬升**Tube50_001** 0.05 m（成功阈值 ≥0.04 m）",
               "prompt_ja": "Tube50_001：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Tube50_001**を把持 **→** **Tube50_001**を持ち上げ 0.05 m（成功閾値 ≥0.04 m）",
@@ -6478,11 +6582,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → lift"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift"
                 },
                 {
                   "name": "draft_status",
@@ -6518,25 +6622,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Pipette004 → Tube001: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Pipette004** **→** 先竖直lift 至配置 clearance 高度, 再持物move to **Tube001** (maintain **Blender 注册的 Pipette夹爪 orientation**; destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "Pipette004 → Tube001：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Pipette004** **→** 先竖直抬升至配置 clearance 高度，再持物移动至**Tube001**（保持**Blender 注册的 Pipette夹爪姿态**；目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "Pipette004 → Tube001：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Pipette004**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物**Tube001**へ移動（保持**Blender 注册的 Pipetteグリッパ姿態**；目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -6650,11 +6764,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -6682,25 +6796,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Opener → Tube001: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Opener** **→** 先竖直lift 至配置 clearance 高度, 再持物move to **Tube001** (maintain **Blender 注册的 Opener夹爪 orientation**; destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "Opener → Tube001：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Opener** **→** 先竖直抬升至配置 clearance 高度，再持物移动至**Tube001**（保持**Blender 注册的 Opener夹爪姿态**；目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "Opener → Tube001：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Opener**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物**Tube001**へ移動（保持**Blender 注册的 Openerグリッパ姿態**；目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -6814,11 +6938,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -6846,25 +6970,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "04_1.5mL_Tube_Holder_Left → Tube001: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **04_1.5mL_Tube_Holder_Left** **→** 先竖直lift 至配置 clearance 高度, 再持物`approach → descend` 到**Tube001 standby pose** **→** `approach` 到**Tube001 operation point** (maintain **Blender 注册的 holder夹爪 orientation**; door held open; destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "04_1.5mL_Tube_Holder_Left → Tube001：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**04_1.5mL_Tube_Holder_Left** **→** 先竖直抬升至配置 clearance 高度，再持物`approach → descend` 到**Tube001待机位** **→** `approach` 到**Tube001操作位**（保持**Blender 注册的 holder夹爪姿态**；门保持打开；目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "04_1.5mL_Tube_Holder_Left → Tube001：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **04_1.5mL_Tube_Holder_Left**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物`approach → descend` へ**Tube001の待機姿勢** **→** `approach` へ**Tube001の操作点**（保持**Blender 注册的 holderグリッパ姿態**；ドア開いたまま保持；目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -6978,11 +7112,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -7010,25 +7144,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "05_1.5mL_Tube_Holder_Right → Tube001: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **05_1.5mL_Tube_Holder_Right** **→** 先竖直lift 至配置 clearance 高度, 再持物`approach → descend` 到**Tube001 standby pose** **→** `approach` 到**Tube001 operation point** (maintain **Blender 注册的 holder夹爪 orientation**; door held open; destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "05_1.5mL_Tube_Holder_Right → Tube001：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**05_1.5mL_Tube_Holder_Right** **→** 先竖直抬升至配置 clearance 高度，再持物`approach → descend` 到**Tube001待机位** **→** `approach` 到**Tube001操作位**（保持**Blender 注册的 holder夹爪姿态**；门保持打开；目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "05_1.5mL_Tube_Holder_Right → Tube001：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **05_1.5mL_Tube_Holder_Right**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物`approach → descend` へ**Tube001の待機姿勢** **→** `approach` へ**Tube001の操作点**（保持**Blender 注册的 holderグリッパ姿態**；ドア開いたまま保持；目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -7142,11 +7286,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -7174,25 +7318,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001 → Slot002: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** 先竖直lift 至配置 clearance 高度, 再持物move to **Slot002** (destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "Tube001 → Slot002：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 先竖直抬升至配置 clearance 高度，再持物移动至**Slot002**（目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "Tube001 → Slot002：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物**Slot002**へ移動（目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -7306,11 +7460,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -7338,25 +7492,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001 → Slot009: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** 先竖直lift 至配置 clearance 高度, 再持物move to **Slot009** (destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "Tube001 → Slot009：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 先竖直抬升至配置 clearance 高度，再持物移动至**Slot009**（目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "Tube001 → Slot009：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物**Slot009**へ移動（目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -7470,11 +7634,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -7502,25 +7666,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001 → Slot011: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** 先竖直lift 至配置 clearance 高度, 再持物move to **Slot011** (destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "Tube001 → Slot011：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 先竖直抬升至配置 clearance 高度，再持物移动至**Slot011**（目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "Tube001 → Slot011：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物**Slot011**へ移動（目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -7646,11 +7820,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -7678,25 +7852,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001 → Slot013: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** 先竖直lift 至配置 clearance 高度, 再持物move to **Slot013** (destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "Tube001 → Slot013：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 先竖直抬升至配置 clearance 高度，再持物移动至**Slot013**（目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "Tube001 → Slot013：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物**Slot013**へ移動（目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -7822,11 +8006,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -7854,25 +8038,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube15_001 → Slot15_002: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube15_001** **→** 先竖直lift 至配置 clearance 高度, 再持物move to **Slot15_002** (destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "Tube15_001 → Slot15_002：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube15_001** **→** 先竖直抬升至配置 clearance 高度，再持物移动至**Slot15_002**（目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "Tube15_001 → Slot15_002：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube15_001**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物**Slot15_002**へ移動（目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -7986,11 +8180,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -8018,25 +8212,35 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 5,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube50_001→ Slot50_002: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube50_001** **→** 先竖直lift 至配置 clearance 高度, 再持物move to **Slot50_002** (destination reference point position tolerance ≤0.02 m) (maintain 闭爪, 不release)",
               "prompt_zh": "Tube50_001→ Slot50_002：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube50_001** **→** 先竖直抬升至配置 clearance 高度，再持物移动至**Slot50_002**（目的参考点位置容差 ≤0.02 m）（保持闭爪，不释放）",
               "prompt_ja": "Tube50_001→ Slot50_002：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Tube50_001**を把持 **→** まず竖直持ち上げ至配置 clearance 高度、次に持物**Slot50_002**へ移動（目的基準点位置許容差 ≤0.02 m）（保持閉爪、不解放）",
@@ -8150,11 +8354,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "5"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry"
                 },
                 {
                   "name": "draft_status",
@@ -8190,33 +8394,45 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "lower",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "release",
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Pipette004 → PipetteSlot003: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Pipette004** **→** lift 至配置 clearance 高度 **→** move to place 目标above **→** 下降/插入至目标位 **→** release 并confirm **Pipette004**稳定支撑 (maintain **Blender 注册的 Pipette夹爪 orientation**; place position tolerance ≤0.02 m)",
               "prompt_zh": "Pipette004 → PipetteSlot003：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Pipette004** **→** 抬升至配置 clearance 高度 **→** 移动到放置目标上方 **→** 下降/插入至目标位 **→** 释放并确认**Pipette004**稳定支撑（保持**Blender 注册的 Pipette夹爪姿态**；放置位置容差 ≤0.02 m）",
               "prompt_ja": "Pipette004 → PipetteSlot003：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Pipette004**を把持 **→** 持ち上げ至配置 clearance 高度 **→** 移動設置目標上方 **→** 下降/插入至目標位 **→** 解放し確認**Pipette004**稳定支持（保持**Blender 注册的 Pipetteグリッパ姿態**；設置位置許容差 ≤0.02 m）",
@@ -8326,11 +8542,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → lower → release"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → lower → open_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -8358,33 +8574,45 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lower",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Opener → Opener: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Opener** **→** lift 至配置 clearance 高度 **→** move to place 目标above **→** 下降/插入至目标位 **→** release 并confirm **Opener**稳定支撑 (maintain **Blender 注册的 Opener夹爪 orientation**; place position tolerance ≤0.02 m)",
               "prompt_zh": "Opener → Opener：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Opener** **→** 抬升至配置 clearance 高度 **→** 移动到放置目标上方 **→** 下降/插入至目标位 **→** 释放并确认**Opener**稳定支撑（保持**Blender 注册的 Opener夹爪姿态**；放置位置容差 ≤0.02 m）",
               "prompt_ja": "Opener → Opener：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Opener**を把持 **→** 持ち上げ至配置 clearance 高度 **→** 移動設置目標上方 **→** 下降/插入至目標位 **→** 解放し確認**Opener**稳定支持（保持**Blender 注册的 Openerグリッパ姿態**；設置位置許容差 ≤0.02 m）",
@@ -8478,11 +8706,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → lower → release"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → lower → open_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -8510,33 +8738,45 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lower",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001 → Slot002: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** lift 至配置 clearance 高度 **→** move to place 目标above **→** 下降/插入至目标位 **→** release 并confirm **Tube001**稳定支撑 (place position tolerance ≤0.02 m)",
               "prompt_zh": "Tube001 → Slot002：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 抬升至配置 clearance 高度 **→** 移动到放置目标上方 **→** 下降/插入至目标位 **→** 释放并确认**Tube001**稳定支撑（放置位置容差 ≤0.02 m）",
               "prompt_ja": "Tube001 → Slot002：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** 持ち上げ至配置 clearance 高度 **→** 移動設置目標上方 **→** 下降/插入至目標位 **→** 解放し確認**Tube001**稳定支持（設置位置許容差 ≤0.02 m）",
@@ -8650,11 +8890,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → lower → release"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → lower → open_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -8682,33 +8922,45 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lower",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001 → Slot009: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** lift 至配置 clearance 高度 **→** move to place 目标above **→** 下降/插入至目标位 **→** release 并confirm **Tube001**稳定支撑 (place position tolerance ≤0.02 m)",
               "prompt_zh": "Tube001 → Slot009：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 抬升至配置 clearance 高度 **→** 移动到放置目标上方 **→** 下降/插入至目标位 **→** 释放并确认**Tube001**稳定支撑（放置位置容差 ≤0.02 m）",
               "prompt_ja": "Tube001 → Slot009：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** 持ち上げ至配置 clearance 高度 **→** 移動設置目標上方 **→** 下降/插入至目標位 **→** 解放し確認**Tube001**稳定支持（設置位置許容差 ≤0.02 m）",
@@ -8822,11 +9074,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → lower → release"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → lower → open_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -8854,33 +9106,45 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lower",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001 → Slot011: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** lift 至配置 clearance 高度 **→** move to place 目标above **→** 下降/插入至目标位 **→** release 并confirm **Tube001**稳定支撑 (place position tolerance ≤0.02 m)",
               "prompt_zh": "Tube001 → Slot011：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 抬升至配置 clearance 高度 **→** 移动到放置目标上方 **→** 下降/插入至目标位 **→** 释放并确认**Tube001**稳定支撑（放置位置容差 ≤0.02 m）",
               "prompt_ja": "Tube001 → Slot011：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** 持ち上げ至配置 clearance 高度 **→** 移動設置目標上方 **→** 下降/插入至目標位 **→** 解放し確認**Tube001**稳定支持（設置位置許容差 ≤0.02 m）",
@@ -9006,11 +9270,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → lower → release"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → lower → open_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -9038,33 +9302,45 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lower",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube001 → Slot013: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube001** **→** lift 至配置 clearance 高度 **→** move to place 目标above **→** 下降/插入至目标位 **→** release 并confirm **Tube001**稳定支撑 (place position tolerance ≤0.02 m)",
               "prompt_zh": "Tube001 → Slot013：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube001** **→** 抬升至配置 clearance 高度 **→** 移动到放置目标上方 **→** 下降/插入至目标位 **→** 释放并确认**Tube001**稳定支撑（放置位置容差 ≤0.02 m）",
               "prompt_ja": "Tube001 → Slot013：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube001**を把持 **→** 持ち上げ至配置 clearance 高度 **→** 移動設置目標上方 **→** 下降/插入至目標位 **→** 解放し確認**Tube001**稳定支持（設置位置許容差 ≤0.02 m）",
@@ -9190,11 +9466,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → lower → release"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → lower → open_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -9222,33 +9498,45 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
                   "skill": "lower",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "release",
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube15_001 → Slot15_002: **MaholoLeft** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube15_001** **→** lift 至配置 clearance 高度 **→** move to place 目标above **→** 下降/插入至目标位 **→** release 并confirm **Tube15_001**稳定支撑 (place position tolerance ≤0.02 m)",
               "prompt_zh": "Tube15_001 → Slot15_002：**MaholoLeft** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube15_001** **→** 抬升至配置 clearance 高度 **→** 移动到放置目标上方 **→** 下降/插入至目标位 **→** 释放并确认**Tube15_001**稳定支撑（放置位置容差 ≤0.02 m）",
               "prompt_ja": "Tube15_001 → Slot15_002：**MaholoLeft** **→** 直接 approach へ済み登録把持点 **→** **Tube15_001**を把持 **→** 持ち上げ至配置 clearance 高度 **→** 移動設置目標上方 **→** 下降/插入至目標位 **→** 解放し確認**Tube15_001**稳定支持（設置位置許容差 ≤0.02 m）",
@@ -9362,11 +9650,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → lower → release"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → lower → open_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -9394,33 +9682,45 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "lower",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "release",
+                  "skill": "open_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "Tube50_001 → Slot50_002: **MaholoRight** **→** 直接 approach 到已register grasp 点 **→** grasp **Tube50_001** **→** lift 至配置 clearance 高度 **→** move to place 目标above **→** 下降/插入至目标位 **→** release 并confirm **Tube50_001**稳定支撑 (place position tolerance ≤0.02 m)",
               "prompt_zh": "Tube50_001 → Slot50_002：**MaholoRight** **→** 直接 approach 到已登记抓取点 **→** 抓取**Tube50_001** **→** 抬升至配置 clearance 高度 **→** 移动到放置目标上方 **→** 下降/插入至目标位 **→** 释放并确认**Tube50_001**稳定支撑（放置位置容差 ≤0.02 m）",
               "prompt_ja": "Tube50_001 → Slot50_002：**MaholoRight** **→** 直接 approach へ済み登録把持点 **→** **Tube50_001**を把持 **→** 持ち上げ至配置 clearance 高度 **→** 移動設置目標上方 **→** 下降/插入至目標位 **→** 解放し確認**Tube50_001**稳定支持（設置位置許容差 ≤0.02 m）",
@@ -9534,11 +9834,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → lower → release"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → lower → open_gripper"
                 },
                 {
                   "name": "draft_status",
@@ -9574,39 +9874,51 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "descend",
+                  "skill": "press",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
-              "prompt": "Pipette004 → Tube001: both arms start at HOME → MaholoRight: approach directly to the fixed grasp point → grasp → carry to align Pipette::bottom with Tube001::top → keep the right gripper closed → MaholoLeft: approach directly to the current Pipette::top contact point → descend and press",
-              "prompt_zh": "Pipette004 → Tube001：两臂 HOME → MaholoRight approach→descend 至 Pipette 待机位→approach 至固定抓取点 → 固定抓持 Pipette004 → Pipette::bottom 对准 Tube001::top → 保持右夹爪闭合 → MaholoLeft 移至 Pipette::top 上方 → 左臂竖直下探并按压至 qpos -0.006 m（±0.0015 m；最小变化 0.002 m）",
-              "prompt_ja": "Pipette004 → Tube001：両腕は HOME から開始 → MaholoRight：固定把持点へ直接 approach → grasp → carryしてPipette::bottomをTube001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ直接 approach → descendして押し下げる",
-              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette004 over Tube001.\n**Steps** Pipette004 → Tube001: both arms start at HOME → MaholoRight: approach directly to the fixed grasp point → grasp → carry to align Pipette::bottom with Tube001::top → keep the right gripper closed → MaholoLeft: approach directly to the current Pipette::top contact point → descend and press\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette004 in PipetteSlot004. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette004. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
-              "detailed_prompt_zh": "**目标** 按压 Pipette004 的登记控制件。\n**步骤** Pipette004 → Tube001：两臂 HOME → MaholoRight approach→descend 至 Pipette 待机位→approach 至固定抓取点 → 固定抓持 Pipette004 → Pipette::bottom 对准 Tube001::top → 保持右夹爪闭合 → MaholoLeft 移至 Pipette::top 上方 → 左臂竖直下探并按压至 qpos -0.006 m（±0.0015 m；最小变化 0.002 m）\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette004 位于 PipetteSlot004；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette004 对准并按下 Tube001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette004 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
-              "detailed_prompt_ja": "**目的** Pipette004の登録済み制御部を押下します。\n**手順** Pipette004 → Tube001：両腕は HOME から開始 → MaholoRight：固定把持点へ直接 approach → grasp → carryしてPipette::bottomをTube001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ直接 approach → descendして押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette004はPipetteSlot004に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette004を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
+              "finish_signal": "finish",
+              "prompt": "Pipette004 → Tube001: both arms start at HOME → MaholoRight: approach(standby) → approach(goal) → close_gripper → lift → carry to align Pipette::bottom with Tube001::top → keep the right gripper closed → MaholoLeft: approach(goal) at the current Pipette::top contact point → press with the gripper closed",
+              "prompt_zh": "Pipette004 → Tube001：两臂从 HOME 开始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carry，将 Pipette::bottom 对准 Tube001::top → 保持持物夹爪闭合 → MaholoLeft：approach(goal) 至当前 Pipette::top → press，闭爪竖直下压",
+              "prompt_ja": "Pipette004 → Tube001：両腕は HOME から開始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carryしてPipette::bottomをTube001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ approach(goal) → pressで閉爪のまま押し下げる",
+              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette004 over Tube001.\n**Steps** Pipette004 → Tube001: both arms start at HOME → MaholoRight: approach(standby) → approach(goal) → close_gripper → lift → carry to align Pipette::bottom with Tube001::top → keep the right gripper closed → MaholoLeft: approach(goal) at the current Pipette::top contact point → press with the gripper closed\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette004 in PipetteSlot004. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette004. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
+              "detailed_prompt_zh": "**目标** 按压 Pipette004 的登记控制件。\n**步骤** Pipette004 → Tube001：两臂从 HOME 开始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carry，将 Pipette::bottom 对准 Tube001::top → 保持持物夹爪闭合 → MaholoLeft：approach(goal) 至当前 Pipette::top → press，闭爪竖直下压\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette004 位于 PipetteSlot004；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette004 对准并按下 Tube001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette004 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
+              "detailed_prompt_ja": "**目的** Pipette004の登録済み制御部を押下します。\n**手順** Pipette004 → Tube001：両腕は HOME から開始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carryしてPipette::bottomをTube001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ approach(goal) → pressで閉爪のまま押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette004はPipetteSlot004に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette004を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
               "parameters": [
                 {
                   "name": "benchmark_instance_key",
@@ -9754,11 +10066,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → approach → descend"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → approach(goal) → press"
                 },
                 {
                   "name": "draft_status",
@@ -9786,39 +10098,51 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "descend",
+                  "skill": "press",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
-              "prompt": "Pipette004 → Tube15_001: both arms start at HOME → MaholoRight: approach directly to the fixed grasp point → grasp → carry to align Pipette::bottom with Tube15_001::top → keep the right gripper closed → MaholoLeft: approach directly to the current Pipette::top contact point → descend and press",
-              "prompt_zh": "Pipette004 → Tube15_001：两臂 HOME → MaholoRight approach→descend 至 Pipette 待机位→approach 至固定抓取点 → 固定抓持 Pipette004 → Pipette::bottom 对准 Tube15_001::top → 保持右夹爪闭合 → MaholoLeft 移至 Pipette::top 上方 → 左臂竖直下探并按压至 qpos -0.006 m（±0.0015 m；最小变化 0.002 m）",
-              "prompt_ja": "Pipette004 → Tube15_001：両腕は HOME から開始 → MaholoRight：固定把持点へ直接 approach → grasp → carryしてPipette::bottomをTube15_001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ直接 approach → descendして押し下げる",
-              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette004 over Tube15_001.\n**Steps** Pipette004 → Tube15_001: both arms start at HOME → MaholoRight: approach directly to the fixed grasp point → grasp → carry to align Pipette::bottom with Tube15_001::top → keep the right gripper closed → MaholoLeft: approach directly to the current Pipette::top contact point → descend and press\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette004 in PipetteSlot004. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette004. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube15_001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
-              "detailed_prompt_zh": "**目标** 按压 Pipette004 的登记控制件。\n**步骤** Pipette004 → Tube15_001：两臂 HOME → MaholoRight approach→descend 至 Pipette 待机位→approach 至固定抓取点 → 固定抓持 Pipette004 → Pipette::bottom 对准 Tube15_001::top → 保持右夹爪闭合 → MaholoLeft 移至 Pipette::top 上方 → 左臂竖直下探并按压至 qpos -0.006 m（±0.0015 m；最小变化 0.002 m）\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette004 位于 PipetteSlot004；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette004 对准并按下 Tube15_001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette004 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
-              "detailed_prompt_ja": "**目的** Pipette004の登録済み制御部を押下します。\n**手順** Pipette004 → Tube15_001：両腕は HOME から開始 → MaholoRight：固定把持点へ直接 approach → grasp → carryしてPipette::bottomをTube15_001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ直接 approach → descendして押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette004はPipetteSlot004に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette004を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
+              "finish_signal": "finish",
+              "prompt": "Pipette004 → Tube15_001: both arms start at HOME → MaholoRight: approach(standby) → approach(goal) → close_gripper → lift → carry to align Pipette::bottom with Tube15_001::top → keep the right gripper closed → MaholoLeft: approach(goal) at the current Pipette::top contact point → press with the gripper closed",
+              "prompt_zh": "Pipette004 → Tube15_001：两臂从 HOME 开始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carry，将 Pipette::bottom 对准 Tube15_001::top → 保持持物夹爪闭合 → MaholoLeft：approach(goal) 至当前 Pipette::top → press，闭爪竖直下压",
+              "prompt_ja": "Pipette004 → Tube15_001：両腕は HOME から開始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carryしてPipette::bottomをTube15_001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ approach(goal) → pressで閉爪のまま押し下げる",
+              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette004 over Tube15_001.\n**Steps** Pipette004 → Tube15_001: both arms start at HOME → MaholoRight: approach(standby) → approach(goal) → close_gripper → lift → carry to align Pipette::bottom with Tube15_001::top → keep the right gripper closed → MaholoLeft: approach(goal) at the current Pipette::top contact point → press with the gripper closed\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette004 in PipetteSlot004. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette004. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube15_001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
+              "detailed_prompt_zh": "**目标** 按压 Pipette004 的登记控制件。\n**步骤** Pipette004 → Tube15_001：两臂从 HOME 开始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carry，将 Pipette::bottom 对准 Tube15_001::top → 保持持物夹爪闭合 → MaholoLeft：approach(goal) 至当前 Pipette::top → press，闭爪竖直下压\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette004 位于 PipetteSlot004；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette004 对准并按下 Tube15_001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette004 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
+              "detailed_prompt_ja": "**目的** Pipette004の登録済み制御部を押下します。\n**手順** Pipette004 → Tube15_001：両腕は HOME から開始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carryしてPipette::bottomをTube15_001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ approach(goal) → pressで閉爪のまま押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette004はPipetteSlot004に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette004を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
               "parameters": [
                 {
                   "name": "benchmark_instance_key",
@@ -9966,11 +10290,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → approach → descend"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → approach(goal) → press"
                 },
                 {
                   "name": "draft_status",
@@ -9998,39 +10322,51 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 5,
+              "steps": 7,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "lift",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "carry",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "descend",
+                  "skill": "press",
+                  "target_ref": null,
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
-              "prompt": "Pipette004 → Tube50_001: both arms start at HOME → MaholoRight: approach directly to the fixed grasp point → grasp → carry to align Pipette::bottom with Tube50_001::top → keep the right gripper closed → MaholoLeft: approach directly to the current Pipette::top contact point → descend and press",
-              "prompt_zh": "Pipette004 → Tube50_001：两臂 HOME → MaholoRight approach→descend 至 Pipette 待机位→approach 至固定抓取点 → 固定抓持 Pipette004 → Pipette::bottom 对准 Tube50_001::top → 保持右夹爪闭合 → MaholoLeft 移至 Pipette::top 上方 → 左臂竖直下探并按压至 qpos -0.006 m（±0.0015 m；最小变化 0.002 m）",
-              "prompt_ja": "Pipette004 → Tube50_001：両腕は HOME から開始 → MaholoRight：固定把持点へ直接 approach → grasp → carryしてPipette::bottomをTube50_001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ直接 approach → descendして押し下げる",
-              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette004 over Tube50_001.\n**Steps** Pipette004 → Tube50_001: both arms start at HOME → MaholoRight: approach directly to the fixed grasp point → grasp → carry to align Pipette::bottom with Tube50_001::top → keep the right gripper closed → MaholoLeft: approach directly to the current Pipette::top contact point → descend and press\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette004 in PipetteSlot004. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette004. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube50_001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
-              "detailed_prompt_zh": "**目标** 按压 Pipette004 的登记控制件。\n**步骤** Pipette004 → Tube50_001：两臂 HOME → MaholoRight approach→descend 至 Pipette 待机位→approach 至固定抓取点 → 固定抓持 Pipette004 → Pipette::bottom 对准 Tube50_001::top → 保持右夹爪闭合 → MaholoLeft 移至 Pipette::top 上方 → 左臂竖直下探并按压至 qpos -0.006 m（±0.0015 m；最小变化 0.002 m）\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette004 位于 PipetteSlot004；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette004 对准并按下 Tube50_001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette004 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
-              "detailed_prompt_ja": "**目的** Pipette004の登録済み制御部を押下します。\n**手順** Pipette004 → Tube50_001：両腕は HOME から開始 → MaholoRight：固定把持点へ直接 approach → grasp → carryしてPipette::bottomをTube50_001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ直接 approach → descendして押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette004はPipetteSlot004に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette004を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
+              "finish_signal": "finish",
+              "prompt": "Pipette004 → Tube50_001: both arms start at HOME → MaholoRight: approach(standby) → approach(goal) → close_gripper → lift → carry to align Pipette::bottom with Tube50_001::top → keep the right gripper closed → MaholoLeft: approach(goal) at the current Pipette::top contact point → press with the gripper closed",
+              "prompt_zh": "Pipette004 → Tube50_001：两臂从 HOME 开始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carry，将 Pipette::bottom 对准 Tube50_001::top → 保持持物夹爪闭合 → MaholoLeft：approach(goal) 至当前 Pipette::top → press，闭爪竖直下压",
+              "prompt_ja": "Pipette004 → Tube50_001：両腕は HOME から開始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carryしてPipette::bottomをTube50_001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ approach(goal) → pressで閉爪のまま押し下げる",
+              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette004 over Tube50_001.\n**Steps** Pipette004 → Tube50_001: both arms start at HOME → MaholoRight: approach(standby) → approach(goal) → close_gripper → lift → carry to align Pipette::bottom with Tube50_001::top → keep the right gripper closed → MaholoLeft: approach(goal) at the current Pipette::top contact point → press with the gripper closed\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette004 in PipetteSlot004. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette004. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube50_001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
+              "detailed_prompt_zh": "**目标** 按压 Pipette004 的登记控制件。\n**步骤** Pipette004 → Tube50_001：两臂从 HOME 开始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carry，将 Pipette::bottom 对准 Tube50_001::top → 保持持物夹爪闭合 → MaholoLeft：approach(goal) 至当前 Pipette::top → press，闭爪竖直下压\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette004 位于 PipetteSlot004；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette004 对准并按下 Tube50_001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette004 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
+              "detailed_prompt_ja": "**目的** Pipette004の登録済み制御部を押下します。\n**手順** Pipette004 → Tube50_001：両腕は HOME から開始 → MaholoRight：approach(standby) → approach(goal) → close_gripper → lift → carryしてPipette::bottomをTube50_001のtopへ合わせる → 右グリッパを閉じたまま保持 → MaholoLeft：現在のPipette::top接触点へ approach(goal) → pressで閉爪のまま押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette004はPipetteSlot004に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette004を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
               "parameters": [
                 {
                   "name": "benchmark_instance_key",
@@ -10178,11 +10514,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "5"
+                  "value": "7"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → carry → approach → descend"
+                  "value": "approach(standby) → approach(goal) → close_gripper → lift → carry → approach(goal) → press"
                 },
                 {
                   "name": "draft_status",
@@ -10218,25 +10554,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "rotate",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "MicrotubeMixer: **MaholoRight** **→** 直接 approach 到已register operation point **→** rotate **MicrotubeMixer adjustment knob** to qpos **1.2 rad** (tolerance ±0.05 rad, minimum change 0.2 rad)",
               "prompt_zh": "MicrotubeMixer：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 旋转**MicrotubeMixer调节旋钮** 至 qpos **1.2 rad**（容差 ±0.05 rad、最小变化 0.2 rad）",
               "prompt_ja": "MicrotubeMixer：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **MicrotubeMixerの調整ノブ**をqpos **1.2 rad**まで回転（許容差 ±0.05 rad、最小変化 0.2 rad）",
@@ -10322,11 +10663,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → rotate"
+                  "value": "approach(standby) → approach(goal) → close_gripper → rotate"
                 },
                 {
                   "name": "draft_status",
@@ -10354,25 +10695,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
                   "skill": "rotate",
+                  "target_ref": null,
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "finish",
-                  "arm": null
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "CO2Incubator: **MaholoRight** **→** 直接 approach 到已register operation point **→** rotate **CO2Incubator inner lock lever** (outer door open; along register unlock direction rotate 0.5±0.05 rad)",
               "prompt_zh": "CO2Incubator：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 旋转**CO2Incubator内锁杆**（外门已打开；沿登记解锁方向旋转 0.5±0.05 rad）",
               "prompt_ja": "CO2Incubator：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **CO2Incubator内側ロックレバー**を回転（外扉を開けた状態；登録解錠方向へ回転 0.5±0.05 rad）",
@@ -10462,11 +10808,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → rotate"
+                  "value": "approach(standby) → approach(goal) → close_gripper → rotate"
                 },
                 {
                   "name": "draft_status",
@@ -10502,25 +10848,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "open",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "open_hinge",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "CO2Incubator: **MaholoRight** **→** 直接 approach 到已register operation point **→** open **CO2Incubator outer door**, qpos **0→3.1416** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "CO2Incubator：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 打开**CO2Incubator外门**，qpos **0→3.1416**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "CO2Incubator：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **CO2Incubator外扉**を開く、qpos **0→3.1416**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -10622,11 +10973,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → open"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -10654,25 +11005,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "open",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "open_hinge",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "CoolIncubator4C: **MaholoRight** **→** 直接 approach 到已register operation point **→** open **CoolIncubator4C door**, qpos **0→-2.618** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "CoolIncubator4C：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 打开**CoolIncubator4C门**，qpos **0→-2.618**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "CoolIncubator4C：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **CoolIncubator4Cドア**を開く、qpos **0→-2.618**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -10774,11 +11130,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → open"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -10806,25 +11162,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "open",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "open_hinge",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "DeepFreezer: **MaholoRight** **→** 直接 approach 到已register operation point **→** open **DeepFreezer lid**, qpos **0→3.1416** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "DeepFreezer：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 打开**DeepFreezer盖子**，qpos **0→3.1416**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "DeepFreezer：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **DeepFreezerの蓋**を開く、qpos **0→3.1416**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -10926,11 +11287,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → open"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -10958,25 +11319,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "open",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "open_hinge",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "MX307: **MaholoLeft** **→** 直接 approach 到已register operation point **→** open **MX307 lid**, qpos **1.4813→0** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "MX307：**MaholoLeft** **→** 直接 approach 到已登记操作点 **→** 打开**MX307盖子**，qpos **1.4813→0**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "MX307：**MaholoLeft** **→** 直接 approach へ済み登録操作点 **→** **MX307の蓋**を開く、qpos **1.4813→0**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -11078,11 +11444,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → open"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -11110,25 +11476,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "open",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "open_hinge",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "BlockThermostaticBath: **MaholoLeft** **→** 直接 approach 到已register operation point **→** open **BlockThermostaticBath lid**, qpos **-1.9199→0** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "BlockThermostaticBath：**MaholoLeft** **→** 直接 approach 到已登记操作点 **→** 打开**BlockThermostaticBath盖子**，qpos **-1.9199→0**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "BlockThermostaticBath：**MaholoLeft** **→** 直接 approach へ済み登録操作点 **→** **BlockThermostaticBathの蓋**を開く、qpos **-1.9199→0**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -11230,11 +11601,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → open"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -11262,25 +11633,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "open",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "open_hinge",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "BlockThermostaticBath2: **MaholoLeft** **→** 直接 approach 到已register operation point **→** open **BlockThermostaticBath2 lid**, qpos **-1.9199→0** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "BlockThermostaticBath2：**MaholoLeft** **→** 直接 approach 到已登记操作点 **→** 打开**BlockThermostaticBath2盖子**，qpos **-1.9199→0**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "BlockThermostaticBath2：**MaholoLeft** **→** 直接 approach へ済み登録操作点 **→** **BlockThermostaticBath2の蓋**を開く、qpos **-1.9199→0**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -11382,11 +11758,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → open"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -11414,25 +11790,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "open",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "open_hinge",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "ThermalCycler: **MaholoRight** **→** 直接 approach 到已register operation point **→** open **ThermalCycler lid**, qpos **1.5708→0** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "ThermalCycler：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 打开**ThermalCycler盖子**，qpos **1.5708→0**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "ThermalCycler：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **ThermalCyclerの蓋**を開く、qpos **1.5708→0**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -11534,11 +11915,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → open"
+                  "value": "approach(standby) → approach(goal) → close_gripper → open_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -11574,25 +11955,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "close",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_hinge",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "CO2Incubator: **MaholoRight** **→** 直接 approach 到已register operation point **→** close **CO2Incubator outer door**, qpos **3.1416→0** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "CO2Incubator：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 关闭**CO2Incubator外门**，qpos **3.1416→0**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "CO2Incubator：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **CO2Incubator外扉**を閉じる、qpos **3.1416→0**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -11694,11 +12080,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → close"
+                  "value": "approach(standby) → approach(goal) → close_gripper → close_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -11726,25 +12112,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "close",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_hinge",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "CoolIncubator4C: **MaholoRight** **→** 直接 approach 到已register operation point **→** close **CoolIncubator4C door**, qpos **-2.618→0** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "CoolIncubator4C：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 关闭**CoolIncubator4C门**，qpos **-2.618→0**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "CoolIncubator4C：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **CoolIncubator4Cドア**を閉じる、qpos **-2.618→0**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -11846,11 +12237,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → close"
+                  "value": "approach(standby) → approach(goal) → close_gripper → close_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -11878,25 +12269,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "close",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_hinge",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "DeepFreezer: **MaholoRight** **→** 直接 approach 到已register operation point **→** close **DeepFreezer lid**, qpos **3.1416→0** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "DeepFreezer：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 关闭**DeepFreezer盖子**，qpos **3.1416→0**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "DeepFreezer：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **DeepFreezerの蓋**を閉じる、qpos **3.1416→0**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -11998,11 +12394,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → close"
+                  "value": "approach(standby) → approach(goal) → close_gripper → close_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -12030,25 +12426,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "close",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_hinge",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "MX307: **MaholoLeft** **→** 直接 approach 到已register operation point **→** close **MX307 lid**, qpos **0→1.4813** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "MX307：**MaholoLeft** **→** 直接 approach 到已登记操作点 **→** 关闭**MX307盖子**，qpos **0→1.4813**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "MX307：**MaholoLeft** **→** 直接 approach へ済み登録操作点 **→** **MX307の蓋**を閉じる、qpos **0→1.4813**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -12150,11 +12551,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → close"
+                  "value": "approach(standby) → approach(goal) → close_gripper → close_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -12182,25 +12583,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "close",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_hinge",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "BlockThermostaticBath: **MaholoLeft** **→** 直接 approach 到已register operation point **→** close **BlockThermostaticBath lid**, qpos **0→-1.9199** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "BlockThermostaticBath：**MaholoLeft** **→** 直接 approach 到已登记操作点 **→** 关闭**BlockThermostaticBath盖子**，qpos **0→-1.9199**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "BlockThermostaticBath：**MaholoLeft** **→** 直接 approach へ済み登録操作点 **→** **BlockThermostaticBathの蓋**を閉じる、qpos **0→-1.9199**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -12302,11 +12708,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → close"
+                  "value": "approach(standby) → approach(goal) → close_gripper → close_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -12334,25 +12740,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "close",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-left"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_hinge",
+                  "target_ref": null,
+                  "arm": "physical-left"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "BlockThermostaticBath2: **MaholoLeft** **→** 直接 approach 到已register operation point **→** close **BlockThermostaticBath2 lid**, qpos **0→-1.9199** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "BlockThermostaticBath2：**MaholoLeft** **→** 直接 approach 到已登记操作点 **→** 关闭**BlockThermostaticBath2盖子**，qpos **0→-1.9199**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "BlockThermostaticBath2：**MaholoLeft** **→** 直接 approach へ済み登録操作点 **→** **BlockThermostaticBath2の蓋**を閉じる、qpos **0→-1.9199**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -12454,11 +12865,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → close"
+                  "value": "approach(standby) → approach(goal) → close_gripper → close_hinge"
                 },
                 {
                   "name": "draft_status",
@@ -12486,25 +12897,30 @@
               "success": false,
               "status": "planned",
               "maturity": "model-only",
-              "steps": 3,
+              "steps": 4,
               "rules_skill_sequence": [
                 {
                   "skill": "approach",
+                  "target_ref": "standby",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "grasp",
+                  "skill": "approach",
+                  "target_ref": "goal",
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "close",
+                  "skill": "close_gripper",
+                  "target_ref": null,
                   "arm": "physical-right"
                 },
                 {
-                  "skill": "finish",
-                  "arm": null
+                  "skill": "close_hinge",
+                  "target_ref": null,
+                  "arm": "physical-right"
                 }
               ],
+              "finish_signal": "finish",
               "prompt": "ThermalCycler: **MaholoRight** **→** 直接 approach 到已register operation point **→** close **ThermalCycler lid**, qpos **0→1.5708** (tolerance ±0.05 rad, minimum change 0.1 rad)",
               "prompt_zh": "ThermalCycler：**MaholoRight** **→** 直接 approach 到已登记操作点 **→** 关闭**ThermalCycler盖子**，qpos **0→1.5708**（容差 ±0.05 rad、最小变化 0.1 rad）",
               "prompt_ja": "ThermalCycler：**MaholoRight** **→** 直接 approach へ済み登録操作点 **→** **ThermalCyclerの蓋**を閉じる、qpos **0→1.5708**（許容差 ±0.05 rad、最小変化 0.1 rad）",
@@ -12606,11 +13022,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "3"
+                  "value": "4"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach → grasp → close"
+                  "value": "approach(standby) → approach(goal) → close_gripper → close_hinge"
                 },
                 {
                   "name": "draft_status",
