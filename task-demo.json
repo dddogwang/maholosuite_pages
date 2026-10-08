@@ -9,6 +9,7 @@
         {
           "task_id": "L1.reach_target",
           "task_family": "reach_target",
+          "available_count": 58,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -2565,6 +2566,7 @@
         {
           "task_id": "L1.grasp_object",
           "task_family": "grasp_object",
+          "available_count": 50,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -4485,6 +4487,7 @@
         {
           "task_id": "L1.release_object",
           "task_family": "release_object",
+          "available_count": 50,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -6905,6 +6908,7 @@
         {
           "task_id": "L1.lift_object",
           "task_family": "lift_object",
+          "available_count": 48,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -8681,6 +8685,7 @@
         {
           "task_id": "L1.transport_object",
           "task_family": "transport_object",
+          "available_count": 2323,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -11309,6 +11314,7 @@
         {
           "task_id": "L1.place_object",
           "task_family": "place_object",
+          "available_count": 2210,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -13765,6 +13771,7 @@
         {
           "task_id": "L1.press_control",
           "task_family": "press_control",
+          "available_count": 342,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -14817,6 +14824,7 @@
         {
           "task_id": "L1.rotate_control",
           "task_family": "rotate_control",
+          "available_count": 2,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -15241,6 +15249,7 @@
         {
           "task_id": "L1.open_articulated_part",
           "task_family": "open_articulated_part",
+          "available_count": 7,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -16803,6 +16812,7 @@
         {
           "task_id": "L1.close_articulated_part",
           "task_family": "close_articulated_part",
+          "available_count": 7,
           "maturity": "model-only",
           "status": "planned",
           "subtasks": [
@@ -18370,6 +18380,7 @@
         {
           "task_id": "L2.pipette_press_cycle",
           "task_family": "pipette_press_cycle",
+          "available_count": 3,
           "maturity": "geometry-first",
           "status": "planned",
           "subtasks": [
@@ -18996,6 +19007,7 @@
         {
           "task_id": "L2.opener_tube_cycle",
           "task_family": "opener_tube_cycle",
+          "available_count": 1,
           "maturity": "geometry-first",
           "status": "planned",
           "subtasks": [
@@ -19194,6 +19206,7 @@
         {
           "task_id": "L2.device_open_close_cycle",
           "task_family": "device_open_close_cycle",
+          "available_count": 7,
           "maturity": "geometry-first",
           "status": "planned",
           "subtasks": [
@@ -20084,6 +20097,7 @@
         {
           "task_id": "L2.co2_incubator_control_cycle",
           "task_family": "co2_incubator_control_cycle",
+          "available_count": 1,
           "maturity": "geometry-first",
           "status": "planned",
           "subtasks": [
@@ -20310,6 +20324,7 @@
         {
           "task_id": "L2.microtube_mixer_cycle",
           "task_family": "microtube_mixer_cycle",
+          "available_count": 3,
           "maturity": "geometry-first",
           "status": "planned",
           "subtasks": [
@@ -20900,6 +20915,7 @@
         {
           "task_id": "L2.block_thermostatic_bath_cycle",
           "task_family": "block_thermostatic_bath_cycle",
+          "available_count": 2,
           "maturity": "geometry-first",
           "status": "planned",
           "subtasks": [
@@ -21400,6 +21416,7 @@
         {
           "task_id": "L2.cool_incubator_holder_tube_cycle",
           "task_family": "cool_incubator_holder_tube_cycle",
+          "available_count": 2,
           "maturity": "geometry-first",
           "status": "planned",
           "subtasks": [
@@ -21889,6 +21906,7 @@
         {
           "task_id": "L3.tube_prepare_and_operate",
           "task_family": "tube_prepare_and_operate",
+          "available_count": 3,
           "maturity": "planned",
           "status": "planned",
           "subtasks": [
@@ -22431,6 +22449,7 @@
         {
           "task_id": "L3.tube_condition_and_store",
           "task_family": "tube_condition_and_store",
+          "available_count": 2,
           "maturity": "planned",
           "status": "planned",
           "subtasks": [
@@ -22797,701 +22816,6 @@
                 {
                   "name": "route_stages",
                   "value": "open_source_bath → retrieve_closed_source_tube → close_source_bath → open_cool_incubator → place_tube_in_holder_local_slot → close_cool_incubator → home_both_arms"
-                },
-                {
-                  "name": "draft_status",
-                  "value": "draft_route_only"
-                },
-                {
-                  "name": "physical_validation",
-                  "value": "not_performed"
-                },
-                {
-                  "name": "source_prompt",
-                  "value": "docs/MAHOLO_TASK_PROMPTS_BY_TARGET.md"
-                }
-              ],
-              "video": null,
-              "poster": null
-            }
-          ]
-        }
-      ]
-    },
-    "L4": {
-      "status": "planned",
-      "tasks": [
-        {
-          "task_id": "L4.tube_prepare_and_operate_protocol",
-          "task_family": "tube_prepare_and_operate_protocol",
-          "maturity": "symbolic-only",
-          "status": "planned",
-          "subtasks": [
-            {
-              "target_instance": "Tube001",
-              "target_label": "Tube001_to_Slot009_MicrotubeMixer",
-              "destination_standby_point": "Slot009",
-              "robot": null,
-              "active_arm": null,
-              "controller": "STRUCTURED_PROTOCOL_EVENT",
-              "success": false,
-              "status": "planned",
-              "maturity": "symbolic-only",
-              "steps": 6,
-              "prompt": "Tube001 → MicrotubeMixer / Slot009: **register** Tube001 initial state **→** **execute** `L3.tube_prepare_and_operate` (MicrotubeMixer) **→** **confirm** Opener open lid, Pipette005 press, Opener close lid and MicrotubeMixer stages complete in order **→** **confirm** Tube001 tube lid close and located at MicrotubeMixer / Slot009 **→** **protocol complete**.",
-              "prompt_zh": "Tube001 → MicrotubeMixer / Slot009：**登记** Tube001 初始状态 **→** **执行** `L3.tube_prepare_and_operate`（MicrotubeMixer） **→** **确认** Opener 开盖、Pipette005 按压、Opener 关盖和 MicrotubeMixer 阶段依次完成 **→** **确认** Tube001 管盖关闭且位于 MicrotubeMixer / Slot009 **→** **协议完成**。",
-              "prompt_ja": "Tube001 → MicrotubeMixer / Slot009：**登録** Tube001 初期状態 **→** **実行** `L3.tube_prepare_and_operate`（MicrotubeMixer） **→** **確認** Opener 開蓋、Pipette005 押下、Opener 閉蓋と MicrotubeMixer 各段階を順番に完了 **→** **確認** Tube001 チューブ蓋を閉じて配置 MicrotubeMixer / Slot009 **→** **プロトコル完了**。",
-              "detailed_prompt": "**Goal** Register and confirm the L3 prepare-and-operate run for Tube001.\n**Steps** Tube001 → MicrotubeMixer / Slot009: **register** Tube001 initial state **→** **execute** `L3.tube_prepare_and_operate` (MicrotubeMixer) **→** **confirm** Opener open lid, Pipette005 press, Opener close lid and MicrotubeMixer stages complete in order **→** **confirm** Tube001 tube lid close and located at MicrotubeMixer / Slot009 **→** **protocol complete**.\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Tube001 in Slot001. The target slot Slot009 starts empty. The tube lid starts closed. Reference objects excluded from the target slot are Tube009, Tube010.\n**Execution** Register the initial closed tube, confirm Opener open, Pipette press/release, Opener close, target-device operation, and the final closed-tube slot. The protocol log must preserve stage order and sample identity.\n**Completion and boundary** This is a protocol ledger; it does not turn mechanical completion into mixing, temperature, or biological outcomes. Treat this as a protocol ledger: record sample identity, locations, stage order, requested conditions, and final state; do not infer temperature, liquid volume, biological, or physical outcomes without evidence.",
-              "detailed_prompt_zh": "**目标** 登记并确认 Tube001 的协议阶段与最终状态。\n**步骤** Tube001 → MicrotubeMixer / Slot009：**登记** Tube001 初始状态 **→** **执行** `L3.tube_prepare_and_operate`（MicrotubeMixer） **→** **确认** Opener 开盖、Pipette005 按压、Opener 关盖和 MicrotubeMixer 阶段依次完成 **→** **确认** Tube001 管盖关闭且位于 MicrotubeMixer / Slot009 **→** **协议完成**。\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Tube001 位于 Slot001；目标槽位 Slot009 在 reset 时为空；试管盖初始为关闭；以下参考对象不计入目标槽位：Tube009、Tube010。\n**执行** 按登记的步骤顺序完成本实例流程。\n**完成与边界** 将本实例作为协议账本处理：记录样本身份、位置、阶段顺序、请求条件和最终状态；没有独立证据时不推断温度、液体体积、生物学或真实机器人结果。",
-              "detailed_prompt_ja": "**目的** Tube001のプロトコル段階と最終状態を登録・確認します。\n**手順** Tube001 → MicrotubeMixer / Slot009：**登録** Tube001 初期状態 **→** **実行** `L3.tube_prepare_and_operate`（MicrotubeMixer） **→** **確認** Opener 開蓋、Pipette005 押下、Opener 閉蓋と MicrotubeMixer 各段階を順番に完了 **→** **確認** Tube001 チューブ蓋を閉じて配置 MicrotubeMixer / Slot009 **→** **プロトコル完了**。\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Tube001はSlot001に配置済み；目標スロットSlot009はreset時に空；チューブ蓋は閉じた状態で開始；目標スロットから除外する参照オブジェクトはTube009、Tube010。\n**実行** 下位レベルの実行結果を登録し、各段階の事実、サンプル識別子、位置、終了条件を順番に確認します。\n**完了条件と境界** プロトコル台帳として、サンプル識別子、場所、段階順序、要求条件、最終状態を記録し、独立した証拠なしに温度、液体量、生物学的結果、実機結果を推定しません。",
-              "parameters": [
-                {
-                  "name": "benchmark_instance_key",
-                  "value": "Tube001_to_Slot009_MicrotubeMixer"
-                },
-                {
-                  "name": "level",
-                  "value": "L4"
-                },
-                {
-                  "name": "task_id",
-                  "value": "L4.tube_prepare_and_operate_protocol"
-                },
-                {
-                  "name": "reset.episode_start",
-                  "value": "HOME"
-                },
-                {
-                  "name": "reset.approach_and_grasp_counted",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.source_object_id",
-                  "value": "Tube001"
-                },
-                {
-                  "name": "reset.source_slot_id",
-                  "value": "Slot001"
-                },
-                {
-                  "name": "reset.target_slot_id",
-                  "value": "Slot009"
-                },
-                {
-                  "name": "reset.target_slot_empty_at_reset",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.slot_occupancy_at_reset",
-                  "value": "{\"Slot001\":\"Tube001\",\"Slot009\":\"empty\"}"
-                },
-                {
-                  "name": "reset.excluded_reference_objects",
-                  "value": "[Tube009, Tube010]"
-                },
-                {
-                  "name": "reset.initial_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "reset.holder_local_frame",
-                  "value": "false"
-                },
-                {
-                  "name": "instance.source_sample",
-                  "value": "Tube001"
-                },
-                {
-                  "name": "instance.source_slot",
-                  "value": "Slot001"
-                },
-                {
-                  "name": "instance.target_device",
-                  "value": "MicrotubeMixer"
-                },
-                {
-                  "name": "instance.target_slot",
-                  "value": "Slot009"
-                },
-                {
-                  "name": "instance.linked_l3_workflow",
-                  "value": "L3.tube_prepare_and_operate"
-                },
-                {
-                  "name": "instance.physical_outcome_available",
-                  "value": "false"
-                },
-                {
-                  "name": "instance.initial_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "instance.target_slot_empty",
-                  "value": "true"
-                },
-                {
-                  "name": "instance.final_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "route_stage_count",
-                  "value": "6"
-                },
-                {
-                  "name": "route_stages",
-                  "value": "register_initial_state → confirm_opener_open → confirm_pipette_press → confirm_opener_close → confirm_device_operation → confirm_final_state"
-                },
-                {
-                  "name": "draft_status",
-                  "value": "draft_route_only"
-                },
-                {
-                  "name": "physical_validation",
-                  "value": "not_performed"
-                },
-                {
-                  "name": "source_prompt",
-                  "value": "docs/MAHOLO_TASK_PROMPTS_BY_TARGET.md"
-                }
-              ],
-              "video": null,
-              "poster": null
-            },
-            {
-              "target_instance": "Tube001",
-              "target_label": "Tube001_to_Slot011_BlockThermostaticBath",
-              "destination_standby_point": "Slot011",
-              "robot": null,
-              "active_arm": null,
-              "controller": "STRUCTURED_PROTOCOL_EVENT",
-              "success": false,
-              "status": "planned",
-              "maturity": "symbolic-only",
-              "steps": 6,
-              "prompt": "Tube001 → BlockThermostaticBath / Slot011: **register** Tube001 initial state **→** **execute** `L3.tube_prepare_and_operate` (Bath 1) **→** **confirm** Opener open lid, Pipette005 press, Opener close lid and Bath 1 stages complete in order **→** **confirm** Tube001 tube lid close and located at BlockThermostaticBath / Slot011 **→** **protocol complete**.",
-              "prompt_zh": "Tube001 → BlockThermostaticBath / Slot011：**登记** Tube001 初始状态 **→** **执行** `L3.tube_prepare_and_operate`（Bath 1） **→** **确认** Opener 开盖、Pipette005 按压、Opener 关盖和 Bath 1 阶段依次完成 **→** **确认** Tube001 管盖关闭且位于 BlockThermostaticBath / Slot011 **→** **协议完成**。",
-              "prompt_ja": "Tube001 → BlockThermostaticBath / Slot011：**登録** Tube001 初期状態 **→** **実行** `L3.tube_prepare_and_operate`（Bath 1） **→** **確認** Opener 開蓋、Pipette005 押下、Opener 閉蓋と Bath 1 各段階を順番に完了 **→** **確認** Tube001 チューブ蓋を閉じて配置 BlockThermostaticBath / Slot011 **→** **プロトコル完了**。",
-              "detailed_prompt": "**Goal** Register and confirm the L3 prepare-and-operate run for Tube001.\n**Steps** Tube001 → BlockThermostaticBath / Slot011: **register** Tube001 initial state **→** **execute** `L3.tube_prepare_and_operate` (Bath 1) **→** **confirm** Opener open lid, Pipette005 press, Opener close lid and Bath 1 stages complete in order **→** **confirm** Tube001 tube lid close and located at BlockThermostaticBath / Slot011 **→** **protocol complete**.\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Tube001 in Slot001. The target slot Slot011 starts empty. The tube lid starts closed. Reference objects excluded from the target slot are Tube011, Tube012.\n**Execution** Register the initial closed tube, confirm Opener open, Pipette press/release, Opener close, target-device operation, and the final closed-tube slot. The protocol log must preserve stage order and sample identity.\n**Completion and boundary** This is a protocol ledger; it does not turn mechanical completion into mixing, temperature, or biological outcomes. Treat this as a protocol ledger: record sample identity, locations, stage order, requested conditions, and final state; do not infer temperature, liquid volume, biological, or physical outcomes without evidence.",
-              "detailed_prompt_zh": "**目标** 登记并确认 Tube001 的协议阶段与最终状态。\n**步骤** Tube001 → BlockThermostaticBath / Slot011：**登记** Tube001 初始状态 **→** **执行** `L3.tube_prepare_and_operate`（Bath 1） **→** **确认** Opener 开盖、Pipette005 按压、Opener 关盖和 Bath 1 阶段依次完成 **→** **确认** Tube001 管盖关闭且位于 BlockThermostaticBath / Slot011 **→** **协议完成**。\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Tube001 位于 Slot001；目标槽位 Slot011 在 reset 时为空；试管盖初始为关闭；以下参考对象不计入目标槽位：Tube011、Tube012。\n**执行** 按登记的步骤顺序完成本实例流程。\n**完成与边界** 将本实例作为协议账本处理：记录样本身份、位置、阶段顺序、请求条件和最终状态；没有独立证据时不推断温度、液体体积、生物学或真实机器人结果。",
-              "detailed_prompt_ja": "**目的** Tube001のプロトコル段階と最終状態を登録・確認します。\n**手順** Tube001 → BlockThermostaticBath / Slot011：**登録** Tube001 初期状態 **→** **実行** `L3.tube_prepare_and_operate`（Bath 1） **→** **確認** Opener 開蓋、Pipette005 押下、Opener 閉蓋と Bath 1 各段階を順番に完了 **→** **確認** Tube001 チューブ蓋を閉じて配置 BlockThermostaticBath / Slot011 **→** **プロトコル完了**。\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Tube001はSlot001に配置済み；目標スロットSlot011はreset時に空；チューブ蓋は閉じた状態で開始；目標スロットから除外する参照オブジェクトはTube011、Tube012。\n**実行** 下位レベルの実行結果を登録し、各段階の事実、サンプル識別子、位置、終了条件を順番に確認します。\n**完了条件と境界** プロトコル台帳として、サンプル識別子、場所、段階順序、要求条件、最終状態を記録し、独立した証拠なしに温度、液体量、生物学的結果、実機結果を推定しません。",
-              "parameters": [
-                {
-                  "name": "benchmark_instance_key",
-                  "value": "Tube001_to_Slot011_BlockThermostaticBath"
-                },
-                {
-                  "name": "level",
-                  "value": "L4"
-                },
-                {
-                  "name": "task_id",
-                  "value": "L4.tube_prepare_and_operate_protocol"
-                },
-                {
-                  "name": "reset.episode_start",
-                  "value": "HOME"
-                },
-                {
-                  "name": "reset.approach_and_grasp_counted",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.source_object_id",
-                  "value": "Tube001"
-                },
-                {
-                  "name": "reset.source_slot_id",
-                  "value": "Slot001"
-                },
-                {
-                  "name": "reset.target_slot_id",
-                  "value": "Slot011"
-                },
-                {
-                  "name": "reset.target_slot_empty_at_reset",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.slot_occupancy_at_reset",
-                  "value": "{\"Slot001\":\"Tube001\",\"Slot011\":\"empty\"}"
-                },
-                {
-                  "name": "reset.excluded_reference_objects",
-                  "value": "[Tube011, Tube012]"
-                },
-                {
-                  "name": "reset.initial_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "reset.holder_local_frame",
-                  "value": "false"
-                },
-                {
-                  "name": "instance.source_sample",
-                  "value": "Tube001"
-                },
-                {
-                  "name": "instance.source_slot",
-                  "value": "Slot001"
-                },
-                {
-                  "name": "instance.target_device",
-                  "value": "BlockThermostaticBath"
-                },
-                {
-                  "name": "instance.target_slot",
-                  "value": "Slot011"
-                },
-                {
-                  "name": "instance.linked_l3_workflow",
-                  "value": "L3.tube_prepare_and_operate"
-                },
-                {
-                  "name": "instance.physical_outcome_available",
-                  "value": "false"
-                },
-                {
-                  "name": "instance.initial_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "instance.target_slot_empty",
-                  "value": "true"
-                },
-                {
-                  "name": "instance.final_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "route_stage_count",
-                  "value": "6"
-                },
-                {
-                  "name": "route_stages",
-                  "value": "register_initial_state → confirm_opener_open → confirm_pipette_press → confirm_opener_close → confirm_device_operation → confirm_final_state"
-                },
-                {
-                  "name": "draft_status",
-                  "value": "draft_route_only"
-                },
-                {
-                  "name": "physical_validation",
-                  "value": "not_performed"
-                },
-                {
-                  "name": "source_prompt",
-                  "value": "docs/MAHOLO_TASK_PROMPTS_BY_TARGET.md"
-                }
-              ],
-              "video": null,
-              "poster": null
-            },
-            {
-              "target_instance": "Tube001",
-              "target_label": "Tube001_to_Slot013_BlockThermostaticBath2",
-              "destination_standby_point": "Slot013",
-              "robot": null,
-              "active_arm": null,
-              "controller": "STRUCTURED_PROTOCOL_EVENT",
-              "success": false,
-              "status": "planned",
-              "maturity": "symbolic-only",
-              "steps": 6,
-              "prompt": "Tube001 → BlockThermostaticBath2 / Slot013: **register** Tube001 initial state **→** **execute** `L3.tube_prepare_and_operate` (Bath 2) **→** **confirm** Opener open lid, Pipette005 press, Opener close lid and Bath 2 stages complete in order **→** **confirm** Tube001 tube lid close and located at BlockThermostaticBath2 / Slot013 **→** **protocol complete**.",
-              "prompt_zh": "Tube001 → BlockThermostaticBath2 / Slot013：**登记** Tube001 初始状态 **→** **执行** `L3.tube_prepare_and_operate`（Bath 2） **→** **确认** Opener 开盖、Pipette005 按压、Opener 关盖和 Bath 2 阶段依次完成 **→** **确认** Tube001 管盖关闭且位于 BlockThermostaticBath2 / Slot013 **→** **协议完成**。",
-              "prompt_ja": "Tube001 → BlockThermostaticBath2 / Slot013：**登録** Tube001 初期状態 **→** **実行** `L3.tube_prepare_and_operate`（Bath 2） **→** **確認** Opener 開蓋、Pipette005 押下、Opener 閉蓋と Bath 2 各段階を順番に完了 **→** **確認** Tube001 チューブ蓋を閉じて配置 BlockThermostaticBath2 / Slot013 **→** **プロトコル完了**。",
-              "detailed_prompt": "**Goal** Register and confirm the L3 prepare-and-operate run for Tube001.\n**Steps** Tube001 → BlockThermostaticBath2 / Slot013: **register** Tube001 initial state **→** **execute** `L3.tube_prepare_and_operate` (Bath 2) **→** **confirm** Opener open lid, Pipette005 press, Opener close lid and Bath 2 stages complete in order **→** **confirm** Tube001 tube lid close and located at BlockThermostaticBath2 / Slot013 **→** **protocol complete**.\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Tube001 in Slot001. The target slot Slot013 starts empty. The tube lid starts closed. Reference objects excluded from the target slot are Tube013, Tube014.\n**Execution** Register the initial closed tube, confirm Opener open, Pipette press/release, Opener close, target-device operation, and the final closed-tube slot. The protocol log must preserve stage order and sample identity.\n**Completion and boundary** This is a protocol ledger; it does not turn mechanical completion into mixing, temperature, or biological outcomes. Treat this as a protocol ledger: record sample identity, locations, stage order, requested conditions, and final state; do not infer temperature, liquid volume, biological, or physical outcomes without evidence.",
-              "detailed_prompt_zh": "**目标** 登记并确认 Tube001 的协议阶段与最终状态。\n**步骤** Tube001 → BlockThermostaticBath2 / Slot013：**登记** Tube001 初始状态 **→** **执行** `L3.tube_prepare_and_operate`（Bath 2） **→** **确认** Opener 开盖、Pipette005 按压、Opener 关盖和 Bath 2 阶段依次完成 **→** **确认** Tube001 管盖关闭且位于 BlockThermostaticBath2 / Slot013 **→** **协议完成**。\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Tube001 位于 Slot001；目标槽位 Slot013 在 reset 时为空；试管盖初始为关闭；以下参考对象不计入目标槽位：Tube013、Tube014。\n**执行** 前置条件是 Tube001 已在注册源位置且相关 L3 affordance 可用。只有当 Opener 开盖、Pipette005 按压、Opener 关盖和目标设备四个阶段均成功，且 Tube001 保持闭盖并到达对应目标槽位时，协议才算完成。只确认符号状态和任务阶段，不把按压解释为吸排液，不宣称实际温度、培养结果或混匀质量。\n**完成与边界** 将本实例作为协议账本处理：记录样本身份、位置、阶段顺序、请求条件和最终状态；没有独立证据时不推断温度、液体体积、生物学或真实机器人结果。",
-              "detailed_prompt_ja": "**目的** Tube001のプロトコル段階と最終状態を登録・確認します。\n**手順** Tube001 → BlockThermostaticBath2 / Slot013：**登録** Tube001 初期状態 **→** **実行** `L3.tube_prepare_and_operate`（Bath 2） **→** **確認** Opener 開蓋、Pipette005 押下、Opener 閉蓋と Bath 2 各段階を順番に完了 **→** **確認** Tube001 チューブ蓋を閉じて配置 BlockThermostaticBath2 / Slot013 **→** **プロトコル完了**。\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Tube001はSlot001に配置済み；目標スロットSlot013はreset時に空；チューブ蓋は閉じた状態で開始；目標スロットから除外する参照オブジェクトはTube013、Tube014。\n**実行** 下位レベルの実行結果を登録し、各段階の事実、サンプル識別子、位置、終了条件を順番に確認します。\n**完了条件と境界** プロトコル台帳として、サンプル識別子、場所、段階順序、要求条件、最終状態を記録し、独立した証拠なしに温度、液体量、生物学的結果、実機結果を推定しません。",
-              "parameters": [
-                {
-                  "name": "benchmark_instance_key",
-                  "value": "Tube001_to_Slot013_BlockThermostaticBath2"
-                },
-                {
-                  "name": "level",
-                  "value": "L4"
-                },
-                {
-                  "name": "task_id",
-                  "value": "L4.tube_prepare_and_operate_protocol"
-                },
-                {
-                  "name": "reset.episode_start",
-                  "value": "HOME"
-                },
-                {
-                  "name": "reset.approach_and_grasp_counted",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.source_object_id",
-                  "value": "Tube001"
-                },
-                {
-                  "name": "reset.source_slot_id",
-                  "value": "Slot001"
-                },
-                {
-                  "name": "reset.target_slot_id",
-                  "value": "Slot013"
-                },
-                {
-                  "name": "reset.target_slot_empty_at_reset",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.slot_occupancy_at_reset",
-                  "value": "{\"Slot001\":\"Tube001\",\"Slot013\":\"empty\"}"
-                },
-                {
-                  "name": "reset.excluded_reference_objects",
-                  "value": "[Tube013, Tube014]"
-                },
-                {
-                  "name": "reset.initial_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "reset.holder_local_frame",
-                  "value": "false"
-                },
-                {
-                  "name": "instance.source_sample",
-                  "value": "Tube001"
-                },
-                {
-                  "name": "instance.source_slot",
-                  "value": "Slot001"
-                },
-                {
-                  "name": "instance.target_device",
-                  "value": "BlockThermostaticBath2"
-                },
-                {
-                  "name": "instance.target_slot",
-                  "value": "Slot013"
-                },
-                {
-                  "name": "instance.linked_l3_workflow",
-                  "value": "L3.tube_prepare_and_operate"
-                },
-                {
-                  "name": "instance.physical_outcome_available",
-                  "value": "false"
-                },
-                {
-                  "name": "instance.initial_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "instance.target_slot_empty",
-                  "value": "true"
-                },
-                {
-                  "name": "instance.final_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "route_stage_count",
-                  "value": "6"
-                },
-                {
-                  "name": "route_stages",
-                  "value": "register_initial_state → confirm_opener_open → confirm_pipette_press → confirm_opener_close → confirm_device_operation → confirm_final_state"
-                },
-                {
-                  "name": "draft_status",
-                  "value": "draft_route_only"
-                },
-                {
-                  "name": "physical_validation",
-                  "value": "not_performed"
-                },
-                {
-                  "name": "source_prompt",
-                  "value": "docs/MAHOLO_TASK_PROMPTS_BY_TARGET.md"
-                }
-              ],
-              "video": null,
-              "poster": null
-            }
-          ]
-        },
-        {
-          "task_id": "L4.tube_condition_and_store_protocol",
-          "task_family": "tube_condition_and_store_protocol",
-          "maturity": "symbolic-only",
-          "status": "planned",
-          "subtasks": [
-            {
-              "target_instance": "Tube011",
-              "target_label": "Tube011_Slot011_to_HolderLeft_Slot015",
-              "destination_standby_point": "Slot015",
-              "robot": null,
-              "active_arm": null,
-              "controller": "STRUCTURED_PROTOCOL_EVENT",
-              "success": false,
-              "status": "planned",
-              "maturity": "symbolic-only",
-              "steps": 6,
-              "prompt": "Tube011 → Bath 1 / Slot011 → Holder L / Slot015: **register** Tube011 already located at Bath 1 / Slot011 **→** **execute** `L3.tube_condition_and_store` (Bath 1, Holder L) **→** **confirm** Tube011 maintain closed-lid and placed in Holder L / Slot015 **→** **confirm** Holder L reset and CoolIncubator4C door closed **→** **protocol complete**.",
-              "prompt_zh": "Tube011 → Bath 1 / Slot011 → Holder L / Slot015：**登记** Tube011 已位于 Bath 1 / Slot011 **→** **执行** `L3.tube_condition_and_store`（Bath 1、Holder L） **→** **确认** Tube011 保持闭盖且已放入 Holder L / Slot015 **→** **确认** Holder L 已复位且 CoolIncubator4C 门已关闭 **→** **协议完成**。",
-              "prompt_ja": "Tube011 → Bath 1 / Slot011 → Holder L / Slot015：**登録** Tube011はBath 1 / Slot011に配置済み **→** **実行** `L3.tube_condition_and_store`（Bath 1、Holder L） **→** **確認** Tube011は蓋を閉じた状態でHolder L / Slot015に設置済み **→** **確認** Holder L 復位済みかつ CoolIncubator4C ドアは閉じた状態 **→** **プロトコル完了**。",
-              "detailed_prompt": "**Goal** Register the Bath source and confirm holder-local storage for Tube011.\n**Steps** Tube011 → Bath 1 / Slot011 → Holder L / Slot015: **register** Tube011 already located at Bath 1 / Slot011 **→** **execute** `L3.tube_condition_and_store` (Bath 1, Holder L) **→** **confirm** Tube011 maintain closed-lid and placed in Holder L / Slot015 **→** **confirm** Holder L reset and CoolIncubator4C door closed **→** **protocol complete**.\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Tube011 in Slot011. The target slot Slot015 starts empty. The tube lid starts closed. Holder slots are evaluated in the holder-local frame and move with the holder. Reference objects excluded from the target slot are Tube015, Tube016, Tube012.\n**Execution** Register the source sample, confirm closed-lid retrieval, holder-local placement, holder reset, both device closures, and final sample identity/location. Keep physical_outcome_available false unless independent evidence is attached.\n**Completion and boundary** No temperature, incubation duration, viability, or biological outcome is inferred. Treat this as a protocol ledger: record sample identity, locations, stage order, requested conditions, and final state; do not infer temperature, liquid volume, biological, or physical outcomes without evidence.",
-              "detailed_prompt_zh": "**目标** 登记并确认 Tube011 的协议阶段与最终状态。\n**步骤** Tube011 → Bath 1 / Slot011 → Holder L / Slot015：**登记** Tube011 已位于 Bath 1 / Slot011 **→** **执行** `L3.tube_condition_and_store`（Bath 1、Holder L） **→** **确认** Tube011 保持闭盖且已放入 Holder L / Slot015 **→** **确认** Holder L 已复位且 CoolIncubator4C 门已关闭 **→** **协议完成**。\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Tube011 位于 Slot011；目标槽位 Slot015 在 reset 时为空；试管盖初始为关闭；槽位在 holder 局部坐标系中评估，并随 holder 一起更新；以下参考对象不计入目标槽位：Tube015、Tube016、Tube012。\n**执行** 按登记的步骤顺序完成本实例流程。\n**完成与边界** 将本实例作为协议账本处理：记录样本身份、位置、阶段顺序、请求条件和最终状态；没有独立证据时不推断温度、液体体积、生物学或真实机器人结果。",
-              "detailed_prompt_ja": "**目的** Tube011のプロトコル段階と最終状態を登録・確認します。\n**手順** Tube011 → Bath 1 / Slot011 → Holder L / Slot015：**登録** Tube011はBath 1 / Slot011に配置済み **→** **実行** `L3.tube_condition_and_store`（Bath 1、Holder L） **→** **確認** Tube011は蓋を閉じた状態でHolder L / Slot015に設置済み **→** **確認** Holder L 復位済みかつ CoolIncubator4C ドアは閉じた状態 **→** **プロトコル完了**。\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Tube011はSlot011に配置済み；目標スロットSlot015はreset時に空；チューブ蓋は閉じた状態で開始；スロットはholderローカル座標系で評価し、holderの動きに追随；目標スロットから除外する参照オブジェクトはTube015、Tube016、Tube012。\n**実行** 下位レベルの実行結果を登録し、各段階の事実、サンプル識別子、位置、終了条件を順番に確認します。\n**完了条件と境界** プロトコル台帳として、サンプル識別子、場所、段階順序、要求条件、最終状態を記録し、独立した証拠なしに温度、液体量、生物学的結果、実機結果を推定しません。",
-              "parameters": [
-                {
-                  "name": "benchmark_instance_key",
-                  "value": "Tube011_Slot011_to_HolderLeft_Slot015"
-                },
-                {
-                  "name": "level",
-                  "value": "L4"
-                },
-                {
-                  "name": "task_id",
-                  "value": "L4.tube_condition_and_store_protocol"
-                },
-                {
-                  "name": "reset.episode_start",
-                  "value": "HOME"
-                },
-                {
-                  "name": "reset.approach_and_grasp_counted",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.source_object_id",
-                  "value": "Tube011"
-                },
-                {
-                  "name": "reset.source_slot_id",
-                  "value": "Slot011"
-                },
-                {
-                  "name": "reset.target_slot_id",
-                  "value": "Slot015"
-                },
-                {
-                  "name": "reset.target_slot_empty_at_reset",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.slot_occupancy_at_reset",
-                  "value": "{\"Slot011\":\"Tube011\",\"Slot015\":\"empty\"}"
-                },
-                {
-                  "name": "reset.excluded_reference_objects",
-                  "value": "[Tube015, Tube016, Tube012]"
-                },
-                {
-                  "name": "reset.initial_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "reset.holder_local_frame",
-                  "value": "true"
-                },
-                {
-                  "name": "instance.source_sample",
-                  "value": "Tube011"
-                },
-                {
-                  "name": "instance.source_device",
-                  "value": "BlockThermostaticBath"
-                },
-                {
-                  "name": "instance.source_slot",
-                  "value": "Slot011"
-                },
-                {
-                  "name": "instance.target_device",
-                  "value": "CoolIncubator4C"
-                },
-                {
-                  "name": "instance.target_slot",
-                  "value": "Slot015"
-                },
-                {
-                  "name": "instance.holder_instance",
-                  "value": "04_1.5mL_Tube_Holder_Left"
-                },
-                {
-                  "name": "instance.linked_l3_workflow",
-                  "value": "L3.tube_condition_and_store"
-                },
-                {
-                  "name": "instance.physical_outcome_available",
-                  "value": "false"
-                },
-                {
-                  "name": "instance.initial_sample_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "instance.target_slot_empty",
-                  "value": "true"
-                },
-                {
-                  "name": "instance.holder_local_frame",
-                  "value": "true"
-                },
-                {
-                  "name": "instance.final_sample_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "route_stage_count",
-                  "value": "6"
-                },
-                {
-                  "name": "route_stages",
-                  "value": "register_source_state → confirm_bath_retrieval → confirm_holder_placement → confirm_holder_reset → confirm_device_closures → confirm_final_state"
-                },
-                {
-                  "name": "draft_status",
-                  "value": "draft_route_only"
-                },
-                {
-                  "name": "physical_validation",
-                  "value": "not_performed"
-                },
-                {
-                  "name": "source_prompt",
-                  "value": "docs/MAHOLO_TASK_PROMPTS_BY_TARGET.md"
-                }
-              ],
-              "video": null,
-              "poster": null
-            },
-            {
-              "target_instance": "Tube013",
-              "target_label": "Tube013_Slot013_to_HolderRight_Slot017",
-              "destination_standby_point": "Slot017",
-              "robot": null,
-              "active_arm": null,
-              "controller": "STRUCTURED_PROTOCOL_EVENT",
-              "success": false,
-              "status": "planned",
-              "maturity": "symbolic-only",
-              "steps": 6,
-              "prompt": "Tube013 → Bath 2 / Slot013 → Holder R / Slot017: **register** Tube013 already located at Bath 2 / Slot013 **→** **execute** `L3.tube_condition_and_store` (Bath 2, Holder R) **→** **confirm** Tube013 maintain closed-lid and placed in Holder R / Slot017 **→** **confirm** Holder R reset and CoolIncubator4C door closed **→** **protocol complete**.",
-              "prompt_zh": "Tube013 → Bath 2 / Slot013 → Holder R / Slot017：**登记** Tube013 已位于 Bath 2 / Slot013 **→** **执行** `L3.tube_condition_and_store`（Bath 2、Holder R） **→** **确认** Tube013 保持闭盖且已放入 Holder R / Slot017 **→** **确认** Holder R 已复位且 CoolIncubator4C 门已关闭 **→** **协议完成**。",
-              "prompt_ja": "Tube013 → Bath 2 / Slot013 → Holder R / Slot017：**登録** Tube013はBath 2 / Slot013に配置済み **→** **実行** `L3.tube_condition_and_store`（Bath 2、Holder R） **→** **確認** Tube013は蓋を閉じた状態でHolder R / Slot017に設置済み **→** **確認** Holder R 復位済みかつ CoolIncubator4C ドアは閉じた状態 **→** **プロトコル完了**。",
-              "detailed_prompt": "**Goal** Register the Bath source and confirm holder-local storage for Tube013.\n**Steps** Tube013 → Bath 2 / Slot013 → Holder R / Slot017: **register** Tube013 already located at Bath 2 / Slot013 **→** **execute** `L3.tube_condition_and_store` (Bath 2, Holder R) **→** **confirm** Tube013 maintain closed-lid and placed in Holder R / Slot017 **→** **confirm** Holder R reset and CoolIncubator4C door closed **→** **protocol complete**.\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Tube013 in Slot013. The target slot Slot017 starts empty. The tube lid starts closed. Holder slots are evaluated in the holder-local frame and move with the holder. Reference objects excluded from the target slot are Tube017, Tube018, Tube014.\n**Execution** Register the source sample, confirm closed-lid retrieval, holder-local placement, holder reset, both device closures, and final sample identity/location. Keep physical_outcome_available false unless independent evidence is attached.\n**Completion and boundary** No temperature, incubation duration, viability, or biological outcome is inferred. Treat this as a protocol ledger: record sample identity, locations, stage order, requested conditions, and final state; do not infer temperature, liquid volume, biological, or physical outcomes without evidence.",
-              "detailed_prompt_zh": "**目标** 登记并确认 Tube013 的协议阶段与最终状态。\n**步骤** Tube013 → Bath 2 / Slot013 → Holder R / Slot017：**登记** Tube013 已位于 Bath 2 / Slot013 **→** **执行** `L3.tube_condition_and_store`（Bath 2、Holder R） **→** **确认** Tube013 保持闭盖且已放入 Holder R / Slot017 **→** **确认** Holder R 已复位且 CoolIncubator4C 门已关闭 **→** **协议完成**。\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Tube013 位于 Slot013；目标槽位 Slot017 在 reset 时为空；试管盖初始为关闭；槽位在 holder 局部坐标系中评估，并随 holder 一起更新；以下参考对象不计入目标槽位：Tube017、Tube018、Tube014。\n**执行** 前置条件是 Tube011 或 Tube013 已分别位于对应 Bath 的注册槽位，且源管处于注册闭盖状态。只有当浴槽取样、holder 操作、样本放置、holder 复位和门关闭均成功时，协议才算完成。最终样本位置分别是 Holder L / Slot015 或 Holder R / Slot017，且管盖保持关闭；不记录温度、培养时长、样品活性或混匀质量。\n**完成与边界** 将本实例作为协议账本处理：记录样本身份、位置、阶段顺序、请求条件和最终状态；没有独立证据时不推断温度、液体体积、生物学或真实机器人结果。",
-              "detailed_prompt_ja": "**目的** Tube013のプロトコル段階と最終状態を登録・確認します。\n**手順** Tube013 → Bath 2 / Slot013 → Holder R / Slot017：**登録** Tube013はBath 2 / Slot013に配置済み **→** **実行** `L3.tube_condition_and_store`（Bath 2、Holder R） **→** **確認** Tube013は蓋を閉じた状態でHolder R / Slot017に設置済み **→** **確認** Holder R 復位済みかつ CoolIncubator4C ドアは閉じた状態 **→** **プロトコル完了**。\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Tube013はSlot013に配置済み；目標スロットSlot017はreset時に空；チューブ蓋は閉じた状態で開始；スロットはholderローカル座標系で評価し、holderの動きに追随；目標スロットから除外する参照オブジェクトはTube017、Tube018、Tube014。\n**実行** 下位レベルの実行結果を登録し、各段階の事実、サンプル識別子、位置、終了条件を順番に確認します。\n**完了条件と境界** プロトコル台帳として、サンプル識別子、場所、段階順序、要求条件、最終状態を記録し、独立した証拠なしに温度、液体量、生物学的結果、実機結果を推定しません。",
-              "parameters": [
-                {
-                  "name": "benchmark_instance_key",
-                  "value": "Tube013_Slot013_to_HolderRight_Slot017"
-                },
-                {
-                  "name": "level",
-                  "value": "L4"
-                },
-                {
-                  "name": "task_id",
-                  "value": "L4.tube_condition_and_store_protocol"
-                },
-                {
-                  "name": "reset.episode_start",
-                  "value": "HOME"
-                },
-                {
-                  "name": "reset.approach_and_grasp_counted",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.source_object_id",
-                  "value": "Tube013"
-                },
-                {
-                  "name": "reset.source_slot_id",
-                  "value": "Slot013"
-                },
-                {
-                  "name": "reset.target_slot_id",
-                  "value": "Slot017"
-                },
-                {
-                  "name": "reset.target_slot_empty_at_reset",
-                  "value": "true"
-                },
-                {
-                  "name": "reset.slot_occupancy_at_reset",
-                  "value": "{\"Slot013\":\"Tube013\",\"Slot017\":\"empty\"}"
-                },
-                {
-                  "name": "reset.excluded_reference_objects",
-                  "value": "[Tube017, Tube018, Tube014]"
-                },
-                {
-                  "name": "reset.initial_tube_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "reset.holder_local_frame",
-                  "value": "true"
-                },
-                {
-                  "name": "instance.source_sample",
-                  "value": "Tube013"
-                },
-                {
-                  "name": "instance.source_device",
-                  "value": "BlockThermostaticBath2"
-                },
-                {
-                  "name": "instance.source_slot",
-                  "value": "Slot013"
-                },
-                {
-                  "name": "instance.target_device",
-                  "value": "CoolIncubator4C"
-                },
-                {
-                  "name": "instance.target_slot",
-                  "value": "Slot017"
-                },
-                {
-                  "name": "instance.holder_instance",
-                  "value": "05_1.5mL_Tube_Holder_Right"
-                },
-                {
-                  "name": "instance.linked_l3_workflow",
-                  "value": "L3.tube_condition_and_store"
-                },
-                {
-                  "name": "instance.physical_outcome_available",
-                  "value": "false"
-                },
-                {
-                  "name": "instance.initial_sample_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "instance.target_slot_empty",
-                  "value": "true"
-                },
-                {
-                  "name": "instance.holder_local_frame",
-                  "value": "true"
-                },
-                {
-                  "name": "instance.final_sample_lid",
-                  "value": "closed"
-                },
-                {
-                  "name": "route_stage_count",
-                  "value": "6"
-                },
-                {
-                  "name": "route_stages",
-                  "value": "register_source_state → confirm_bath_retrieval → confirm_holder_placement → confirm_holder_reset → confirm_device_closures → confirm_final_state"
                 },
                 {
                   "name": "draft_status",
