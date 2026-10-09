@@ -1067,6 +1067,32 @@
       ]
     },
     {
+      "title": "Holder",
+      "key": "holder",
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/holder/front.png",
+          "collision": "collision/holder/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/holder/left.png",
+          "collision": "collision/holder/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/holder/back.png",
+          "collision": "collision/holder/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/holder/right.png",
+          "collision": "collision/holder/right.png"
+        }
+      ]
+    },
+    {
       "title": "MaholoRight",
       "key": "robot_maholoright",
       "views": [

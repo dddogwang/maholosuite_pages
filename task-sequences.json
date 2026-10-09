@@ -18,6 +18,7 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
@@ -40,18 +41,21 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_gripper()",
                   "task_id": null
@@ -74,30 +78,35 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_gripper()",
                   "task_id": null
                 },
                 {
                   "stage_id": "open_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "open_gripper()",
                   "task_id": null
                 },
                 {
                   "stage_id": "withdraw",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "withdraw({target}.standby)",
                   "task_id": null
@@ -120,24 +129,28 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_gripper()",
                   "task_id": null
                 },
                 {
                   "stage_id": "lift",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "lift({height})",
                   "task_id": null
@@ -160,32 +173,44 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_gripper()",
                   "task_id": null
                 },
                 {
                   "stage_id": "lift",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "lift({height})",
                   "task_id": null
                 },
                 {
                   "stage_id": "carry",
+                  "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "carry({destination}.slot)",
+                  "call": "carry({destination}.slot.XY)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "descend",
+                  "arm": "physical-right",
+                  "kind": "primitive",
+                  "call": "descend({destination})",
                   "task_id": null
                 }
               ]
@@ -206,42 +231,49 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_gripper()",
                   "task_id": null
                 },
                 {
                   "stage_id": "lift",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "lift({height})",
                   "task_id": null
                 },
                 {
                   "stage_id": "carry",
+                  "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "carry({destination})",
+                  "call": "carry({destination}.slot.XY)",
                   "task_id": null
                 },
                 {
                   "stage_id": "lower",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "lower({destination})",
                   "task_id": null
                 },
                 {
                   "stage_id": "open_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "open_gripper()",
                   "task_id": null
@@ -264,42 +296,56 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_gripper()",
                   "task_id": null
                 },
                 {
                   "stage_id": "lift",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "lift({height})",
                   "task_id": null
                 },
                 {
                   "stage_id": "carry",
+                  "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "carry({destination}.top)",
+                  "call": "carry({destination}.slot.XY)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "descend",
+                  "arm": "physical-right",
+                  "kind": "primitive",
+                  "call": "descend({destination})",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-left",
                   "kind": "primitive",
                   "call": "approach({target}.top)",
                   "task_id": null
                 },
                 {
                   "stage_id": "press",
+                  "arm": "physical-left",
                   "kind": "primitive",
                   "call": "press({depth})",
                   "task_id": null
@@ -322,24 +368,28 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_gripper()",
                   "task_id": null
                 },
                 {
                   "stage_id": "rotate",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "rotate()",
                   "task_id": null
@@ -362,24 +412,28 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_gripper()",
                   "task_id": null
                 },
                 {
                   "stage_id": "open_hinge",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "open_hinge()",
                   "task_id": null
@@ -402,24 +456,28 @@
               "stages": [
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.standby)",
                   "task_id": null
                 },
                 {
                   "stage_id": "approach",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_gripper",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_gripper()",
                   "task_id": null
                 },
                 {
                   "stage_id": "close_hinge",
+                  "arm": "physical-right",
                   "kind": "primitive",
                   "call": "close_hinge()",
                   "task_id": null

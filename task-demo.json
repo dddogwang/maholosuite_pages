@@ -8665,7 +8665,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "PipetteSlot007.slot"
+                    "target": "PipetteSlot007.slot.XY"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right",
+                    "target": "PipetteSlot007"
                   },
                   "arm": "physical-right"
                 }
@@ -8784,11 +8808,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, PipetteSlot007.slot)"
+                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, PipetteSlot007.slot.XY) → keep(physical-right) → descend(physical-right, PipetteSlot007)"
                 },
                 {
                   "name": "draft_status",
@@ -8918,7 +8942,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube001.slot"
+                    "target": "Tube001.slot.XY"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Tube001"
                   },
                   "arm": "physical-left"
                 }
@@ -9041,11 +9089,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Opener.standby) → wait(physical-left) → approach(physical-left, Opener.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube001.slot)"
+                  "value": "approach(physical-left, Opener.standby) → wait(physical-left) → approach(physical-left, Opener.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube001.slot.XY) → keep(physical-left) → descend(physical-left, Tube001)"
                 },
                 {
                   "name": "draft_status",
@@ -9175,7 +9223,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Tube001.slot"
+                    "target": "Tube001.slot.XY"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right",
+                    "target": "Tube001"
                   },
                   "arm": "physical-right"
                 }
@@ -9298,11 +9370,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, 04_1.5mL_Tube_Holder_Left.standby) → wait(physical-right) → approach(physical-right, 04_1.5mL_Tube_Holder_Left.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.slot)"
+                  "value": "approach(physical-right, 04_1.5mL_Tube_Holder_Left.standby) → wait(physical-right) → approach(physical-right, 04_1.5mL_Tube_Holder_Left.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.slot.XY) → keep(physical-right) → descend(physical-right, Tube001)"
                 },
                 {
                   "name": "draft_status",
@@ -9432,7 +9504,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Tube001.slot"
+                    "target": "Tube001.slot.XY"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right",
+                    "target": "Tube001"
                   },
                   "arm": "physical-right"
                 }
@@ -9555,11 +9651,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, 05_1.5mL_Tube_Holder_Right.standby) → wait(physical-right) → approach(physical-right, 05_1.5mL_Tube_Holder_Right.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.slot)"
+                  "value": "approach(physical-right, 05_1.5mL_Tube_Holder_Right.standby) → wait(physical-right) → approach(physical-right, 05_1.5mL_Tube_Holder_Right.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.slot.XY) → keep(physical-right) → descend(physical-right, Tube001)"
                 },
                 {
                   "name": "draft_status",
@@ -9689,7 +9785,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube002.Slot002"
+                    "target": "Slot002.slot.XY"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot002"
                   },
                   "arm": "physical-left"
                 }
@@ -9812,11 +9932,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube002.Slot002)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot002.slot.XY) → keep(physical-left) → descend(physical-left, Slot002)"
                 },
                 {
                   "name": "draft_status",
@@ -9946,7 +10066,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube009.Slot009"
+                    "target": "Slot009.slot.XY"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot009"
                   },
                   "arm": "physical-left"
                 }
@@ -10069,11 +10213,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube009.Slot009)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot009.slot.XY) → keep(physical-left) → descend(physical-left, Slot009)"
                 },
                 {
                   "name": "draft_status",
@@ -10203,7 +10347,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube011.Slot011"
+                    "target": "Slot011.slot.XY"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot011"
                   },
                   "arm": "physical-left"
                 }
@@ -10338,11 +10506,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube011.Slot011)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot011.slot.XY) → keep(physical-left) → descend(physical-left, Slot011)"
                 },
                 {
                   "name": "draft_status",
@@ -10472,7 +10640,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube013.Slot013"
+                    "target": "Slot013.slot.XY"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot013"
                   },
                   "arm": "physical-left"
                 }
@@ -10607,11 +10799,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube013.Slot013)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot013.slot.XY) → keep(physical-left) → descend(physical-left, Slot013)"
                 },
                 {
                   "name": "draft_status",
@@ -10741,7 +10933,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube15_002.Slot15_002"
+                    "target": "Slot15_002.slot.XY"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot15_002"
                   },
                   "arm": "physical-left"
                 }
@@ -10864,11 +11080,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube15_001.standby) → wait(physical-left) → approach(physical-left, Tube15_001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube15_002.Slot15_002)"
+                  "value": "approach(physical-left, Tube15_001.standby) → wait(physical-left) → approach(physical-left, Tube15_001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot15_002.slot.XY) → keep(physical-left) → descend(physical-left, Slot15_002)"
                 },
                 {
                   "name": "draft_status",
@@ -10998,7 +11214,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Tube50_002.Slot50_002"
+                    "target": "Slot50_002.slot.XY"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right",
+                    "target": "Slot50_002"
                   },
                   "arm": "physical-right"
                 }
@@ -11121,11 +11361,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "9"
+                  "value": "11"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Tube50_001.standby) → wait(physical-right) → approach(physical-right, Tube50_001.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube50_002.Slot50_002)"
+                  "value": "approach(physical-right, Tube50_001.standby) → wait(physical-right) → approach(physical-right, Tube50_001.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Slot50_002.slot.XY) → keep(physical-right) → descend(physical-right, Slot50_002)"
                 },
                 {
                   "name": "draft_status",
@@ -11264,7 +11504,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Pipette007.PipetteSlot007"
+                    "target": "PipetteSlot007.slot.XY"
                   },
                   "arm": "physical-right"
                 },
@@ -11288,7 +11528,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Pipette007.PipetteSlot007"
+                    "target": "PipetteSlot007"
                   },
                   "arm": "physical-right"
                 },
@@ -11433,7 +11673,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Pipette007.PipetteSlot007) → keep(physical-right) → lower(physical-right, Pipette007.PipetteSlot007) → keep(physical-right) → open_gripper(physical-right)"
+                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, PipetteSlot007.slot.XY) → keep(physical-right) → lower(physical-right, PipetteSlot007) → keep(physical-right) → open_gripper(physical-right)"
                 },
                 {
                   "name": "draft_status",
@@ -11563,7 +11803,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Opener.slot"
+                    "target": "Opener.slot.XY"
                   },
                   "arm": "physical-left"
                 },
@@ -11587,7 +11827,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Opener.slot"
+                    "target": "Opener"
                   },
                   "arm": "physical-left"
                 },
@@ -11716,7 +11956,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Opener.standby) → wait(physical-left) → approach(physical-left, Opener.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Opener.slot) → keep(physical-left) → lower(physical-left, Opener.slot) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Opener.standby) → wait(physical-left) → approach(physical-left, Opener.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Opener.slot.XY) → keep(physical-left) → lower(physical-left, Opener) → keep(physical-left) → open_gripper(physical-left)"
                 },
                 {
                   "name": "draft_status",
@@ -11846,7 +12086,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube002.Slot002"
+                    "target": "Slot002.slot.XY"
                   },
                   "arm": "physical-left"
                 },
@@ -11870,7 +12110,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube002.Slot002"
+                    "target": "Slot002"
                   },
                   "arm": "physical-left"
                 },
@@ -12019,7 +12259,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube002.Slot002) → keep(physical-left) → lower(physical-left, Tube002.Slot002) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot002.slot.XY) → keep(physical-left) → lower(physical-left, Slot002) → keep(physical-left) → open_gripper(physical-left)"
                 },
                 {
                   "name": "draft_status",
@@ -12149,7 +12389,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube009.Slot009"
+                    "target": "Slot009.slot.XY"
                   },
                   "arm": "physical-left"
                 },
@@ -12173,7 +12413,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube009.Slot009"
+                    "target": "Slot009"
                   },
                   "arm": "physical-left"
                 },
@@ -12322,7 +12562,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube009.Slot009) → keep(physical-left) → lower(physical-left, Tube009.Slot009) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot009.slot.XY) → keep(physical-left) → lower(physical-left, Slot009) → keep(physical-left) → open_gripper(physical-left)"
                 },
                 {
                   "name": "draft_status",
@@ -12452,7 +12692,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube011.Slot011"
+                    "target": "Slot011.slot.XY"
                   },
                   "arm": "physical-left"
                 },
@@ -12476,7 +12716,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube011.Slot011"
+                    "target": "Slot011"
                   },
                   "arm": "physical-left"
                 },
@@ -12637,7 +12877,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube011.Slot011) → keep(physical-left) → lower(physical-left, Tube011.Slot011) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot011.slot.XY) → keep(physical-left) → lower(physical-left, Slot011) → keep(physical-left) → open_gripper(physical-left)"
                 },
                 {
                   "name": "draft_status",
@@ -12767,7 +13007,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube013.Slot013"
+                    "target": "Slot013.slot.XY"
                   },
                   "arm": "physical-left"
                 },
@@ -12791,7 +13031,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube013.Slot013"
+                    "target": "Slot013"
                   },
                   "arm": "physical-left"
                 },
@@ -12952,7 +13192,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube013.Slot013) → keep(physical-left) → lower(physical-left, Tube013.Slot013) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot013.slot.XY) → keep(physical-left) → lower(physical-left, Slot013) → keep(physical-left) → open_gripper(physical-left)"
                 },
                 {
                   "name": "draft_status",
@@ -13082,7 +13322,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube15_002.Slot15_002"
+                    "target": "Slot15_002.slot.XY"
                   },
                   "arm": "physical-left"
                 },
@@ -13106,7 +13346,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-left",
-                    "target": "Tube15_002.Slot15_002"
+                    "target": "Slot15_002"
                   },
                   "arm": "physical-left"
                 },
@@ -13255,7 +13495,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube15_001.standby) → wait(physical-left) → approach(physical-left, Tube15_001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube15_002.Slot15_002) → keep(physical-left) → lower(physical-left, Tube15_002.Slot15_002) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube15_001.standby) → wait(physical-left) → approach(physical-left, Tube15_001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot15_002.slot.XY) → keep(physical-left) → lower(physical-left, Slot15_002) → keep(physical-left) → open_gripper(physical-left)"
                 },
                 {
                   "name": "draft_status",
@@ -13385,7 +13625,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Tube50_002.Slot50_002"
+                    "target": "Slot50_002.slot.XY"
                   },
                   "arm": "physical-right"
                 },
@@ -13409,7 +13649,7 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Tube50_002.Slot50_002"
+                    "target": "Slot50_002"
                   },
                   "arm": "physical-right"
                 },
@@ -13558,7 +13798,7 @@
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Tube50_001.standby) → wait(physical-right) → approach(physical-right, Tube50_001.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube50_002.Slot50_002) → keep(physical-right) → lower(physical-right, Tube50_002.Slot50_002) → keep(physical-right) → open_gripper(physical-right)"
+                  "value": "approach(physical-right, Tube50_001.standby) → wait(physical-right) → approach(physical-right, Tube50_001.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Slot50_002.slot.XY) → keep(physical-right) → lower(physical-right, Slot50_002) → keep(physical-right) → open_gripper(physical-right)"
                 },
                 {
                   "name": "draft_status",
@@ -13697,7 +13937,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Tube001.top"
+                    "target": "Tube001.slot.XY"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right",
+                    "target": "Tube001"
                   },
                   "arm": "physical-right"
                 },
@@ -13751,12 +14015,12 @@
                 }
               ],
               "finish_signal": "finish",
-              "prompt": "Pipette005 → Tube001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top) to align Pipette::bottom with Tube001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed",
-              "prompt_zh": "Pipette005 → Tube001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top)，将 Pipette::bottom 对准 Tube001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压",
-              "prompt_ja": "Pipette005 → Tube001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top)してPipette::bottomをTube001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる",
-              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette005 over Tube001.\n**Steps** Pipette005 → Tube001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top) to align Pipette::bottom with Tube001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette005 in PipetteSlot005. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette005. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
-              "detailed_prompt_zh": "**目标** 按压 Pipette005 的登记控制件。\n**步骤** Pipette005 → Tube001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top)，将 Pipette::bottom 对准 Tube001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette005 位于 PipetteSlot005；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette005 对准并按下 Tube001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette005 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
-              "detailed_prompt_ja": "**目的** Pipette005の登録済み制御部を押下します。\n**手順** Pipette005 → Tube001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top)してPipette::bottomをTube001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette005はPipetteSlot005に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette005を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
+              "prompt": "Pipette005 → Tube001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top.XY) → descend(physical-right, Tube001.top) to align Pipette::bottom with Tube001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed",
+              "prompt_zh": "Pipette005 → Tube001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top.XY) → descend(physical-right, Tube001.top)，将 Pipette::bottom 对准 Tube001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压",
+              "prompt_ja": "Pipette005 → Tube001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top.XY) → descend(physical-right, Tube001.top)してPipette::bottomをTube001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる",
+              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette005 over Tube001.\n**Steps** Pipette005 → Tube001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top.XY) → descend(physical-right, Tube001.top) to align Pipette::bottom with Tube001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette005 in PipetteSlot005. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette005. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
+              "detailed_prompt_zh": "**目标** 按压 Pipette005 的登记控制件。\n**步骤** Pipette005 → Tube001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top.XY) → descend(physical-right, Tube001.top)，将 Pipette::bottom 对准 Tube001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette005 位于 PipetteSlot005；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette005 对准并按下 Tube001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette005 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
+              "detailed_prompt_ja": "**目的** Pipette005の登録済み制御部を押下します。\n**手順** Pipette005 → Tube001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube001.top.XY) → descend(physical-right, Tube001.top)してPipette::bottomをTube001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette005はPipetteSlot005に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette005を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
               "parameters": [
                 {
                   "name": "benchmark_instance_key",
@@ -13908,11 +14172,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.top) → keep(physical-right) → approach(physical-left, Pipette005.top) → wait(physical-left) → press(physical-left, depth)"
+                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.slot.XY) → keep(physical-right) → descend(physical-right, Tube001) → keep(physical-right) → approach(physical-left, Pipette005.top) → wait(physical-left) → press(physical-left, depth)"
                 },
                 {
                   "name": "draft_status",
@@ -14042,7 +14306,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Tube15_001.top"
+                    "target": "Tube15_001.slot.XY"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right",
+                    "target": "Tube15_001"
                   },
                   "arm": "physical-right"
                 },
@@ -14096,12 +14384,12 @@
                 }
               ],
               "finish_signal": "finish",
-              "prompt": "Pipette005 → Tube15_001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top) to align Pipette::bottom with Tube15_001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed",
-              "prompt_zh": "Pipette005 → Tube15_001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top)，将 Pipette::bottom 对准 Tube15_001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压",
-              "prompt_ja": "Pipette005 → Tube15_001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top)してPipette::bottomをTube15_001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる",
-              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette005 over Tube15_001.\n**Steps** Pipette005 → Tube15_001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top) to align Pipette::bottom with Tube15_001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette005 in PipetteSlot005. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette005. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube15_001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
-              "detailed_prompt_zh": "**目标** 按压 Pipette005 的登记控制件。\n**步骤** Pipette005 → Tube15_001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top)，将 Pipette::bottom 对准 Tube15_001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette005 位于 PipetteSlot005；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette005 对准并按下 Tube15_001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette005 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
-              "detailed_prompt_ja": "**目的** Pipette005の登録済み制御部を押下します。\n**手順** Pipette005 → Tube15_001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top)してPipette::bottomをTube15_001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette005はPipetteSlot005に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette005を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
+              "prompt": "Pipette005 → Tube15_001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top.XY) → descend(physical-right, Tube15_001.top) to align Pipette::bottom with Tube15_001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed",
+              "prompt_zh": "Pipette005 → Tube15_001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top.XY) → descend(physical-right, Tube15_001.top)，将 Pipette::bottom 对准 Tube15_001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压",
+              "prompt_ja": "Pipette005 → Tube15_001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top.XY) → descend(physical-right, Tube15_001.top)してPipette::bottomをTube15_001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる",
+              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette005 over Tube15_001.\n**Steps** Pipette005 → Tube15_001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top.XY) → descend(physical-right, Tube15_001.top) to align Pipette::bottom with Tube15_001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette005 in PipetteSlot005. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette005. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube15_001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
+              "detailed_prompt_zh": "**目标** 按压 Pipette005 的登记控制件。\n**步骤** Pipette005 → Tube15_001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top.XY) → descend(physical-right, Tube15_001.top)，将 Pipette::bottom 对准 Tube15_001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette005 位于 PipetteSlot005；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette005 对准并按下 Tube15_001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette005 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
+              "detailed_prompt_ja": "**目的** Pipette005の登録済み制御部を押下します。\n**手順** Pipette005 → Tube15_001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube15_001.top.XY) → descend(physical-right, Tube15_001.top)してPipette::bottomをTube15_001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette005はPipetteSlot005に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette005を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
               "parameters": [
                 {
                   "name": "benchmark_instance_key",
@@ -14253,11 +14541,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube15_001.top) → keep(physical-right) → approach(physical-left, Pipette005.top) → wait(physical-left) → press(physical-left, depth)"
+                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube15_001.slot.XY) → keep(physical-right) → descend(physical-right, Tube15_001) → keep(physical-right) → approach(physical-left, Pipette005.top) → wait(physical-left) → press(physical-left, depth)"
                 },
                 {
                   "name": "draft_status",
@@ -14387,7 +14675,31 @@
                   ],
                   "arguments": {
                     "arm": "physical-right",
-                    "target": "Tube50_001.top"
+                    "target": "Tube50_001.slot.XY"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "keep",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "descend",
+                  "target_ref": "destination",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right",
+                    "target": "Tube50_001"
                   },
                   "arm": "physical-right"
                 },
@@ -14441,12 +14753,12 @@
                 }
               ],
               "finish_signal": "finish",
-              "prompt": "Pipette005 → Tube50_001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top) to align Pipette::bottom with Tube50_001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed",
-              "prompt_zh": "Pipette005 → Tube50_001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top)，将 Pipette::bottom 对准 Tube50_001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压",
-              "prompt_ja": "Pipette005 → Tube50_001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top)してPipette::bottomをTube50_001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる",
-              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette005 over Tube50_001.\n**Steps** Pipette005 → Tube50_001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top) to align Pipette::bottom with Tube50_001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette005 in PipetteSlot005. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette005. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube50_001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
-              "detailed_prompt_zh": "**目标** 按压 Pipette005 的登记控制件。\n**步骤** Pipette005 → Tube50_001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top)，将 Pipette::bottom 对准 Tube50_001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette005 位于 PipetteSlot005；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette005 对准并按下 Tube50_001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette005 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
-              "detailed_prompt_ja": "**目的** Pipette005の登録済み制御部を押下します。\n**手順** Pipette005 → Tube50_001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top)してPipette::bottomをTube50_001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette005はPipetteSlot005に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette005を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
+              "prompt": "Pipette005 → Tube50_001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top.XY) → descend(physical-right, Tube50_001.top) to align Pipette::bottom with Tube50_001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed",
+              "prompt_zh": "Pipette005 → Tube50_001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top.XY) → descend(physical-right, Tube50_001.top)，将 Pipette::bottom 对准 Tube50_001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压",
+              "prompt_ja": "Pipette005 → Tube50_001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top.XY) → descend(physical-right, Tube50_001.top)してPipette::bottomをTube50_001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる",
+              "detailed_prompt": "**Goal** Press the pipette_head_slide control on Pipette005 over Tube50_001.\n**Steps** Pipette005 → Tube50_001: both arms start at HOME → physical-right: approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top.XY) → descend(physical-right, Tube50_001.top) to align Pipette::bottom with Tube50_001::top → keep the right gripper closed → physical-left: approach(physical-left, Pipette005.top) at the current Pipette::top contact point → press(physical-left, depth) with the gripper closed\n**Initial state** The episode starts at HOME. Approach and grasp are part of this instance route. The reset source is Pipette005 in PipetteSlot005. The tube lid starts open. The initial press-joint qpos is 0.\n**Execution** Starting from HOME, use the physical-right gripper to approach directly to the registered operation/grasp pose, and grasp Pipette005. Keep that grasp fixed while aligning the object-local Pipette::bottom point with Tube50_001's registered top point. Keep the right gripper closed; approach the current Pipette::top contact point directly, then descend vertically downward until pipette_head_slide reaches its configured target depth.\n**Completion and boundary** Use geometry_refs object/property/name references from scene_properties.json. Initial poses and home slots come from Blender's equipment/object layout; reach uses ROBOT | Standby Points + Grippers and operations use ROBOT | Operate Points + Grippers. Approach moves directly to the supplied pose without an automatic height offset. Reach-only tasks finish at standby. Tool alignment and pressing use the Blender-authored object-local top/bottom/hook features at their current world poses. Use each object's Blender-authored EEF pose from ROBOT | Operate Points + Grippers. The registered object--gripper transform is independent of the physical holding arm. Do not let the held object slide or rotate relative to its gripper while pressing; keep position/orientation error within 0.005 m / 0.05 rad, apply only the registered joint motion, and stop at the configured limit. Use the registered target or interaction pose, grasp profile, joint target, and tolerance; finish only when the declared contact and pose conditions are satisfied.",
+              "detailed_prompt_zh": "**目标** 按压 Pipette005 的登记控制件。\n**步骤** Pipette005 → Tube50_001：两臂从 HOME 开始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top.XY) → descend(physical-right, Tube50_001.top)，将 Pipette::bottom 对准 Tube50_001::top → 保持持物夹爪闭合 → physical-left：approach(physical-left, Pipette005.top) 至当前 Pipette::top → press(physical-left, depth)，闭爪竖直下压\n**初始状态** 任务从 HOME 开始；接近与抓取计入本实例流程；源对象 Pipette005 位于 PipetteSlot005；试管盖初始为打开；按压关节初始 qpos 为 0。\n**执行** 使用双臂将 Pipette005 对准并按下 Tube50_001 上方的移液器按压头。\n从 HOME 开始，先由 physical-right approach 至 Pipette005 待机点、descend 到待机位，再直接 approach 至注册固定抓取位并闭爪抓持；保持右臂抓取姿态不变，将对象局部点 Pipette::bottom 对准目标管对象局部 top 点。右夹爪保持闭合，由 physical-left 移至当前 Pipette::top 上方，沿世界竖直方向下探接触并继续按压，直到 pipette_head_slide 达到 -0.006 m（容差 ±0.0015 m，最小变化 0.002 m），且有左臂交互证据。本任务结束于按下状态，不要求归还工具，也不表示吸液或排液。\n**完成与边界** 使用已登记的操作点或交互位、抓取姿态、关节目标和容差；仅在声明的接触与位姿条件满足后结束。",
+              "detailed_prompt_ja": "**目的** Pipette005の登録済み制御部を押下します。\n**手順** Pipette005 → Tube50_001：両腕は HOME から開始 → physical-right：approach(physical-right, Pipette005.standby) → approach(physical-right, Pipette005.operate) → close_gripper(physical-right) → lift(physical-right, height) → carry(physical-right, Tube50_001.top.XY) → descend(physical-right, Tube50_001.top)してPipette::bottomをTube50_001のtopへ合わせる → 右グリッパを閉じたまま保持 → physical-left：現在のPipette::top接触点へ approach(physical-left, Pipette005.top) → press(physical-left, depth)で閉爪のまま押し下げる\n**開始状態** エピソードはHOMEから開始；接近と把持をこのインスタンスの経路に含める；送出元Pipette005はPipetteSlot005に配置済み；チューブ蓋は開いた状態で開始；押下関節の初期qposは0。\n**実行** 保持したPipette005を登録済みの押下方向へ移動し、指定qposまで押下します。\n**完了条件と境界** 登録済みの操作点または接触点、把持姿勢、関節目標、許容差を使用し、宣言された接触・姿勢条件を満たした時だけ完了とします。",
               "parameters": [
                 {
                   "name": "benchmark_instance_key",
@@ -14598,11 +14910,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube50_001.top) → keep(physical-right) → approach(physical-left, Pipette005.top) → wait(physical-left) → press(physical-left, depth)"
+                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube50_001.slot.XY) → keep(physical-right) → descend(physical-right, Tube50_001) → keep(physical-right) → approach(physical-left, Pipette005.top) → wait(physical-left) → press(physical-left, depth)"
                 },
                 {
                   "name": "draft_status",
