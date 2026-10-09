@@ -1,0 +1,1084 @@
+{
+  "schema_version": "v1",
+  "source": "Rules TASK_PHASE_SEQUENCES + Level 2/3 workflow registries",
+  "levels": {
+    "L1": {
+      "tasks": [
+        {
+          "task_id": "L1.reach_target",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L1.grasp_object",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.operate)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_gripper",
+                  "kind": "primitive",
+                  "call": "close_gripper()",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L1.release_object",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.operate)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_gripper",
+                  "kind": "primitive",
+                  "call": "close_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "open_gripper",
+                  "kind": "primitive",
+                  "call": "open_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "withdraw",
+                  "kind": "primitive",
+                  "call": "withdraw({target}.standby)",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L1.lift_object",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.operate)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_gripper",
+                  "kind": "primitive",
+                  "call": "close_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "lift",
+                  "kind": "primitive",
+                  "call": "lift({height})",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L1.transport_object",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.operate)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_gripper",
+                  "kind": "primitive",
+                  "call": "close_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "lift",
+                  "kind": "primitive",
+                  "call": "lift({height})",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "carry",
+                  "kind": "primitive",
+                  "call": "carry({destination}.slot)",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L1.place_object",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.operate)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_gripper",
+                  "kind": "primitive",
+                  "call": "close_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "lift",
+                  "kind": "primitive",
+                  "call": "lift({height})",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "carry",
+                  "kind": "primitive",
+                  "call": "carry({destination})",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "lower",
+                  "kind": "primitive",
+                  "call": "lower({destination})",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "open_gripper",
+                  "kind": "primitive",
+                  "call": "open_gripper()",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L1.press_control",
+          "arm_modes": [
+            "both"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "both"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.operate)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_gripper",
+                  "kind": "primitive",
+                  "call": "close_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "lift",
+                  "kind": "primitive",
+                  "call": "lift({height})",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "carry",
+                  "kind": "primitive",
+                  "call": "carry({destination}.top)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.top)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "press",
+                  "kind": "primitive",
+                  "call": "press({depth})",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L1.rotate_control",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.operate)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_gripper",
+                  "kind": "primitive",
+                  "call": "close_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "rotate",
+                  "kind": "primitive",
+                  "call": "rotate()",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L1.open_articulated_part",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.operate)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_gripper",
+                  "kind": "primitive",
+                  "call": "close_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "open_hinge",
+                  "kind": "primitive",
+                  "call": "open_hinge()",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L1.close_articulated_part",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.standby)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "kind": "primitive",
+                  "call": "approach({target}.operate)",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_gripper",
+                  "kind": "primitive",
+                  "call": "close_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_hinge",
+                  "kind": "primitive",
+                  "call": "close_hinge()",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "L2": {
+      "tasks": [
+        {
+          "task_id": "L2.pipette_press_cycle",
+          "arm_modes": [
+            "both"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "both"
+              ],
+              "stages": [
+                {
+                  "stage_id": "reach_pipette",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "grasp_pipette",
+                  "kind": "primitive",
+                  "task_id": "L1.grasp_object"
+                },
+                {
+                  "stage_id": "carry_pipette_to_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "press_pipette",
+                  "kind": "primitive",
+                  "task_id": "L1.press_control"
+                },
+                {
+                  "stage_id": "release_press_contact",
+                  "kind": "symbolic",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "return_pipette",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "release_pipette",
+                  "kind": "primitive",
+                  "task_id": "L1.place_object"
+                },
+                {
+                  "stage_id": "home_both_arms",
+                  "kind": "symbolic",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L2.opener_tube_cycle",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "reach_opener",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "grasp_opener",
+                  "kind": "primitive",
+                  "task_id": "L1.grasp_object"
+                },
+                {
+                  "stage_id": "carry_opener_to_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "open_tube_lid",
+                  "kind": "primitive",
+                  "task_id": "L1.rotate_control"
+                },
+                {
+                  "stage_id": "return_opener",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "release_opener",
+                  "kind": "primitive",
+                  "task_id": "L1.place_object"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L2.device_open_close_cycle",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "reach_device",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "open_device",
+                  "kind": "primitive",
+                  "task_id": "L1.open_articulated_part"
+                },
+                {
+                  "stage_id": "hold_device_open",
+                  "kind": "symbolic",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "close_device",
+                  "kind": "primitive",
+                  "task_id": "L1.close_articulated_part"
+                },
+                {
+                  "stage_id": "home_device_arm",
+                  "kind": "symbolic",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L2.co2_incubator_control_cycle",
+          "arm_modes": [
+            "both"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "both"
+              ],
+              "stages": [
+                {
+                  "stage_id": "left_open_outer_door",
+                  "kind": "primitive",
+                  "task_id": "L1.open_articulated_part"
+                },
+                {
+                  "stage_id": "right_finish_outer_door",
+                  "kind": "primitive",
+                  "task_id": "L1.open_articulated_part"
+                },
+                {
+                  "stage_id": "left_unlock_inner_lever",
+                  "kind": "primitive",
+                  "task_id": "L1.rotate_control"
+                },
+                {
+                  "stage_id": "left_pull_inner_door",
+                  "kind": "primitive",
+                  "task_id": "L1.rotate_control"
+                },
+                {
+                  "stage_id": "hold_inner_open",
+                  "kind": "symbolic",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "left_close_inner_door",
+                  "kind": "primitive",
+                  "task_id": "L1.close_articulated_part"
+                },
+                {
+                  "stage_id": "left_reset_inner_lever",
+                  "kind": "primitive",
+                  "task_id": "L1.rotate_control"
+                },
+                {
+                  "stage_id": "right_close_outer_door_partway",
+                  "kind": "primitive",
+                  "task_id": "L1.close_articulated_part"
+                },
+                {
+                  "stage_id": "left_close_outer_door",
+                  "kind": "primitive",
+                  "task_id": "L1.close_articulated_part"
+                },
+                {
+                  "stage_id": "home_co2_bimanual",
+                  "kind": "symbolic",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L2.microtube_mixer_cycle",
+          "arm_modes": [
+            "both",
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "knob_only",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "reach_mixer_knob",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "rotate_mixer_knob",
+                  "kind": "primitive",
+                  "task_id": "L1.rotate_control"
+                },
+                {
+                  "stage_id": "hold_mixer_knob",
+                  "kind": "symbolic",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "home_mixer_arms",
+                  "kind": "symbolic",
+                  "task_id": null
+                }
+              ]
+            },
+            {
+              "id": "tube_only",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "reach_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "grasp_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.grasp_object"
+                },
+                {
+                  "stage_id": "transport_tube_to_slot",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "place_tube_in_slot",
+                  "kind": "primitive",
+                  "task_id": "L1.place_object"
+                },
+                {
+                  "stage_id": "hold_tube_in_slot",
+                  "kind": "symbolic",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "retrieve_tube_reach",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "retrieve_tube_grasp",
+                  "kind": "primitive",
+                  "task_id": "L1.grasp_object"
+                },
+                {
+                  "stage_id": "return_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "release_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.place_object"
+                }
+              ]
+            },
+            {
+              "id": "tube_and_rotation",
+              "arm_modes": [
+                "both"
+              ],
+              "stages": [
+                {
+                  "stage_id": "reach_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "grasp_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.grasp_object"
+                },
+                {
+                  "stage_id": "transport_tube_to_slot",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "place_tube_in_slot",
+                  "kind": "primitive",
+                  "task_id": "L1.place_object"
+                },
+                {
+                  "stage_id": "left_arm_exit",
+                  "kind": "symbolic",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "reach_mixer_knob",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "rotate_mixer_knob",
+                  "kind": "primitive",
+                  "task_id": "L1.rotate_control"
+                },
+                {
+                  "stage_id": "hold_mixer_knob",
+                  "kind": "symbolic",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "home_mixer_arms",
+                  "kind": "symbolic",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L2.block_thermostatic_bath_cycle",
+          "arm_modes": [
+            "single"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "single"
+              ],
+              "stages": [
+                {
+                  "stage_id": "open_bath",
+                  "kind": "primitive",
+                  "task_id": "L1.open_articulated_part"
+                },
+                {
+                  "stage_id": "reach_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "grasp_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.grasp_object"
+                },
+                {
+                  "stage_id": "transport_tube_to_bath_slot",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "place_tube_in_bath",
+                  "kind": "primitive",
+                  "task_id": "L1.place_object"
+                },
+                {
+                  "stage_id": "hold_bath",
+                  "kind": "symbolic",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "retrieve_tube_reach",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "retrieve_tube_grasp",
+                  "kind": "primitive",
+                  "task_id": "L1.grasp_object"
+                },
+                {
+                  "stage_id": "return_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "release_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.place_object"
+                },
+                {
+                  "stage_id": "close_bath",
+                  "kind": "primitive",
+                  "task_id": "L1.close_articulated_part"
+                },
+                {
+                  "stage_id": "home_bath_arm",
+                  "kind": "symbolic",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L2.cool_incubator_holder_tube_cycle",
+          "arm_modes": [
+            "both"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "both"
+              ],
+              "stages": [
+                {
+                  "stage_id": "open_cool_incubator",
+                  "kind": "primitive",
+                  "task_id": "L1.open_articulated_part"
+                },
+                {
+                  "stage_id": "grasp_holder",
+                  "kind": "primitive",
+                  "task_id": "L1.grasp_object"
+                },
+                {
+                  "stage_id": "move_holder_to_workstation",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "reach_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.reach_target"
+                },
+                {
+                  "stage_id": "grasp_tube",
+                  "kind": "primitive",
+                  "task_id": "L1.grasp_object"
+                },
+                {
+                  "stage_id": "place_tube_in_holder_slot",
+                  "kind": "primitive",
+                  "task_id": "L1.place_object"
+                },
+                {
+                  "stage_id": "return_holder",
+                  "kind": "primitive",
+                  "task_id": "L1.transport_object"
+                },
+                {
+                  "stage_id": "release_holder",
+                  "kind": "primitive",
+                  "task_id": "L1.place_object"
+                },
+                {
+                  "stage_id": "close_cool_incubator",
+                  "kind": "primitive",
+                  "task_id": "L1.close_articulated_part"
+                },
+                {
+                  "stage_id": "home_both_arms",
+                  "kind": "symbolic",
+                  "task_id": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "L3": {
+      "tasks": [
+        {
+          "task_id": "L3.tube_prepare_and_operate",
+          "arm_modes": [
+            "both"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "both"
+              ],
+              "stages": [
+                {
+                  "stage_id": "opener_open_and_return",
+                  "kind": "component",
+                  "action": "operate",
+                  "component_task_ids": [
+                    "L1.reach_target",
+                    "L1.grasp_object",
+                    "L1.transport_object",
+                    "L1.open_articulated_part",
+                    "L1.place_object"
+                  ]
+                },
+                {
+                  "stage_id": "pipette_press_and_release",
+                  "kind": "component",
+                  "action": "operate",
+                  "component_task_ids": [
+                    "L1.reach_target",
+                    "L1.grasp_object",
+                    "L1.transport_object",
+                    "L1.press_control",
+                    "L1.place_object"
+                  ]
+                },
+                {
+                  "stage_id": "opener_close_and_return",
+                  "kind": "component",
+                  "action": "operate",
+                  "component_task_ids": [
+                    "L1.reach_target",
+                    "L1.grasp_object",
+                    "L1.transport_object",
+                    "L1.close_articulated_part",
+                    "L1.place_object"
+                  ]
+                },
+                {
+                  "stage_id": "target_device_operation",
+                  "kind": "component",
+                  "action": "operate",
+                  "component_task_ids": [
+                    "L1.reach_target",
+                    "L1.grasp_object",
+                    "L1.transport_object",
+                    "L1.place_object",
+                    "L1.rotate_control",
+                    "L1.open_articulated_part",
+                    "L1.close_articulated_part"
+                  ]
+                },
+                {
+                  "stage_id": "home_both_arms",
+                  "kind": "symbolic",
+                  "action": "wait",
+                  "component_task_ids": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "task_id": "L3.tube_condition_and_store",
+          "arm_modes": [
+            "both"
+          ],
+          "variants": [
+            {
+              "id": "default",
+              "arm_modes": [
+                "both"
+              ],
+              "stages": [
+                {
+                  "stage_id": "open_source_bath",
+                  "kind": "component",
+                  "action": "open",
+                  "component_task_ids": [
+                    "L1.reach_target",
+                    "L1.open_articulated_part"
+                  ]
+                },
+                {
+                  "stage_id": "retrieve_closed_source_tube",
+                  "kind": "component",
+                  "action": "retrieve",
+                  "component_task_ids": [
+                    "L1.reach_target",
+                    "L1.grasp_object",
+                    "L1.lift_object",
+                    "L1.transport_object"
+                  ]
+                },
+                {
+                  "stage_id": "close_source_bath",
+                  "kind": "component",
+                  "action": "close",
+                  "component_task_ids": [
+                    "L1.close_articulated_part"
+                  ]
+                },
+                {
+                  "stage_id": "open_cool_incubator",
+                  "kind": "component",
+                  "action": "open",
+                  "component_task_ids": [
+                    "L1.open_articulated_part"
+                  ]
+                },
+                {
+                  "stage_id": "place_tube_in_holder_local_slot",
+                  "kind": "component",
+                  "action": "place",
+                  "component_task_ids": [
+                    "L1.grasp_object",
+                    "L1.transport_object",
+                    "L1.place_object"
+                  ]
+                },
+                {
+                  "stage_id": "close_cool_incubator",
+                  "kind": "component",
+                  "action": "close",
+                  "component_task_ids": [
+                    "L1.close_articulated_part"
+                  ]
+                },
+                {
+                  "stage_id": "home_both_arms",
+                  "kind": "symbolic",
+                  "action": "wait",
+                  "component_task_ids": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
