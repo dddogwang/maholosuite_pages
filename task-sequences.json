@@ -205,13 +205,6 @@
                   "kind": "primitive",
                   "call": "carry({destination}.slot.XY)",
                   "task_id": null
-                },
-                {
-                  "stage_id": "descend",
-                  "arm": "physical-right",
-                  "kind": "primitive",
-                  "call": "descend({destination})",
-                  "task_id": null
                 }
               ]
             }
@@ -276,6 +269,13 @@
                   "arm": "physical-right",
                   "kind": "primitive",
                   "call": "open_gripper()",
+                  "task_id": null
+                },
+                {
+                  "stage_id": "approach",
+                  "arm": "physical-right",
+                  "kind": "primitive",
+                  "call": "approach({destination}.standby)",
                   "task_id": null
                 }
               ]

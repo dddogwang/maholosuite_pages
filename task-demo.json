@@ -8668,30 +8668,6 @@
                     "target": "PipetteSlot007.slot.XY"
                   },
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-right"
-                  },
-                  "arm": "physical-right"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-right",
-                    "target": "PipetteSlot007"
-                  },
-                  "arm": "physical-right"
                 }
               ],
               "finish_signal": "finish",
@@ -8808,11 +8784,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, PipetteSlot007.slot.XY) → keep(physical-right) → descend(physical-right, PipetteSlot007)"
+                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, PipetteSlot007.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -8945,30 +8921,6 @@
                     "target": "Tube001.slot.XY"
                   },
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left"
-                  },
-                  "arm": "physical-left"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left",
-                    "target": "Tube001"
-                  },
-                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -9089,11 +9041,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Opener.standby) → wait(physical-left) → approach(physical-left, Opener.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube001.slot.XY) → keep(physical-left) → descend(physical-left, Tube001)"
+                  "value": "approach(physical-left, Opener.standby) → wait(physical-left) → approach(physical-left, Opener.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Tube001.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -9226,30 +9178,6 @@
                     "target": "Tube001.slot.XY"
                   },
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-right"
-                  },
-                  "arm": "physical-right"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-right",
-                    "target": "Tube001"
-                  },
-                  "arm": "physical-right"
                 }
               ],
               "finish_signal": "finish",
@@ -9370,11 +9298,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, 04_1.5mL_Tube_Holder_Left.standby) → wait(physical-right) → approach(physical-right, 04_1.5mL_Tube_Holder_Left.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.slot.XY) → keep(physical-right) → descend(physical-right, Tube001)"
+                  "value": "approach(physical-right, 04_1.5mL_Tube_Holder_Left.standby) → wait(physical-right) → approach(physical-right, 04_1.5mL_Tube_Holder_Left.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -9507,30 +9435,6 @@
                     "target": "Tube001.slot.XY"
                   },
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-right"
-                  },
-                  "arm": "physical-right"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-right",
-                    "target": "Tube001"
-                  },
-                  "arm": "physical-right"
                 }
               ],
               "finish_signal": "finish",
@@ -9651,11 +9555,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, 05_1.5mL_Tube_Holder_Right.standby) → wait(physical-right) → approach(physical-right, 05_1.5mL_Tube_Holder_Right.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.slot.XY) → keep(physical-right) → descend(physical-right, Tube001)"
+                  "value": "approach(physical-right, 05_1.5mL_Tube_Holder_Right.standby) → wait(physical-right) → approach(physical-right, 05_1.5mL_Tube_Holder_Right.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Tube001.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -9788,30 +9692,6 @@
                     "target": "Slot002.slot.XY"
                   },
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left"
-                  },
-                  "arm": "physical-left"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left",
-                    "target": "Slot002"
-                  },
-                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -9932,11 +9812,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot002.slot.XY) → keep(physical-left) → descend(physical-left, Slot002)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot002.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -10069,30 +9949,6 @@
                     "target": "Slot009.slot.XY"
                   },
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left"
-                  },
-                  "arm": "physical-left"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left",
-                    "target": "Slot009"
-                  },
-                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -10213,11 +10069,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot009.slot.XY) → keep(physical-left) → descend(physical-left, Slot009)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot009.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -10348,30 +10204,6 @@
                   "arguments": {
                     "arm": "physical-left",
                     "target": "Slot011.slot.XY"
-                  },
-                  "arm": "physical-left"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left"
-                  },
-                  "arm": "physical-left"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left",
-                    "target": "Slot011"
                   },
                   "arm": "physical-left"
                 }
@@ -10506,11 +10338,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot011.slot.XY) → keep(physical-left) → descend(physical-left, Slot011)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot011.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -10641,30 +10473,6 @@
                   "arguments": {
                     "arm": "physical-left",
                     "target": "Slot013.slot.XY"
-                  },
-                  "arm": "physical-left"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left"
-                  },
-                  "arm": "physical-left"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left",
-                    "target": "Slot013"
                   },
                   "arm": "physical-left"
                 }
@@ -10799,11 +10607,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot013.slot.XY) → keep(physical-left) → descend(physical-left, Slot013)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot013.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -10936,30 +10744,6 @@
                     "target": "Slot15_002.slot.XY"
                   },
                   "arm": "physical-left"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left"
-                  },
-                  "arm": "physical-left"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-left",
-                    "target": "Slot15_002"
-                  },
-                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -11080,11 +10864,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube15_001.standby) → wait(physical-left) → approach(physical-left, Tube15_001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot15_002.slot.XY) → keep(physical-left) → descend(physical-left, Slot15_002)"
+                  "value": "approach(physical-left, Tube15_001.standby) → wait(physical-left) → approach(physical-left, Tube15_001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot15_002.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -11217,30 +11001,6 @@
                     "target": "Slot50_002.slot.XY"
                   },
                   "arm": "physical-right"
-                },
-                {
-                  "skill": "keep",
-                  "target_ref": null,
-                  "parameters": [
-                    "arm"
-                  ],
-                  "arguments": {
-                    "arm": "physical-right"
-                  },
-                  "arm": "physical-right"
-                },
-                {
-                  "skill": "descend",
-                  "target_ref": "destination",
-                  "parameters": [
-                    "arm",
-                    "target"
-                  ],
-                  "arguments": {
-                    "arm": "physical-right",
-                    "target": "Slot50_002"
-                  },
-                  "arm": "physical-right"
                 }
               ],
               "finish_signal": "finish",
@@ -11361,11 +11121,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "11"
+                  "value": "9"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Tube50_001.standby) → wait(physical-right) → approach(physical-right, Tube50_001.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Slot50_002.slot.XY) → keep(physical-right) → descend(physical-right, Slot50_002)"
+                  "value": "approach(physical-right, Tube50_001.standby) → wait(physical-right) → approach(physical-right, Tube50_001.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Slot50_002.slot.XY)"
                 },
                 {
                   "name": "draft_status",
@@ -11553,6 +11313,30 @@
                     "arm": "physical-right"
                   },
                   "arm": "physical-right"
+                },
+                {
+                  "skill": "wait",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "approach",
+                  "target_ref": "destination_standby",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right",
+                    "target": "PipetteSlot007.standby"
+                  },
+                  "arm": "physical-right"
                 }
               ],
               "finish_signal": "finish",
@@ -11669,11 +11453,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, PipetteSlot007.slot.XY) → keep(physical-right) → lower(physical-right, PipetteSlot007) → keep(physical-right) → open_gripper(physical-right)"
+                  "value": "approach(physical-right, Pipette005.standby) → wait(physical-right) → approach(physical-right, Pipette005.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, PipetteSlot007.slot.XY) → keep(physical-right) → lower(physical-right, PipetteSlot007) → keep(physical-right) → open_gripper(physical-right) → wait(physical-right) → approach(physical-right, PipetteSlot007.standby)"
                 },
                 {
                   "name": "draft_status",
@@ -11852,6 +11636,30 @@
                     "arm": "physical-left"
                   },
                   "arm": "physical-left"
+                },
+                {
+                  "skill": "wait",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "approach",
+                  "target_ref": "destination_standby",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Opener.standby"
+                  },
+                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -11952,11 +11760,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Opener.standby) → wait(physical-left) → approach(physical-left, Opener.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Opener.slot.XY) → keep(physical-left) → lower(physical-left, Opener) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Opener.standby) → wait(physical-left) → approach(physical-left, Opener.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Opener.slot.XY) → keep(physical-left) → lower(physical-left, Opener) → keep(physical-left) → open_gripper(physical-left) → wait(physical-left) → approach(physical-left, Opener.standby)"
                 },
                 {
                   "name": "draft_status",
@@ -12135,6 +11943,30 @@
                     "arm": "physical-left"
                   },
                   "arm": "physical-left"
+                },
+                {
+                  "skill": "wait",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "approach",
+                  "target_ref": "destination_standby",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot002.standby"
+                  },
+                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -12255,11 +12087,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot002.slot.XY) → keep(physical-left) → lower(physical-left, Slot002) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot002.slot.XY) → keep(physical-left) → lower(physical-left, Slot002) → keep(physical-left) → open_gripper(physical-left) → wait(physical-left) → approach(physical-left, Slot002.standby)"
                 },
                 {
                   "name": "draft_status",
@@ -12438,6 +12270,30 @@
                     "arm": "physical-left"
                   },
                   "arm": "physical-left"
+                },
+                {
+                  "skill": "wait",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "approach",
+                  "target_ref": "destination_standby",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot009.standby"
+                  },
+                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -12558,11 +12414,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot009.slot.XY) → keep(physical-left) → lower(physical-left, Slot009) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot009.slot.XY) → keep(physical-left) → lower(physical-left, Slot009) → keep(physical-left) → open_gripper(physical-left) → wait(physical-left) → approach(physical-left, Slot009.standby)"
                 },
                 {
                   "name": "draft_status",
@@ -12741,6 +12597,30 @@
                     "arm": "physical-left"
                   },
                   "arm": "physical-left"
+                },
+                {
+                  "skill": "wait",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "approach",
+                  "target_ref": "destination_standby",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot011.standby"
+                  },
+                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -12873,11 +12753,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot011.slot.XY) → keep(physical-left) → lower(physical-left, Slot011) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot011.slot.XY) → keep(physical-left) → lower(physical-left, Slot011) → keep(physical-left) → open_gripper(physical-left) → wait(physical-left) → approach(physical-left, Slot011.standby)"
                 },
                 {
                   "name": "draft_status",
@@ -13056,6 +12936,30 @@
                     "arm": "physical-left"
                   },
                   "arm": "physical-left"
+                },
+                {
+                  "skill": "wait",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "approach",
+                  "target_ref": "destination_standby",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot013.standby"
+                  },
+                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -13188,11 +13092,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot013.slot.XY) → keep(physical-left) → lower(physical-left, Slot013) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube001.standby) → wait(physical-left) → approach(physical-left, Tube001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot013.slot.XY) → keep(physical-left) → lower(physical-left, Slot013) → keep(physical-left) → open_gripper(physical-left) → wait(physical-left) → approach(physical-left, Slot013.standby)"
                 },
                 {
                   "name": "draft_status",
@@ -13371,6 +13275,30 @@
                     "arm": "physical-left"
                   },
                   "arm": "physical-left"
+                },
+                {
+                  "skill": "wait",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left"
+                  },
+                  "arm": "physical-left"
+                },
+                {
+                  "skill": "approach",
+                  "target_ref": "destination_standby",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-left",
+                    "target": "Slot15_002.standby"
+                  },
+                  "arm": "physical-left"
                 }
               ],
               "finish_signal": "finish",
@@ -13491,11 +13419,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-left, Tube15_001.standby) → wait(physical-left) → approach(physical-left, Tube15_001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot15_002.slot.XY) → keep(physical-left) → lower(physical-left, Slot15_002) → keep(physical-left) → open_gripper(physical-left)"
+                  "value": "approach(physical-left, Tube15_001.standby) → wait(physical-left) → approach(physical-left, Tube15_001.operate) → wait(physical-left) → close_gripper(physical-left) → keep(physical-left) → lift(physical-left, height) → keep(physical-left) → carry(physical-left, Slot15_002.slot.XY) → keep(physical-left) → lower(physical-left, Slot15_002) → keep(physical-left) → open_gripper(physical-left) → wait(physical-left) → approach(physical-left, Slot15_002.standby)"
                 },
                 {
                   "name": "draft_status",
@@ -13674,6 +13602,30 @@
                     "arm": "physical-right"
                   },
                   "arm": "physical-right"
+                },
+                {
+                  "skill": "wait",
+                  "target_ref": null,
+                  "parameters": [
+                    "arm"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right"
+                  },
+                  "arm": "physical-right"
+                },
+                {
+                  "skill": "approach",
+                  "target_ref": "destination_standby",
+                  "parameters": [
+                    "arm",
+                    "target"
+                  ],
+                  "arguments": {
+                    "arm": "physical-right",
+                    "target": "Slot50_002.standby"
+                  },
+                  "arm": "physical-right"
                 }
               ],
               "finish_signal": "finish",
@@ -13794,11 +13746,11 @@
                 },
                 {
                   "name": "route_stage_count",
-                  "value": "13"
+                  "value": "15"
                 },
                 {
                   "name": "route_stages",
-                  "value": "approach(physical-right, Tube50_001.standby) → wait(physical-right) → approach(physical-right, Tube50_001.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Slot50_002.slot.XY) → keep(physical-right) → lower(physical-right, Slot50_002) → keep(physical-right) → open_gripper(physical-right)"
+                  "value": "approach(physical-right, Tube50_001.standby) → wait(physical-right) → approach(physical-right, Tube50_001.operate) → wait(physical-right) → close_gripper(physical-right) → keep(physical-right) → lift(physical-right, height) → keep(physical-right) → carry(physical-right, Slot50_002.slot.XY) → keep(physical-right) → lower(physical-right, Slot50_002) → keep(physical-right) → open_gripper(physical-right) → wait(physical-right) → approach(physical-right, Slot50_002.standby)"
                 },
                 {
                   "name": "draft_status",
