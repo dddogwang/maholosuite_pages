@@ -412,7 +412,7 @@
                   "stage_id": "approach",
                   "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "approach({target}.operate)",
+                  "call": "approach({target})",
                   "task_id": null
                 },
                 {
@@ -454,7 +454,7 @@
                   "stage_id": "approach",
                   "arm": "physical-left",
                   "kind": "primitive",
-                  "call": "approach({target}.top)",
+                  "call": "approach({target}.operate)",
                   "task_id": null
                 },
                 {

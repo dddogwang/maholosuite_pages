@@ -1,5 +1,5 @@
 {
-  "source_sha256": "711de98ff6fd880f7b6585b4303a74268d4c739cfbe78eb8c97676e002d5a827",
+  "source_sha256": "d43c011602f53949f90225a46c8f4a275ca4c1170bf1eaf3145eef765f91a238",
   "records": [
     {
       "instance": "04_1.5mL_Tube_Holder_Left",
@@ -640,35 +640,35 @@
           "roles": {
             "standby": {
               "views": {
-                "front": "assets/gallery/standby/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/front.png?v=4342ae4254b9",
-                "left": "assets/gallery/standby/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/left.png?v=6e864a14426a",
-                "back": "assets/gallery/standby/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/back.png?v=f674cf7010a3",
-                "right": "assets/gallery/standby/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/right.png?v=a8bfec87d789"
+                "front": "assets/gallery/standby/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/front.png?v=2cfaeb95ae03",
+                "left": "assets/gallery/standby/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/left.png?v=bd499328d23f",
+                "back": "assets/gallery/standby/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/back.png?v=0c4b603c2b0c",
+                "right": "assets/gallery/standby/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/right.png?v=f7b96251888f"
               },
               "position": [
-                0.4767732322216034,
-                -0.31565216183662415,
-                1.6315046548843384
+                0.5071187019348145,
+                -0.21898800134658813,
+                1.402773141860962
               ],
               "quaternion_wxyz": [
+                0.7071067094802856,
                 0.0,
                 0.7071068286895752,
-                0.0,
-                0.7071068286895752
+                0.0
               ],
               "reference_joint_qpos": 0.0
             },
             "operate": {
               "views": {
-                "front": "assets/gallery/operate/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/front.png?v=db10d2e6dd3f",
-                "left": "assets/gallery/operate/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/left.png?v=1f9ae4e2ee60",
-                "back": "assets/gallery/operate/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/back.png?v=c279dd1db345",
-                "right": "assets/gallery/operate/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/right.png?v=771b26ee631f"
+                "front": "assets/gallery/operate/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/front.png?v=1ca14e83d6ed",
+                "left": "assets/gallery/operate/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/left.png?v=f6a2b2d09401",
+                "back": "assets/gallery/operate/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/back.png?v=fd37db10f3fb",
+                "right": "assets/gallery/operate/equipment_co2incubator/CO2Incubator/rotate_inner_door_knob/right.png?v=f1aa65657198"
               },
               "position": [
-                0.43933629989624023,
-                -0.2149505466222763,
-                1.4031752347946167
+                0.5721186995506287,
+                -0.21898800134658813,
+                1.402773141860962
               ],
               "quaternion_wxyz": [
                 0.7071067094802856,
@@ -681,13 +681,13 @@
           },
           "framing": {
             "bounds_min": [
-              0.2558928180374946,
-              -0.3609563402346617,
+              0.3236752200760688,
+              -0.2818808628684067,
               1.1875885575466487
             ],
             "bounds_max": [
               0.9509984324766885,
-              0.12815734624398728,
+              0.5180073093515913,
               1.6952368091378074
             ],
             "fovy": 45.0,
