@@ -1,47 +1,47 @@
 {
   "renderer": "Blender Cycles",
   "source_blend": "maholo_visual.blend",
-  "source_sha256": "b8c10c34acdb00ae81b700dc473ddc1a97c2cd8b427ab10b3328ed6ea70037b2",
-  "samples": 32,
+  "source_sha256": "7e683504c7d8327b9f951c233edf5143f206ef5a376bc845e3380fa85f4dd40f",
+  "samples": 96,
   "view_transform": "AgX",
   "look": "AgX - Medium High Contrast",
-  "exposure": -1.149999976158142,
+  "exposure": -0.949999988079071,
   "views": [
     {
       "id": "overview",
       "position": [
         2.9000000953674316,
         3.119999885559082,
-        2.6500000953674316
+        2.0799999237060547
       ],
-      "lens_mm": 38
+      "lens_mm": 36
     },
     {
       "id": "front",
       "position": [
         -0.13306230306625366,
         3.12,
-        2.35
+        2.1
       ],
-      "lens_mm": 34
+      "lens_mm": 33
     },
     {
       "id": "left",
       "position": [
         -3.45,
         2.7,
-        2.65
+        2.3
       ],
-      "lens_mm": 38
+      "lens_mm": 36
     },
     {
       "id": "high",
       "position": [
         0.2,
-        2.1,
-        4.7
+        2.3,
+        3.0
       ],
-      "lens_mm": 45
+      "lens_mm": 34
     }
   ],
   "purpose": "Blender appearance reference; not native MuJoCo camera observations"
