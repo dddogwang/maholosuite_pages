@@ -1,48 +1,349 @@
 {
   "renderer": "Blender Cycles",
   "source_blend": "maholo_visual.blend",
-  "source_sha256": "7e683504c7d8327b9f951c233edf5143f206ef5a376bc845e3380fa85f4dd40f",
-  "samples": 96,
+  "source_sha256": "31531f5f624e4d898b8f859a962e48c5708f994edcebbc5e645e1dbd09478eae",
+  "sampling_per_view": {
+    "front": {
+      "maximum_samples": 512,
+      "minimum_samples": 128,
+      "noise_threshold": 0.002
+    },
+    "labware": {
+      "maximum_samples": 256,
+      "minimum_samples": 64,
+      "noise_threshold": 0.005
+    },
+    "robot": {
+      "maximum_samples": 256,
+      "minimum_samples": 64,
+      "noise_threshold": 0.005
+    },
+    "instruments": {
+      "maximum_samples": 256,
+      "minimum_samples": 64,
+      "noise_threshold": 0.005
+    },
+    "thermal": {
+      "maximum_samples": 256,
+      "minimum_samples": 64,
+      "noise_threshold": 0.005
+    },
+    "incubators": {
+      "maximum_samples": 256,
+      "minimum_samples": 64,
+      "noise_threshold": 0.005
+    },
+    "pipettes": {
+      "maximum_samples": 256,
+      "minimum_samples": 64,
+      "noise_threshold": 0.005
+    }
+  },
+  "resolution_per_view": {
+    "front": [
+      5120,
+      2816
+    ],
+    "robot": [
+      1920,
+      1440
+    ],
+    "labware": [
+      1920,
+      1440
+    ],
+    "instruments": [
+      1920,
+      1440
+    ],
+    "thermal": [
+      1920,
+      1440
+    ],
+    "incubators": [
+      1920,
+      1440
+    ],
+    "pipettes": [
+      1920,
+      1440
+    ]
+  },
+  "layout": "Frontview hero above 2 rows \u00d7 3 columns",
+  "grid_order": [
+    "robot",
+    "labware",
+    "instruments",
+    "thermal",
+    "incubators",
+    "pipettes"
+  ],
+  "noise_threshold": 0.004999999888241291,
+  "minimum_samples": 64,
   "view_transform": "AgX",
   "look": "AgX - Medium High Contrast",
   "exposure": -0.949999988079071,
   "views": [
     {
-      "id": "overview",
-      "position": [
-        2.9000000953674316,
-        3.119999885559082,
-        2.0799999237060547
-      ],
-      "lens_mm": 36
-    },
-    {
       "id": "front",
-      "position": [
-        -0.13306230306625366,
-        3.12,
-        2.1
+      "camera": "VISUAL | Camera | Frontview",
+      "matrix_world": [
+        [
+          -1.0,
+          -5.1643628040665135e-08,
+          1.4188955788085877e-07,
+          -0.06599999964237213
+        ],
+        [
+          1.5099580252808664e-07,
+          -0.34202027320861816,
+          0.9396921396255493,
+          3.239000082015991
+        ],
+        [
+          -2.7790193852183197e-15,
+          0.939691960811615,
+          0.3420203626155853,
+          2.0969998836517334
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
       ],
-      "lens_mm": 33
+      "lens_mm": 29.399999618530273,
+      "sensor_fit": "HORIZONTAL",
+      "shift_x": 0.0,
+      "shift_y": -0.054999999701976776
     },
     {
-      "id": "left",
-      "position": [
-        -3.45,
-        2.7,
-        2.3
+      "id": "labware",
+      "camera": "VISUAL | Camera | Labware",
+      "matrix_world": [
+        [
+          -0.8376104831695557,
+          -0.2481258511543274,
+          0.4866642653942108,
+          0.8642396926879883
+        ],
+        [
+          0.5462677478790283,
+          -0.38045960664749146,
+          0.7462184429168701,
+          1.3985008001327515
+        ],
+        [
+          -1.996546705740343e-09,
+          0.8908894658088684,
+          0.45422014594078064,
+          1.5599570274353027
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
       ],
-      "lens_mm": 36
+      "lens_mm": 65.0,
+      "sensor_fit": "AUTO",
+      "shift_x": 0.0,
+      "shift_y": 0.0
     },
     {
-      "id": "high",
-      "position": [
-        0.2,
-        2.3,
-        3.0
+      "id": "robot",
+      "camera": "VISUAL | Camera | Robot",
+      "matrix_world": [
+        [
+          -0.8269264101982117,
+          -0.186441570520401,
+          0.5305017828941345,
+          1.2400524616241455
+        ],
+        [
+          0.562309980392456,
+          -0.274178683757782,
+          0.7801496386528015,
+          2.2059595584869385
+        ],
+        [
+          -3.8485836739710066e-08,
+          0.9434328675270081,
+          0.3315635919570923,
+          2.2375328540802
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
       ],
-      "lens_mm": 34
+      "lens_mm": 74.0,
+      "sensor_fit": "AUTO",
+      "shift_x": 0.0,
+      "shift_y": 0.0
+    },
+    {
+      "id": "instruments",
+      "camera": "VISUAL | Camera | Instruments",
+      "matrix_world": [
+        [
+          -0.8336499929428101,
+          0.2820463180541992,
+          -0.4748448431491852,
+          -1.2155286073684692
+        ],
+        [
+          -0.5522931814193726,
+          -0.4257301390171051,
+          0.7167468667030334,
+          1.5789110660552979
+        ],
+        [
+          5.609553710428372e-08,
+          0.8597695827484131,
+          0.5106821656227112,
+          1.5504741668701172
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 58.0,
+      "sensor_fit": "AUTO",
+      "shift_x": 0.0,
+      "shift_y": 0.0
+    },
+    {
+      "id": "thermal",
+      "camera": "VISUAL | Camera | Thermal Cycler",
+      "matrix_world": [
+        [
+          -0.8715754747390747,
+          -0.25199246406555176,
+          0.42054247856140137,
+          1.252988338470459
+        ],
+        [
+          0.49026134610176086,
+          -0.4479864239692688,
+          0.7476308941841125,
+          1.244201421737671
+        ],
+        [
+          -2.4082508431888527e-08,
+          0.8577924966812134,
+          0.5139961242675781,
+          1.6947635412216187
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 52.0,
+      "sensor_fit": "AUTO",
+      "shift_x": 0.0,
+      "shift_y": 0.0
+    },
+    {
+      "id": "incubators",
+      "camera": "VISUAL | Camera | Incubators",
+      "matrix_world": [
+        [
+          -0.040616944432258606,
+          0.3563913404941559,
+          -0.9334535002708435,
+          -0.6976000070571899
+        ],
+        [
+          -0.9991747736930847,
+          -0.014487462118268013,
+          0.037945348769426346,
+          -0.24400000274181366
+        ],
+        [
+          2.0349631313365535e-08,
+          0.9342244267463684,
+          0.35668566823005676,
+          1.9564000368118286
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 48.0,
+      "sensor_fit": "AUTO",
+      "shift_x": 0.0,
+      "shift_y": 0.0
+    },
+    {
+      "id": "pipettes",
+      "camera": "VISUAL | Camera | Pipettes",
+      "matrix_world": [
+        [
+          -0.847424328327179,
+          0.2050079107284546,
+          -0.48973843455314636,
+          -0.02160000056028366
+        ],
+        [
+          -0.530916154384613,
+          -0.3272244334220886,
+          0.7816982865333557,
+          0.6164000034332275
+        ],
+        [
+          -5.770339228661214e-08,
+          0.9224401712417603,
+          0.38613995909690857,
+          1.3827999830245972
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens_mm": 52.0,
+      "sensor_fit": "AUTO",
+      "shift_x": 0.0,
+      "shift_y": 0.0
     }
   ],
-  "purpose": "Blender appearance reference; not native MuJoCo camera observations"
+  "captions": {
+    "robot": "A  MAHOLO robot",
+    "labware": "B  Tubes & pipette tips",
+    "instruments": "C  Cooling block",
+    "thermal": "D  Thermal cycler",
+    "incubators": "E  CO2 & 4 \u00b0C incubators",
+    "pipettes": "F  Pipettes"
+  },
+  "composed_resolution": [
+    3200,
+    3563
+  ],
+  "purpose": "Blender appearance reference; not native MuJoCo camera observations",
+  "filter_width_per_view": {
+    "front": 0.5,
+    "robot": 1.0,
+    "labware": 1.0,
+    "instruments": 1.0,
+    "thermal": 1.0,
+    "incubators": 0.5,
+    "pipettes": 0.5
+  },
+  "source_note": "Frontview, combined incubators and pipettes rendered from the final saved scene; other four detail panels reuse the approved unchanged cameras, materials and geometry."
 }
