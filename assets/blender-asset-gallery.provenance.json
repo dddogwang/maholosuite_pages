@@ -1,0 +1,17 @@
+{
+  "renderer": "Blender Cycles",
+  "source_blend": "maholo_visual.blend",
+  "source_sha256": "2c17a27e169df148c502dcff6f44a00c87e3b7d892e711d646a7d178017352ea",
+  "samples": 32,
+  "slot_resolution": [
+    1400,
+    1050
+  ],
+  "slot_camera_azimuth_source": "VISUAL | Camera | Frontview",
+  "slot_camera_elevation_deg": 70,
+  "card_resolution": [
+    1600,
+    960
+  ],
+  "scene_context": "Whole visual scene retained; point-editing and collision helper collections hidden."
+}

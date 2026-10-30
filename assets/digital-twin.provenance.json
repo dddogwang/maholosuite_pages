@@ -1,72 +1,72 @@
 {
   "renderer": "Blender Cycles",
   "source_blend": "maholo_visual.blend",
-  "source_sha256": "31531f5f624e4d898b8f859a962e48c5708f994edcebbc5e645e1dbd09478eae",
+  "source_sha256": "2c17a27e169df148c502dcff6f44a00c87e3b7d892e711d646a7d178017352ea",
   "sampling_per_view": {
     "front": {
-      "maximum_samples": 512,
-      "minimum_samples": 128,
+      "maximum_samples": 64,
+      "minimum_samples": 32,
       "noise_threshold": 0.002
     },
     "labware": {
-      "maximum_samples": 256,
+      "maximum_samples": 32,
       "minimum_samples": 64,
       "noise_threshold": 0.005
     },
     "robot": {
-      "maximum_samples": 256,
+      "maximum_samples": 32,
       "minimum_samples": 64,
       "noise_threshold": 0.005
     },
     "instruments": {
-      "maximum_samples": 256,
+      "maximum_samples": 32,
       "minimum_samples": 64,
       "noise_threshold": 0.005
     },
     "thermal": {
-      "maximum_samples": 256,
+      "maximum_samples": 32,
       "minimum_samples": 64,
       "noise_threshold": 0.005
     },
     "incubators": {
-      "maximum_samples": 256,
+      "maximum_samples": 32,
       "minimum_samples": 64,
       "noise_threshold": 0.005
     },
     "pipettes": {
-      "maximum_samples": 256,
+      "maximum_samples": 32,
       "minimum_samples": 64,
       "noise_threshold": 0.005
     }
   },
   "resolution_per_view": {
     "front": [
-      5120,
-      2816
+      2560,
+      1408
     ],
     "robot": [
-      1920,
-      1440
+      1600,
+      1200
     ],
     "labware": [
-      1920,
-      1440
+      1600,
+      1200
     ],
     "instruments": [
-      1920,
-      1440
+      1600,
+      1200
     ],
     "thermal": [
-      1920,
-      1440
+      1600,
+      1200
     ],
     "incubators": [
-      1920,
-      1440
+      1600,
+      1200
     ],
     "pipettes": [
-      1920,
-      1440
+      1600,
+      1200
     ]
   },
   "layout": "Frontview hero above 2 rows \u00d7 3 columns",
@@ -78,8 +78,9 @@
     "incubators",
     "pipettes"
   ],
-  "noise_threshold": 0.004999999888241291,
-  "minimum_samples": 64,
+  "noise_threshold": 0.0020000000949949026,
+  "minimum_samples": 32,
+  "filter_width_px": 0.5,
   "view_transform": "AgX",
   "look": "AgX - Medium High Contrast",
   "exposure": -0.949999988079071,
@@ -335,15 +336,5 @@
     3200,
     3563
   ],
-  "purpose": "Blender appearance reference; not native MuJoCo camera observations",
-  "filter_width_per_view": {
-    "front": 0.5,
-    "robot": 1.0,
-    "labware": 1.0,
-    "instruments": 1.0,
-    "thermal": 1.0,
-    "incubators": 0.5,
-    "pipettes": 0.5
-  },
-  "source_note": "Frontview, combined incubators and pipettes rendered from the final saved scene; other four detail panels reuse the approved unchanged cameras, materials and geometry."
+  "purpose": "Blender appearance reference; not native MuJoCo camera observations"
 }

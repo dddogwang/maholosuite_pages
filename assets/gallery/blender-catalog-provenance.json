@@ -1,0 +1,1417 @@
+{
+  "renderer": "Blender Cycles visual + Workbench collision",
+  "source_blend": "maholo_optimized.blend",
+  "source_sha256": "31ef5c8a90669ea57ebf9d3f6bbef7c39dc158bed86ba7f7a04c566f395d3064",
+  "samples": 8,
+  "resolution": [
+    720,
+    457
+  ],
+  "camera_reference_default": "VISUAL | Camera | Frontview",
+  "camera_elevation_degrees": 20.0,
+  "front_azimuth_offset_degrees": 15.0,
+  "views": [
+    "front",
+    "left",
+    "back",
+    "right"
+  ],
+  "pairing": "Visual and collision share a camera and framing from the union of both meshes' world-space bounds.",
+  "collision_style": "Opaque amber material on the authored collision proxies over the same neutral studio stage.",
+  "assets": [
+    {
+      "key": "table_base_link",
+      "card": "table_base_link.png",
+      "collections": [
+        "base_link"
+      ],
+      "camera_reference": "VISUAL | Camera | Frontview",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 1,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_base_link/front.png",
+          "collision": "collision/table_base_link/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_base_link/left.png",
+          "collision": "collision/table_base_link/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_base_link/back.png",
+          "collision": "collision/table_base_link/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_base_link/right.png",
+          "collision": "collision/table_base_link/right.png"
+        }
+      ]
+    },
+    {
+      "key": "table_base_deep_freezer",
+      "card": "table_base_deep_freezer.png",
+      "collections": [
+        "base_deep freezer"
+      ],
+      "camera_reference": "VISUAL | Camera | Frontview",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 30,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_base_deep_freezer/front.png",
+          "collision": "collision/table_base_deep_freezer/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_base_deep_freezer/left.png",
+          "collision": "collision/table_base_deep_freezer/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_base_deep_freezer/back.png",
+          "collision": "collision/table_base_deep_freezer/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_base_deep_freezer/right.png",
+          "collision": "collision/table_base_deep_freezer/right.png"
+        }
+      ]
+    },
+    {
+      "key": "table_main_table",
+      "card": "table_main_table.png",
+      "collections": [
+        "main table"
+      ],
+      "camera_reference": "VISUAL | Camera | Frontview",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 34,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_main_table/front.png",
+          "collision": "collision/table_main_table/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_main_table/left.png",
+          "collision": "collision/table_main_table/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_main_table/back.png",
+          "collision": "collision/table_main_table/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_main_table/right.png",
+          "collision": "collision/table_main_table/right.png"
+        }
+      ]
+    },
+    {
+      "key": "table_side_table_r1_ff",
+      "card": "table_side_table_r1_ff.png",
+      "collections": [
+        "side table_R1_FF"
+      ],
+      "camera_reference": "VISUAL | Camera | Frontview",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 41,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_side_table_r1_ff/front.png",
+          "collision": "collision/table_side_table_r1_ff/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_side_table_r1_ff/left.png",
+          "collision": "collision/table_side_table_r1_ff/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_side_table_r1_ff/back.png",
+          "collision": "collision/table_side_table_r1_ff/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_side_table_r1_ff/right.png",
+          "collision": "collision/table_side_table_r1_ff/right.png"
+        }
+      ]
+    },
+    {
+      "key": "table_side_table_r2",
+      "card": "table_side_table_r2.png",
+      "collections": [
+        "side table_R2"
+      ],
+      "camera_reference": "VISUAL | Camera | Frontview",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 43,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_side_table_r2/front.png",
+          "collision": "collision/table_side_table_r2/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_side_table_r2/left.png",
+          "collision": "collision/table_side_table_r2/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_side_table_r2/back.png",
+          "collision": "collision/table_side_table_r2/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_side_table_r2/right.png",
+          "collision": "collision/table_side_table_r2/right.png"
+        }
+      ]
+    },
+    {
+      "key": "table_incubator_table",
+      "card": "table_incubator_table.png",
+      "collections": [
+        "incubator_table"
+      ],
+      "camera_reference": "VISUAL | Camera | Frontview",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 24,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/table_incubator_table/front.png",
+          "collision": "collision/table_incubator_table/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/table_incubator_table/left.png",
+          "collision": "collision/table_incubator_table/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/table_incubator_table/back.png",
+          "collision": "collision/table_incubator_table/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/table_incubator_table/right.png",
+          "collision": "collision/table_incubator_table/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_coolincubator4c",
+      "card": "equipment_coolincubator4c.png",
+      "collections": [
+        "4\u00b0C Cool Incubator_Body"
+      ],
+      "camera_reference": "VISUAL | Camera | Refrigerator",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 7,
+      "collision_meshes": 184,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_coolincubator4c/front.png",
+          "collision": "collision/equipment_coolincubator4c/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_coolincubator4c/left.png",
+          "collision": "collision/equipment_coolincubator4c/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_coolincubator4c/back.png",
+          "collision": "collision/equipment_coolincubator4c/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_coolincubator4c/right.png",
+          "collision": "collision/equipment_coolincubator4c/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_co2incubator",
+      "card": "equipment_co2incubator.png",
+      "collections": [
+        "CO2 incubator"
+      ],
+      "camera_reference": "VISUAL | Camera | Incubators",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 4,
+      "collision_meshes": 185,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_co2incubator/front.png",
+          "collision": "collision/equipment_co2incubator/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_co2incubator/left.png",
+          "collision": "collision/equipment_co2incubator/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_co2incubator/back.png",
+          "collision": "collision/equipment_co2incubator/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_co2incubator/right.png",
+          "collision": "collision/equipment_co2incubator/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_deepfreezer",
+      "card": "equipment_deepfreezer.png",
+      "collections": [
+        "Deep Freezer"
+      ],
+      "camera_reference": "VISUAL | Camera | Deep Freezer",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 2,
+      "collision_meshes": 300,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_deepfreezer/front.png",
+          "collision": "collision/equipment_deepfreezer/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_deepfreezer/left.png",
+          "collision": "collision/equipment_deepfreezer/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_deepfreezer/back.png",
+          "collision": "collision/equipment_deepfreezer/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_deepfreezer/right.png",
+          "collision": "collision/equipment_deepfreezer/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_thermalcycler",
+      "card": "equipment_thermalcycler.png",
+      "collections": [
+        "Thermal cycler"
+      ],
+      "camera_reference": "VISUAL | Camera | Thermal Cycler",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 3,
+      "collision_meshes": 69,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_thermalcycler/front.png",
+          "collision": "collision/equipment_thermalcycler/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_thermalcycler/left.png",
+          "collision": "collision/equipment_thermalcycler/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_thermalcycler/back.png",
+          "collision": "collision/equipment_thermalcycler/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_thermalcycler/right.png",
+          "collision": "collision/equipment_thermalcycler/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_mx307",
+      "card": "equipment_mx307.png",
+      "collections": [
+        "MX-307"
+      ],
+      "camera_reference": "VISUAL | Camera | Instruments",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 5,
+      "collision_meshes": 221,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_mx307/front.png",
+          "collision": "collision/equipment_mx307/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_mx307/left.png",
+          "collision": "collision/equipment_mx307/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_mx307/back.png",
+          "collision": "collision/equipment_mx307/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_mx307/right.png",
+          "collision": "collision/equipment_mx307/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_microtubemixer",
+      "card": "equipment_microtubemixer.png",
+      "collections": [
+        "Microtube Mixer Base"
+      ],
+      "camera_reference": "VISUAL | Camera | Pipettes",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 5,
+      "collision_meshes": 260,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_microtubemixer/front.png",
+          "collision": "collision/equipment_microtubemixer/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_microtubemixer/left.png",
+          "collision": "collision/equipment_microtubemixer/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_microtubemixer/back.png",
+          "collision": "collision/equipment_microtubemixer/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_microtubemixer/right.png",
+          "collision": "collision/equipment_microtubemixer/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_vortexmixer",
+      "card": "equipment_vortexmixer.png",
+      "collections": [
+        "Vortex Mixer"
+      ],
+      "camera_reference": "VISUAL | Camera | Centrifuge",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 5,
+      "collision_meshes": 79,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_vortexmixer/front.png",
+          "collision": "collision/equipment_vortexmixer/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_vortexmixer/left.png",
+          "collision": "collision/equipment_vortexmixer/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_vortexmixer/back.png",
+          "collision": "collision/equipment_vortexmixer/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_vortexmixer/right.png",
+          "collision": "collision/equipment_vortexmixer/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_blockthermostaticbath",
+      "card": "equipment_blockthermostaticbath.png",
+      "collections": [
+        "AS ONE Aluminum block thermostatic bath(1)"
+      ],
+      "camera_reference": "VISUAL | Camera | Cold Block",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 6,
+      "collision_meshes": 248,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_blockthermostaticbath/front.png",
+          "collision": "collision/equipment_blockthermostaticbath/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_blockthermostaticbath/left.png",
+          "collision": "collision/equipment_blockthermostaticbath/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_blockthermostaticbath/back.png",
+          "collision": "collision/equipment_blockthermostaticbath/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_blockthermostaticbath/right.png",
+          "collision": "collision/equipment_blockthermostaticbath/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_blockthermostaticbath2",
+      "card": "equipment_blockthermostaticbath2.png",
+      "collections": [
+        "AS ONE Aluminum block thermostatic bath(2)"
+      ],
+      "camera_reference": "VISUAL | Camera | Cold Block",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 6,
+      "collision_meshes": 250,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_blockthermostaticbath2/front.png",
+          "collision": "collision/equipment_blockthermostaticbath2/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_blockthermostaticbath2/left.png",
+          "collision": "collision/equipment_blockthermostaticbath2/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_blockthermostaticbath2/back.png",
+          "collision": "collision/equipment_blockthermostaticbath2/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_blockthermostaticbath2/right.png",
+          "collision": "collision/equipment_blockthermostaticbath2/right.png"
+        }
+      ]
+    },
+    {
+      "key": "equipment_coolblockbath",
+      "card": "equipment_coolblockbath.png",
+      "collections": [
+        "Cool block bath"
+      ],
+      "camera_reference": "VISUAL | Camera | Cold Block",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 8,
+      "collision_meshes": 189,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/equipment_coolblockbath/front.png",
+          "collision": "collision/equipment_coolblockbath/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/equipment_coolblockbath/left.png",
+          "collision": "collision/equipment_coolblockbath/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/equipment_coolblockbath/back.png",
+          "collision": "collision/equipment_coolblockbath/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/equipment_coolblockbath/right.png",
+          "collision": "collision/equipment_coolblockbath/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_1_5ml_tube_storage_48",
+      "card": "arena_consum_1_5ml_tube_storage_48.png",
+      "collections": [
+        "1.5ml tube storage_48"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 171,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_1_5ml_tube_storage_48/front.png",
+          "collision": "collision/arena_consum_1_5ml_tube_storage_48/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_1_5ml_tube_storage_48/left.png",
+          "collision": "collision/arena_consum_1_5ml_tube_storage_48/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_1_5ml_tube_storage_48/back.png",
+          "collision": "collision/arena_consum_1_5ml_tube_storage_48/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_1_5ml_tube_storage_48/right.png",
+          "collision": "collision/arena_consum_1_5ml_tube_storage_48/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_1_5mltube_main_rack_multi_omics",
+      "card": "arena_consum_1_5mltube_main_rack_multi_omics.png",
+      "collections": [
+        "1_5MLTUBE-MAIN RACK Multi-Omics"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 25,
+      "collision_meshes": 382,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_1_5mltube_main_rack_multi_omics/front.png",
+          "collision": "collision/arena_consum_1_5mltube_main_rack_multi_omics/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_1_5mltube_main_rack_multi_omics/left.png",
+          "collision": "collision/arena_consum_1_5mltube_main_rack_multi_omics/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_1_5mltube_main_rack_multi_omics/back.png",
+          "collision": "collision/arena_consum_1_5mltube_main_rack_multi_omics/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_1_5mltube_main_rack_multi_omics/right.png",
+          "collision": "collision/arena_consum_1_5mltube_main_rack_multi_omics/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_chip_box_rack_1000ul",
+      "card": "arena_consum_chip_box_rack_1000ul.png",
+      "collections": [
+        "Chip BOX Rack_1000\u03bcl"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 234,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_chip_box_rack_1000ul/front.png",
+          "collision": "collision/arena_consum_chip_box_rack_1000ul/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_chip_box_rack_1000ul/left.png",
+          "collision": "collision/arena_consum_chip_box_rack_1000ul/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_chip_box_rack_1000ul/back.png",
+          "collision": "collision/arena_consum_chip_box_rack_1000ul/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_chip_box_rack_1000ul/right.png",
+          "collision": "collision/arena_consum_chip_box_rack_1000ul/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_chip_box_rack_200ul",
+      "card": "arena_consum_chip_box_rack_200ul.png",
+      "collections": [
+        "Chip BOX Rack_200\u03bcl"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 199,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_chip_box_rack_200ul/front.png",
+          "collision": "collision/arena_consum_chip_box_rack_200ul/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_chip_box_rack_200ul/left.png",
+          "collision": "collision/arena_consum_chip_box_rack_200ul/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_chip_box_rack_200ul/back.png",
+          "collision": "collision/arena_consum_chip_box_rack_200ul/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_chip_box_rack_200ul/right.png",
+          "collision": "collision/arena_consum_chip_box_rack_200ul/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_chip_box_200ul",
+      "card": "arena_consum_chip_box_200ul.png",
+      "collections": [
+        "Chip BOX_200\u03bcl"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 197,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_chip_box_200ul/front.png",
+          "collision": "collision/arena_consum_chip_box_200ul/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_chip_box_200ul/left.png",
+          "collision": "collision/arena_consum_chip_box_200ul/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_chip_box_200ul/back.png",
+          "collision": "collision/arena_consum_chip_box_200ul/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_chip_box_200ul/right.png",
+          "collision": "collision/arena_consum_chip_box_200ul/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_chip_box_5ml",
+      "card": "arena_consum_chip_box_5ml.png",
+      "collections": [
+        "Chip BOX_5ml"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 211,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_chip_box_5ml/front.png",
+          "collision": "collision/arena_consum_chip_box_5ml/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_chip_box_5ml/left.png",
+          "collision": "collision/arena_consum_chip_box_5ml/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_chip_box_5ml/back.png",
+          "collision": "collision/arena_consum_chip_box_5ml/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_chip_box_5ml/right.png",
+          "collision": "collision/arena_consum_chip_box_5ml/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_pcr_plate_main_rack_with_cooling_1",
+      "card": "arena_consum_pcr_plate_main_rack_with_cooling_1.png",
+      "collections": [
+        "PCR Plate Main Rack with Cooling(1)"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 137,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_1/front.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_1/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_1/left.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_1/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_1/back.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_1/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_1/right.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_1/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_pcr_plate_main_rack_with_cooling_2",
+      "card": "arena_consum_pcr_plate_main_rack_with_cooling_2.png",
+      "collections": [
+        "PCR Plate Main Rack with Cooling(2)"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 140,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_2/front.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_2/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_2/left.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_2/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_2/back.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_2/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_2/right.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_2/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_pcr_plate_main_rack_with_cooling_3",
+      "card": "arena_consum_pcr_plate_main_rack_with_cooling_3.png",
+      "collections": [
+        "PCR Plate Main Rack with Cooling(3)"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 137,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_3/front.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_3/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_3/left.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_3/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_3/back.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_3/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_pcr_plate_main_rack_with_cooling_3/right.png",
+          "collision": "collision/arena_consum_pcr_plate_main_rack_with_cooling_3/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_storage_15ml_6",
+      "card": "arena_consum_storage_15ml_6.png",
+      "collections": [
+        "Storage_15ml-6"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 190,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_storage_15ml_6/front.png",
+          "collision": "collision/arena_consum_storage_15ml_6/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_storage_15ml_6/left.png",
+          "collision": "collision/arena_consum_storage_15ml_6/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_storage_15ml_6/back.png",
+          "collision": "collision/arena_consum_storage_15ml_6/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_storage_15ml_6/right.png",
+          "collision": "collision/arena_consum_storage_15ml_6/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_storage_50ml_x_6",
+      "card": "arena_consum_storage_50ml_x_6.png",
+      "collections": [
+        "Storage_50ml x 6"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 139,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_storage_50ml_x_6/front.png",
+          "collision": "collision/arena_consum_storage_50ml_x_6/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_storage_50ml_x_6/left.png",
+          "collision": "collision/arena_consum_storage_50ml_x_6/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_storage_50ml_x_6/back.png",
+          "collision": "collision/arena_consum_storage_50ml_x_6/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_storage_50ml_x_6/right.png",
+          "collision": "collision/arena_consum_storage_50ml_x_6/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_workshop_15ml_x_5",
+      "card": "arena_consum_workshop_15ml_x_5.png",
+      "collections": [
+        "Workshop_15ml x 5"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 316,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_workshop_15ml_x_5/front.png",
+          "collision": "collision/arena_consum_workshop_15ml_x_5/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_workshop_15ml_x_5/left.png",
+          "collision": "collision/arena_consum_workshop_15ml_x_5/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_workshop_15ml_x_5/back.png",
+          "collision": "collision/arena_consum_workshop_15ml_x_5/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_workshop_15ml_x_5/right.png",
+          "collision": "collision/arena_consum_workshop_15ml_x_5/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_consum_workshop_50ml_3",
+      "card": "arena_consum_workshop_50ml_3.png",
+      "collections": [
+        "Workshop_50ml-3"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 208,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_consum_workshop_50ml_3/front.png",
+          "collision": "collision/arena_consum_workshop_50ml_3/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_consum_workshop_50ml_3/left.png",
+          "collision": "collision/arena_consum_workshop_50ml_3/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_consum_workshop_50ml_3/back.png",
+          "collision": "collision/arena_consum_workshop_50ml_3/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_consum_workshop_50ml_3/right.png",
+          "collision": "collision/arena_consum_workshop_50ml_3/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_tool_centrifuge_tool",
+      "card": "arena_tool_centrifuge_tool.png",
+      "collections": [
+        "Centrifuge tool"
+      ],
+      "camera_reference": "VISUAL | Camera | Centrifuge",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 8,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_centrifuge_tool/front.png",
+          "collision": "collision/arena_tool_centrifuge_tool/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_centrifuge_tool/left.png",
+          "collision": "collision/arena_tool_centrifuge_tool/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_centrifuge_tool/back.png",
+          "collision": "collision/arena_tool_centrifuge_tool/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_centrifuge_tool/right.png",
+          "collision": "collision/arena_tool_centrifuge_tool/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_tool_chip_off",
+      "card": "arena_tool_chip_off.png",
+      "collections": [
+        "Chip off"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 7,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_chip_off/front.png",
+          "collision": "collision/arena_tool_chip_off/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_chip_off/left.png",
+          "collision": "collision/arena_tool_chip_off/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_chip_off/back.png",
+          "collision": "collision/arena_tool_chip_off/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_chip_off/right.png",
+          "collision": "collision/arena_tool_chip_off/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_tool_opener",
+      "card": "arena_tool_opener.png",
+      "collections": [
+        "Opener"
+      ],
+      "camera_reference": "VISUAL | Camera | Instruments",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 8,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_opener/front.png",
+          "collision": "collision/arena_tool_opener/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_opener/left.png",
+          "collision": "collision/arena_tool_opener/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_opener/back.png",
+          "collision": "collision/arena_tool_opener/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_opener/right.png",
+          "collision": "collision/arena_tool_opener/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_tool_pipette_push",
+      "card": "arena_tool_pipette_push.png",
+      "collections": [
+        "Pipette Push"
+      ],
+      "camera_reference": "VISUAL | Camera | Pipettes",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 31,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_pipette_push/front.png",
+          "collision": "collision/arena_tool_pipette_push/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_pipette_push/left.png",
+          "collision": "collision/arena_tool_pipette_push/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_pipette_push/back.png",
+          "collision": "collision/arena_tool_pipette_push/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_pipette_push/right.png",
+          "collision": "collision/arena_tool_pipette_push/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_tool_single_pipette_rack_4",
+      "card": "arena_tool_single_pipette_rack_4.png",
+      "collections": [
+        "Single Pipette Rack_4"
+      ],
+      "camera_reference": "VISUAL | Camera | Pipettes",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 153,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_single_pipette_rack_4/front.png",
+          "collision": "collision/arena_tool_single_pipette_rack_4/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_single_pipette_rack_4/left.png",
+          "collision": "collision/arena_tool_single_pipette_rack_4/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_single_pipette_rack_4/back.png",
+          "collision": "collision/arena_tool_single_pipette_rack_4/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_single_pipette_rack_4/right.png",
+          "collision": "collision/arena_tool_single_pipette_rack_4/right.png"
+        }
+      ]
+    },
+    {
+      "key": "arena_tool_single_pipette_rack_5",
+      "card": "arena_tool_single_pipette_rack_5.png",
+      "collections": [
+        "Single Pipette Rack_5"
+      ],
+      "camera_reference": "VISUAL | Camera | Pipettes",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 191,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/arena_tool_single_pipette_rack_5/front.png",
+          "collision": "collision/arena_tool_single_pipette_rack_5/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/arena_tool_single_pipette_rack_5/left.png",
+          "collision": "collision/arena_tool_single_pipette_rack_5/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/arena_tool_single_pipette_rack_5/back.png",
+          "collision": "collision/arena_tool_single_pipette_rack_5/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/arena_tool_single_pipette_rack_5/right.png",
+          "collision": "collision/arena_tool_single_pipette_rack_5/right.png"
+        }
+      ]
+    },
+    {
+      "key": "consum_p1000_pipette",
+      "card": "consum_p1000_pipette.png",
+      "collections": [
+        "04 Objects :: Pipette"
+      ],
+      "camera_reference": "VISUAL | Camera | Pipettes",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 2,
+      "collision_meshes": 24,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/consum_p1000_pipette/front.png",
+          "collision": "collision/consum_p1000_pipette/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/consum_p1000_pipette/left.png",
+          "collision": "collision/consum_p1000_pipette/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/consum_p1000_pipette/back.png",
+          "collision": "collision/consum_p1000_pipette/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/consum_p1000_pipette/right.png",
+          "collision": "collision/consum_p1000_pipette/right.png"
+        }
+      ]
+    },
+    {
+      "key": "consum_1_5_ml_tube",
+      "card": "consum_1_5_ml_tube.png",
+      "collections": [
+        "04 Objects :: 1.5mL Tube"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 2,
+      "collision_meshes": 33,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/consum_1_5_ml_tube/front.png",
+          "collision": "collision/consum_1_5_ml_tube/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/consum_1_5_ml_tube/left.png",
+          "collision": "collision/consum_1_5_ml_tube/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/consum_1_5_ml_tube/back.png",
+          "collision": "collision/consum_1_5_ml_tube/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/consum_1_5_ml_tube/right.png",
+          "collision": "collision/consum_1_5_ml_tube/right.png"
+        }
+      ]
+    },
+    {
+      "key": "consum_15_ml_tube",
+      "card": "consum_15_ml_tube.png",
+      "collections": [
+        "04 Objects :: 15mL Tube"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 2,
+      "collision_meshes": 2,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/consum_15_ml_tube/front.png",
+          "collision": "collision/consum_15_ml_tube/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/consum_15_ml_tube/left.png",
+          "collision": "collision/consum_15_ml_tube/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/consum_15_ml_tube/back.png",
+          "collision": "collision/consum_15_ml_tube/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/consum_15_ml_tube/right.png",
+          "collision": "collision/consum_15_ml_tube/right.png"
+        }
+      ]
+    },
+    {
+      "key": "consum_50_ml_tube",
+      "card": "consum_50_ml_tube.png",
+      "collections": [
+        "04 Objects :: 50mL Tube"
+      ],
+      "camera_reference": "VISUAL | Camera | Labware",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 2,
+      "collision_meshes": 2,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/consum_50_ml_tube/front.png",
+          "collision": "collision/consum_50_ml_tube/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/consum_50_ml_tube/left.png",
+          "collision": "collision/consum_50_ml_tube/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/consum_50_ml_tube/back.png",
+          "collision": "collision/consum_50_ml_tube/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/consum_50_ml_tube/right.png",
+          "collision": "collision/consum_50_ml_tube/right.png"
+        }
+      ]
+    },
+    {
+      "key": "holder",
+      "card": "holder.png",
+      "collections": [
+        "04_1.5mL_Tube_Holder_Left"
+      ],
+      "camera_reference": "VISUAL | Camera | Refrigerator",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 69,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/holder/front.png",
+          "collision": "collision/holder/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/holder/left.png",
+          "collision": "collision/holder/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/holder/back.png",
+          "collision": "collision/holder/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/holder/right.png",
+          "collision": "collision/holder/right.png"
+        }
+      ]
+    },
+    {
+      "key": "tool_opener_0184",
+      "card": "tool_opener_0184.png",
+      "collections": [
+        "04 Objects :: Opener"
+      ],
+      "camera_reference": "VISUAL | Camera | Instruments",
+      "camera_elevation_degrees": 20.0,
+      "front_azimuth_offset_degrees": 15.0,
+      "visual_meshes": 1,
+      "collision_meshes": 30,
+      "views": [
+        {
+          "id": "front",
+          "visual": "visual/tool_opener_0184/front.png",
+          "collision": "collision/tool_opener_0184/front.png"
+        },
+        {
+          "id": "left",
+          "visual": "visual/tool_opener_0184/left.png",
+          "collision": "collision/tool_opener_0184/left.png"
+        },
+        {
+          "id": "back",
+          "visual": "visual/tool_opener_0184/back.png",
+          "collision": "collision/tool_opener_0184/back.png"
+        },
+        {
+          "id": "right",
+          "visual": "visual/tool_opener_0184/right.png",
+          "collision": "collision/tool_opener_0184/right.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "renderer": "Pillow overlay on Blender Cycles images",
+  "style": "bold cyan-blue numbered circle on pale-blue fill",
+  "placement": "projected from tube mesh bounds in Blender camera coordinates",
+  "maps": [
+    {
+      "filename": "storage48.png",
+      "tube_slots": 48,
+      "badges": 48,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "multi-omics-main-rack.png",
+      "tube_slots": 24,
+      "badges": 24,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "bath-1.png",
+      "tube_slots": 11,
+      "badges": 11,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "bath-2.png",
+      "tube_slots": 11,
+      "badges": 11,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "holder-left.png",
+      "tube_slots": 12,
+      "badges": 12,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "holder-right.png",
+      "tube_slots": 12,
+      "badges": 12,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "microtube-mixer.png",
+      "tube_slots": 14,
+      "badges": 14,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "storage-15ml-6.png",
+      "tube_slots": 6,
+      "badges": 6,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "workshop-15ml-5.png",
+      "tube_slots": 5,
+      "badges": 5,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "storage-50ml-6.png",
+      "tube_slots": 6,
+      "badges": 6,
+      "badge_diameter_px": 28
+    },
+    {
+      "filename": "workshop-50ml-3.png",
+      "tube_slots": 3,
+      "badges": 3,
+      "badge_diameter_px": 28
+    }
+  ]
+}
