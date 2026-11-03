@@ -170,10 +170,10 @@
                   "task_id": null
                 },
                 {
-                  "stage_id": "withdraw",
+                  "stage_id": "move_linear",
                   "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "withdraw({target}.standby)",
+                  "call": "move_linear({target}.standby)",
                   "task_id": null
                 }
               ]
@@ -412,7 +412,7 @@
                   "stage_id": "move",
                   "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "move({target})",
+                  "call": "move({target}.operate)",
                   "task_id": null
                 },
                 {
@@ -440,21 +440,21 @@
                   "stage_id": "carry_horizontal",
                   "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "carry_horizontal({destination}.slot.XY)",
+                  "call": "carry_horizontal({destination}.top.XY)",
                   "task_id": null
                 },
                 {
                   "stage_id": "carry_down",
                   "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "carry_down({destination})",
+                  "call": "carry_down({destination}.top)",
                   "task_id": null
                 },
                 {
                   "stage_id": "move",
                   "arm": "physical-left",
                   "kind": "primitive",
-                  "call": "move({target}.operate)",
+                  "call": "move({target}.top)",
                   "task_id": null
                 },
                 {
