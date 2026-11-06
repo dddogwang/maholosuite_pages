@@ -367,7 +367,7 @@
             {
               "target_instance": "CO2Incubator",
               "target_label": "CO2Incubator_open",
-              "instance_id": "L10100001",
+              "instance_id": "L10100145",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -500,7 +500,7 @@
             {
               "target_instance": "CO2Incubator",
               "target_label": "CO2Incubator_close",
-              "instance_id": "L10100002",
+              "instance_id": "L10100143",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -633,7 +633,7 @@
             {
               "target_instance": "CoolIncubator4C",
               "target_label": "CoolIncubator4C_open",
-              "instance_id": "L10100003",
+              "instance_id": "L10100147",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -766,7 +766,7 @@
             {
               "target_instance": "CoolIncubator4C",
               "target_label": "CoolIncubator4C_close",
-              "instance_id": "L10100004",
+              "instance_id": "L10100146",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -899,7 +899,7 @@
             {
               "target_instance": "DeepFreezer",
               "target_label": "DeepFreezer_open",
-              "instance_id": "L10100005",
+              "instance_id": "L10100149",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -1032,7 +1032,7 @@
             {
               "target_instance": "DeepFreezer",
               "target_label": "DeepFreezer_close",
-              "instance_id": "L10100006",
+              "instance_id": "L10100148",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -1165,7 +1165,7 @@
             {
               "target_instance": "MX307",
               "target_label": "MX307_open",
-              "instance_id": "L10100007",
+              "instance_id": "L10100152",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -1298,7 +1298,7 @@
             {
               "target_instance": "MX307",
               "target_label": "MX307_close",
-              "instance_id": "L10100008",
+              "instance_id": "L10100151",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -1431,7 +1431,7 @@
             {
               "target_instance": "MicrotubeMixer",
               "target_label": "MicrotubeMixer",
-              "instance_id": "L10100009",
+              "instance_id": "L10100150",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -1548,7 +1548,7 @@
             {
               "target_instance": "BlockThermostaticBath",
               "target_label": "BlockThermostaticBath_open",
-              "instance_id": "L10100010",
+              "instance_id": "L10100142",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -1681,7 +1681,7 @@
             {
               "target_instance": "BlockThermostaticBath",
               "target_label": "BlockThermostaticBath_close",
-              "instance_id": "L10100011",
+              "instance_id": "L10100141",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -1814,7 +1814,7 @@
             {
               "target_instance": "BlockThermostaticBath2",
               "target_label": "BlockThermostaticBath2_open",
-              "instance_id": "L10100012",
+              "instance_id": "L10100140",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -1947,7 +1947,7 @@
             {
               "target_instance": "BlockThermostaticBath2",
               "target_label": "BlockThermostaticBath2_close",
-              "instance_id": "L10100013",
+              "instance_id": "L10100139",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -2080,7 +2080,7 @@
             {
               "target_instance": "ThermalCycler",
               "target_label": "ThermalCycler_open",
-              "instance_id": "L10100014",
+              "instance_id": "L10100154",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -2213,7 +2213,7 @@
             {
               "target_instance": "ThermalCycler",
               "target_label": "ThermalCycler_close",
-              "instance_id": "L10100015",
+              "instance_id": "L10100153",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -2346,7 +2346,7 @@
             {
               "target_instance": "Pipette005",
               "target_label": "Pipette005",
-              "instance_id": "L10100016",
+              "instance_id": "L10100005",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -2463,7 +2463,7 @@
             {
               "target_instance": "Opener",
               "target_label": "Opener",
-              "instance_id": "L10100017",
+              "instance_id": "L10100138",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -2580,7 +2580,7 @@
             {
               "target_instance": "04_1.5mL_Tube_Holder_Left",
               "target_label": "04_1.5mL_Tube_Holder_Left",
-              "instance_id": "L10100018",
+              "instance_id": "L10100155",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -2697,7 +2697,7 @@
             {
               "target_instance": "05_1.5mL_Tube_Holder_Right",
               "target_label": "05_1.5mL_Tube_Holder_Right",
-              "instance_id": "L10100019",
+              "instance_id": "L10100156",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -2814,7 +2814,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001",
-              "instance_id": "L10100020",
+              "instance_id": "L10100010",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -2931,7 +2931,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_002",
               "target_label": "tube1_5ml_microtube_mixer_base_002",
-              "instance_id": "L10100021",
+              "instance_id": "L10100105",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -3048,7 +3048,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_002",
               "target_label": "tube1_5ml_block_thermostatic_bath_002",
-              "instance_id": "L10100022",
+              "instance_id": "L10100083",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -3165,7 +3165,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_002",
               "target_label": "tube1_5ml_block_thermostatic_bath2_002",
-              "instance_id": "L10100023",
+              "instance_id": "L10100094",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -3282,7 +3282,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_001",
               "target_label": "tube15ml_workshop_15ml_x_5_001",
-              "instance_id": "L10100024",
+              "instance_id": "L10100124",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -3399,7 +3399,7 @@
             {
               "target_instance": "tube50ml_workshop_50ml_3_001",
               "target_label": "tube50ml_workshop_50ml_3_001",
-              "instance_id": "L10100025",
+              "instance_id": "L10100135",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -3516,7 +3516,7 @@
             {
               "target_instance": "CO2Incubator",
               "target_label": "CO2Incubator_inner_lock_lever",
-              "instance_id": "L10100026",
+              "instance_id": "L10100144",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -3637,7 +3637,7 @@
             {
               "target_instance": "Pipette001",
               "target_label": "Pipette001",
-              "instance_id": "L10100027",
+              "instance_id": "L10100001",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -3742,7 +3742,7 @@
             {
               "target_instance": "Pipette002",
               "target_label": "Pipette002",
-              "instance_id": "L10100028",
+              "instance_id": "L10100002",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -3847,7 +3847,7 @@
             {
               "target_instance": "Pipette003",
               "target_label": "Pipette003",
-              "instance_id": "L10100029",
+              "instance_id": "L10100003",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -3952,7 +3952,7 @@
             {
               "target_instance": "Pipette004",
               "target_label": "Pipette004",
-              "instance_id": "L10100030",
+              "instance_id": "L10100004",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -4057,7 +4057,7 @@
             {
               "target_instance": "Pipette006",
               "target_label": "Pipette006",
-              "instance_id": "L10100031",
+              "instance_id": "L10100006",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -4162,7 +4162,7 @@
             {
               "target_instance": "Pipette007",
               "target_label": "Pipette007",
-              "instance_id": "L10100032",
+              "instance_id": "L10100007",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -4267,7 +4267,7 @@
             {
               "target_instance": "Pipette008",
               "target_label": "Pipette008",
-              "instance_id": "L10100033",
+              "instance_id": "L10100008",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -4372,7 +4372,7 @@
             {
               "target_instance": "Pipette009",
               "target_label": "Pipette009",
-              "instance_id": "L10100034",
+              "instance_id": "L10100009",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -4477,7 +4477,7 @@
             {
               "target_instance": "tube15ml_storage_15ml_6_001",
               "target_label": "tube15ml_storage_15ml_6_001",
-              "instance_id": "L10100035",
+              "instance_id": "L10100118",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -4582,7 +4582,7 @@
             {
               "target_instance": "tube15ml_storage_15ml_6_002",
               "target_label": "tube15ml_storage_15ml_6_002",
-              "instance_id": "L10100036",
+              "instance_id": "L10100119",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -4687,7 +4687,7 @@
             {
               "target_instance": "tube15ml_storage_15ml_6_003",
               "target_label": "tube15ml_storage_15ml_6_003",
-              "instance_id": "L10100037",
+              "instance_id": "L10100120",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -4792,7 +4792,7 @@
             {
               "target_instance": "tube15ml_storage_15ml_6_004",
               "target_label": "tube15ml_storage_15ml_6_004",
-              "instance_id": "L10100038",
+              "instance_id": "L10100121",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -4897,7 +4897,7 @@
             {
               "target_instance": "tube15ml_storage_15ml_6_005",
               "target_label": "tube15ml_storage_15ml_6_005",
-              "instance_id": "L10100039",
+              "instance_id": "L10100122",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5002,7 +5002,7 @@
             {
               "target_instance": "tube15ml_storage_15ml_6_006",
               "target_label": "tube15ml_storage_15ml_6_006",
-              "instance_id": "L10100040",
+              "instance_id": "L10100123",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5107,7 +5107,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_002",
               "target_label": "tube15ml_workshop_15ml_x_5_002",
-              "instance_id": "L10100041",
+              "instance_id": "L10100125",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5212,7 +5212,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_003",
               "target_label": "tube15ml_workshop_15ml_x_5_003",
-              "instance_id": "L10100042",
+              "instance_id": "L10100126",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5317,7 +5317,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_004",
               "target_label": "tube15ml_workshop_15ml_x_5_004",
-              "instance_id": "L10100043",
+              "instance_id": "L10100127",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5422,7 +5422,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_005",
               "target_label": "tube15ml_workshop_15ml_x_5_005",
-              "instance_id": "L10100044",
+              "instance_id": "L10100128",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5527,7 +5527,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_002",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_002",
-              "instance_id": "L10100045",
+              "instance_id": "L10100011",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5632,7 +5632,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_003",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_003",
-              "instance_id": "L10100046",
+              "instance_id": "L10100012",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5737,7 +5737,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_004",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_004",
-              "instance_id": "L10100047",
+              "instance_id": "L10100013",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5842,7 +5842,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_005",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_005",
-              "instance_id": "L10100048",
+              "instance_id": "L10100014",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -5947,7 +5947,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_006",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_006",
-              "instance_id": "L10100049",
+              "instance_id": "L10100015",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6052,7 +6052,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_007",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_007",
-              "instance_id": "L10100050",
+              "instance_id": "L10100016",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6157,7 +6157,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_008",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_008",
-              "instance_id": "L10100051",
+              "instance_id": "L10100017",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6262,7 +6262,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_009",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_009",
-              "instance_id": "L10100052",
+              "instance_id": "L10100018",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6367,7 +6367,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_010",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_010",
-              "instance_id": "L10100053",
+              "instance_id": "L10100019",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6472,7 +6472,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_011",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_011",
-              "instance_id": "L10100054",
+              "instance_id": "L10100020",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6577,7 +6577,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_012",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_012",
-              "instance_id": "L10100055",
+              "instance_id": "L10100021",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6682,7 +6682,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_013",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_013",
-              "instance_id": "L10100056",
+              "instance_id": "L10100022",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6787,7 +6787,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_014",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_014",
-              "instance_id": "L10100057",
+              "instance_id": "L10100023",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6892,7 +6892,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_015",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_015",
-              "instance_id": "L10100058",
+              "instance_id": "L10100024",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -6997,7 +6997,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_016",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_016",
-              "instance_id": "L10100059",
+              "instance_id": "L10100025",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -7102,7 +7102,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_017",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_017",
-              "instance_id": "L10100060",
+              "instance_id": "L10100026",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -7207,7 +7207,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_018",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_018",
-              "instance_id": "L10100061",
+              "instance_id": "L10100027",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -7312,7 +7312,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_019",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_019",
-              "instance_id": "L10100062",
+              "instance_id": "L10100028",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -7417,7 +7417,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_020",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_020",
-              "instance_id": "L10100063",
+              "instance_id": "L10100029",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -7522,7 +7522,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_021",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_021",
-              "instance_id": "L10100064",
+              "instance_id": "L10100030",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -7627,7 +7627,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_022",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_022",
-              "instance_id": "L10100065",
+              "instance_id": "L10100031",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -7732,7 +7732,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_023",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_023",
-              "instance_id": "L10100066",
+              "instance_id": "L10100032",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -7837,7 +7837,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_024",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_024",
-              "instance_id": "L10100067",
+              "instance_id": "L10100033",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -7942,7 +7942,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_025",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_025",
-              "instance_id": "L10100068",
+              "instance_id": "L10100034",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -8047,7 +8047,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_026",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_026",
-              "instance_id": "L10100069",
+              "instance_id": "L10100035",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -8152,7 +8152,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_027",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_027",
-              "instance_id": "L10100070",
+              "instance_id": "L10100036",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -8257,7 +8257,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_028",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_028",
-              "instance_id": "L10100071",
+              "instance_id": "L10100037",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -8362,7 +8362,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_029",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_029",
-              "instance_id": "L10100072",
+              "instance_id": "L10100038",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -8467,7 +8467,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_030",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_030",
-              "instance_id": "L10100073",
+              "instance_id": "L10100039",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -8572,7 +8572,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_031",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_031",
-              "instance_id": "L10100074",
+              "instance_id": "L10100040",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -8677,7 +8677,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_032",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_032",
-              "instance_id": "L10100075",
+              "instance_id": "L10100041",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -8782,7 +8782,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_033",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_033",
-              "instance_id": "L10100076",
+              "instance_id": "L10100042",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -8887,7 +8887,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_034",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_034",
-              "instance_id": "L10100077",
+              "instance_id": "L10100043",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -8992,7 +8992,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_035",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_035",
-              "instance_id": "L10100078",
+              "instance_id": "L10100044",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -9097,7 +9097,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_036",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_036",
-              "instance_id": "L10100079",
+              "instance_id": "L10100045",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -9202,7 +9202,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_037",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_037",
-              "instance_id": "L10100080",
+              "instance_id": "L10100046",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -9307,7 +9307,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_038",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_038",
-              "instance_id": "L10100081",
+              "instance_id": "L10100047",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -9412,7 +9412,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_039",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_039",
-              "instance_id": "L10100082",
+              "instance_id": "L10100048",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -9517,7 +9517,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_040",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_040",
-              "instance_id": "L10100083",
+              "instance_id": "L10100049",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -9622,7 +9622,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_041",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_041",
-              "instance_id": "L10100084",
+              "instance_id": "L10100050",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -9727,7 +9727,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_042",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_042",
-              "instance_id": "L10100085",
+              "instance_id": "L10100051",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -9832,7 +9832,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_043",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_043",
-              "instance_id": "L10100086",
+              "instance_id": "L10100052",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -9937,7 +9937,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_044",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_044",
-              "instance_id": "L10100087",
+              "instance_id": "L10100053",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -10042,7 +10042,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_045",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_045",
-              "instance_id": "L10100088",
+              "instance_id": "L10100054",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -10147,7 +10147,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_046",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_046",
-              "instance_id": "L10100089",
+              "instance_id": "L10100055",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -10252,7 +10252,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_047",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_047",
-              "instance_id": "L10100090",
+              "instance_id": "L10100056",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -10357,7 +10357,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_048",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_048",
-              "instance_id": "L10100091",
+              "instance_id": "L10100057",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -10462,7 +10462,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_001",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_001",
-              "instance_id": "L10100092",
+              "instance_id": "L10100058",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -10567,7 +10567,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_002",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_002",
-              "instance_id": "L10100093",
+              "instance_id": "L10100059",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -10672,7 +10672,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_003",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_003",
-              "instance_id": "L10100094",
+              "instance_id": "L10100060",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -10777,7 +10777,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_004",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_004",
-              "instance_id": "L10100095",
+              "instance_id": "L10100061",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -10882,7 +10882,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_005",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_005",
-              "instance_id": "L10100096",
+              "instance_id": "L10100062",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -10987,7 +10987,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_006",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_006",
-              "instance_id": "L10100097",
+              "instance_id": "L10100063",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -11092,7 +11092,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_007",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_007",
-              "instance_id": "L10100098",
+              "instance_id": "L10100064",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -11197,7 +11197,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_008",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_008",
-              "instance_id": "L10100099",
+              "instance_id": "L10100065",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -11302,7 +11302,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_009",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_009",
-              "instance_id": "L10100100",
+              "instance_id": "L10100066",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -11407,7 +11407,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_010",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_010",
-              "instance_id": "L10100101",
+              "instance_id": "L10100067",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -11512,7 +11512,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_011",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_011",
-              "instance_id": "L10100102",
+              "instance_id": "L10100068",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -11617,7 +11617,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_012",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_012",
-              "instance_id": "L10100103",
+              "instance_id": "L10100069",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -11722,7 +11722,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_013",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_013",
-              "instance_id": "L10100104",
+              "instance_id": "L10100070",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -11827,7 +11827,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_014",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_014",
-              "instance_id": "L10100105",
+              "instance_id": "L10100071",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -11932,7 +11932,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_015",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_015",
-              "instance_id": "L10100106",
+              "instance_id": "L10100072",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -12037,7 +12037,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_016",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_016",
-              "instance_id": "L10100107",
+              "instance_id": "L10100073",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -12142,7 +12142,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_017",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_017",
-              "instance_id": "L10100108",
+              "instance_id": "L10100074",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -12247,7 +12247,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_018",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_018",
-              "instance_id": "L10100109",
+              "instance_id": "L10100075",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -12352,7 +12352,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_019",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_019",
-              "instance_id": "L10100110",
+              "instance_id": "L10100076",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -12457,7 +12457,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_020",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_020",
-              "instance_id": "L10100111",
+              "instance_id": "L10100077",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -12562,7 +12562,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_021",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_021",
-              "instance_id": "L10100112",
+              "instance_id": "L10100078",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -12667,7 +12667,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_022",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_022",
-              "instance_id": "L10100113",
+              "instance_id": "L10100079",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -12772,7 +12772,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_023",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_023",
-              "instance_id": "L10100114",
+              "instance_id": "L10100080",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -12877,7 +12877,7 @@
             {
               "target_instance": "tube1_5ml_1_5mltube_main_rack_multi_omics_024",
               "target_label": "tube1_5ml_1_5mltube_main_rack_multi_omics_024",
-              "instance_id": "L10100115",
+              "instance_id": "L10100081",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -12982,7 +12982,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_001",
               "target_label": "tube1_5ml_block_thermostatic_bath2_001",
-              "instance_id": "L10100116",
+              "instance_id": "L10100093",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -13087,7 +13087,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_003",
               "target_label": "tube1_5ml_block_thermostatic_bath2_003",
-              "instance_id": "L10100117",
+              "instance_id": "L10100095",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -13192,7 +13192,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_004",
               "target_label": "tube1_5ml_block_thermostatic_bath2_004",
-              "instance_id": "L10100118",
+              "instance_id": "L10100096",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -13297,7 +13297,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_005",
               "target_label": "tube1_5ml_block_thermostatic_bath2_005",
-              "instance_id": "L10100119",
+              "instance_id": "L10100097",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -13402,7 +13402,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_006",
               "target_label": "tube1_5ml_block_thermostatic_bath2_006",
-              "instance_id": "L10100120",
+              "instance_id": "L10100098",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -13507,7 +13507,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_007",
               "target_label": "tube1_5ml_block_thermostatic_bath2_007",
-              "instance_id": "L10100121",
+              "instance_id": "L10100099",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -13612,7 +13612,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_008",
               "target_label": "tube1_5ml_block_thermostatic_bath2_008",
-              "instance_id": "L10100122",
+              "instance_id": "L10100100",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -13717,7 +13717,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_009",
               "target_label": "tube1_5ml_block_thermostatic_bath2_009",
-              "instance_id": "L10100123",
+              "instance_id": "L10100101",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -13822,7 +13822,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_010",
               "target_label": "tube1_5ml_block_thermostatic_bath2_010",
-              "instance_id": "L10100124",
+              "instance_id": "L10100102",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -13927,7 +13927,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_011",
               "target_label": "tube1_5ml_block_thermostatic_bath2_011",
-              "instance_id": "L10100125",
+              "instance_id": "L10100103",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14032,7 +14032,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_001",
               "target_label": "tube1_5ml_block_thermostatic_bath_001",
-              "instance_id": "L10100126",
+              "instance_id": "L10100082",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14137,7 +14137,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_003",
               "target_label": "tube1_5ml_block_thermostatic_bath_003",
-              "instance_id": "L10100127",
+              "instance_id": "L10100084",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14242,7 +14242,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_004",
               "target_label": "tube1_5ml_block_thermostatic_bath_004",
-              "instance_id": "L10100128",
+              "instance_id": "L10100085",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14347,7 +14347,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_005",
               "target_label": "tube1_5ml_block_thermostatic_bath_005",
-              "instance_id": "L10100129",
+              "instance_id": "L10100086",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14452,7 +14452,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_006",
               "target_label": "tube1_5ml_block_thermostatic_bath_006",
-              "instance_id": "L10100130",
+              "instance_id": "L10100087",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14557,7 +14557,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_007",
               "target_label": "tube1_5ml_block_thermostatic_bath_007",
-              "instance_id": "L10100131",
+              "instance_id": "L10100088",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14662,7 +14662,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_008",
               "target_label": "tube1_5ml_block_thermostatic_bath_008",
-              "instance_id": "L10100132",
+              "instance_id": "L10100089",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14767,7 +14767,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_009",
               "target_label": "tube1_5ml_block_thermostatic_bath_009",
-              "instance_id": "L10100133",
+              "instance_id": "L10100090",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14872,7 +14872,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_010",
               "target_label": "tube1_5ml_block_thermostatic_bath_010",
-              "instance_id": "L10100134",
+              "instance_id": "L10100091",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -14977,7 +14977,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_011",
               "target_label": "tube1_5ml_block_thermostatic_bath_011",
-              "instance_id": "L10100135",
+              "instance_id": "L10100092",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -15082,7 +15082,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_001",
               "target_label": "tube1_5ml_holder_left_001",
-              "instance_id": "L10100136",
+              "instance_id": "L10100157",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -15187,7 +15187,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_002",
               "target_label": "tube1_5ml_holder_left_002",
-              "instance_id": "L10100137",
+              "instance_id": "L10100158",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -15292,7 +15292,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_003",
               "target_label": "tube1_5ml_holder_left_003",
-              "instance_id": "L10100138",
+              "instance_id": "L10100159",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -15397,7 +15397,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_004",
               "target_label": "tube1_5ml_holder_left_004",
-              "instance_id": "L10100139",
+              "instance_id": "L10100160",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -15502,7 +15502,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_005",
               "target_label": "tube1_5ml_holder_left_005",
-              "instance_id": "L10100140",
+              "instance_id": "L10100161",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -15607,7 +15607,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_006",
               "target_label": "tube1_5ml_holder_left_006",
-              "instance_id": "L10100141",
+              "instance_id": "L10100162",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -15712,7 +15712,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_007",
               "target_label": "tube1_5ml_holder_left_007",
-              "instance_id": "L10100142",
+              "instance_id": "L10100163",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -15817,7 +15817,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_008",
               "target_label": "tube1_5ml_holder_left_008",
-              "instance_id": "L10100143",
+              "instance_id": "L10100164",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -15922,7 +15922,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_009",
               "target_label": "tube1_5ml_holder_left_009",
-              "instance_id": "L10100144",
+              "instance_id": "L10100165",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16027,7 +16027,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_010",
               "target_label": "tube1_5ml_holder_left_010",
-              "instance_id": "L10100145",
+              "instance_id": "L10100166",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16132,7 +16132,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_011",
               "target_label": "tube1_5ml_holder_left_011",
-              "instance_id": "L10100146",
+              "instance_id": "L10100167",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16237,7 +16237,7 @@
             {
               "target_instance": "tube1_5ml_holder_left_012",
               "target_label": "tube1_5ml_holder_left_012",
-              "instance_id": "L10100147",
+              "instance_id": "L10100168",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16342,7 +16342,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_001",
               "target_label": "tube1_5ml_holder_right_001",
-              "instance_id": "L10100148",
+              "instance_id": "L10100169",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16447,7 +16447,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_002",
               "target_label": "tube1_5ml_holder_right_002",
-              "instance_id": "L10100149",
+              "instance_id": "L10100170",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16552,7 +16552,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_003",
               "target_label": "tube1_5ml_holder_right_003",
-              "instance_id": "L10100150",
+              "instance_id": "L10100171",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16657,7 +16657,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_004",
               "target_label": "tube1_5ml_holder_right_004",
-              "instance_id": "L10100151",
+              "instance_id": "L10100172",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16762,7 +16762,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_005",
               "target_label": "tube1_5ml_holder_right_005",
-              "instance_id": "L10100152",
+              "instance_id": "L10100173",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16867,7 +16867,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_006",
               "target_label": "tube1_5ml_holder_right_006",
-              "instance_id": "L10100153",
+              "instance_id": "L10100174",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -16972,7 +16972,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_007",
               "target_label": "tube1_5ml_holder_right_007",
-              "instance_id": "L10100154",
+              "instance_id": "L10100175",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -17077,7 +17077,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_008",
               "target_label": "tube1_5ml_holder_right_008",
-              "instance_id": "L10100155",
+              "instance_id": "L10100176",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -17182,7 +17182,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_009",
               "target_label": "tube1_5ml_holder_right_009",
-              "instance_id": "L10100156",
+              "instance_id": "L10100177",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -17287,7 +17287,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_010",
               "target_label": "tube1_5ml_holder_right_010",
-              "instance_id": "L10100157",
+              "instance_id": "L10100178",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -17392,7 +17392,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_011",
               "target_label": "tube1_5ml_holder_right_011",
-              "instance_id": "L10100158",
+              "instance_id": "L10100179",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -17497,7 +17497,7 @@
             {
               "target_instance": "tube1_5ml_holder_right_012",
               "target_label": "tube1_5ml_holder_right_012",
-              "instance_id": "L10100159",
+              "instance_id": "L10100180",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -17602,7 +17602,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_001",
               "target_label": "tube1_5ml_microtube_mixer_base_001",
-              "instance_id": "L10100160",
+              "instance_id": "L10100104",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -17707,7 +17707,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_003",
               "target_label": "tube1_5ml_microtube_mixer_base_003",
-              "instance_id": "L10100161",
+              "instance_id": "L10100106",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -17812,7 +17812,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_004",
               "target_label": "tube1_5ml_microtube_mixer_base_004",
-              "instance_id": "L10100162",
+              "instance_id": "L10100107",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -17917,7 +17917,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_005",
               "target_label": "tube1_5ml_microtube_mixer_base_005",
-              "instance_id": "L10100163",
+              "instance_id": "L10100108",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -18022,7 +18022,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_006",
               "target_label": "tube1_5ml_microtube_mixer_base_006",
-              "instance_id": "L10100164",
+              "instance_id": "L10100109",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -18127,7 +18127,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_007",
               "target_label": "tube1_5ml_microtube_mixer_base_007",
-              "instance_id": "L10100165",
+              "instance_id": "L10100110",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -18232,7 +18232,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_008",
               "target_label": "tube1_5ml_microtube_mixer_base_008",
-              "instance_id": "L10100166",
+              "instance_id": "L10100111",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -18337,7 +18337,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_009",
               "target_label": "tube1_5ml_microtube_mixer_base_009",
-              "instance_id": "L10100167",
+              "instance_id": "L10100112",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -18442,7 +18442,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_010",
               "target_label": "tube1_5ml_microtube_mixer_base_010",
-              "instance_id": "L10100168",
+              "instance_id": "L10100113",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -18547,7 +18547,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_011",
               "target_label": "tube1_5ml_microtube_mixer_base_011",
-              "instance_id": "L10100169",
+              "instance_id": "L10100114",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -18652,7 +18652,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_012",
               "target_label": "tube1_5ml_microtube_mixer_base_012",
-              "instance_id": "L10100170",
+              "instance_id": "L10100115",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -18757,7 +18757,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_013",
               "target_label": "tube1_5ml_microtube_mixer_base_013",
-              "instance_id": "L10100171",
+              "instance_id": "L10100116",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -18862,7 +18862,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_014",
               "target_label": "tube1_5ml_microtube_mixer_base_014",
-              "instance_id": "L10100172",
+              "instance_id": "L10100117",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -18967,7 +18967,7 @@
             {
               "target_instance": "tube50ml_storage_50ml_x_6_001",
               "target_label": "tube50ml_storage_50ml_x_6_001",
-              "instance_id": "L10100173",
+              "instance_id": "L10100129",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -19072,7 +19072,7 @@
             {
               "target_instance": "tube50ml_storage_50ml_x_6_002",
               "target_label": "tube50ml_storage_50ml_x_6_002",
-              "instance_id": "L10100174",
+              "instance_id": "L10100130",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -19177,7 +19177,7 @@
             {
               "target_instance": "tube50ml_storage_50ml_x_6_003",
               "target_label": "tube50ml_storage_50ml_x_6_003",
-              "instance_id": "L10100175",
+              "instance_id": "L10100131",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -19282,7 +19282,7 @@
             {
               "target_instance": "tube50ml_storage_50ml_x_6_004",
               "target_label": "tube50ml_storage_50ml_x_6_004",
-              "instance_id": "L10100176",
+              "instance_id": "L10100132",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -19387,7 +19387,7 @@
             {
               "target_instance": "tube50ml_storage_50ml_x_6_005",
               "target_label": "tube50ml_storage_50ml_x_6_005",
-              "instance_id": "L10100177",
+              "instance_id": "L10100133",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -19492,7 +19492,7 @@
             {
               "target_instance": "tube50ml_storage_50ml_x_6_006",
               "target_label": "tube50ml_storage_50ml_x_6_006",
-              "instance_id": "L10100178",
+              "instance_id": "L10100134",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -19597,7 +19597,7 @@
             {
               "target_instance": "tube50ml_workshop_50ml_3_002",
               "target_label": "tube50ml_workshop_50ml_3_002",
-              "instance_id": "L10100179",
+              "instance_id": "L10100136",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -19702,7 +19702,7 @@
             {
               "target_instance": "tube50ml_workshop_50ml_3_003",
               "target_label": "tube50ml_workshop_50ml_3_003",
-              "instance_id": "L10100180",
+              "instance_id": "L10100137",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -20151,7 +20151,7 @@
             {
               "target_instance": "Pipette005",
               "target_label": "Pipette005",
-              "instance_id": "L10200001",
+              "instance_id": "L10200005",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -20372,7 +20372,7 @@
             {
               "target_instance": "Opener",
               "target_label": "Opener",
-              "instance_id": "L10200002",
+              "instance_id": "L10200138",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -20593,7 +20593,7 @@
             {
               "target_instance": "04_1.5mL_Tube_Holder_Left",
               "target_label": "04_1.5mL_Tube_Holder_Left",
-              "instance_id": "L10200003",
+              "instance_id": "L10200139",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -20814,7 +20814,7 @@
             {
               "target_instance": "05_1.5mL_Tube_Holder_Right",
               "target_label": "05_1.5mL_Tube_Holder_Right",
-              "instance_id": "L10200004",
+              "instance_id": "L10200140",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -21035,7 +21035,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001",
-              "instance_id": "L10200005",
+              "instance_id": "L10200010",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -21264,7 +21264,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_002",
               "target_label": "tube1_5ml_microtube_mixer_base_002",
-              "instance_id": "L10200006",
+              "instance_id": "L10200105",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -21493,7 +21493,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_002",
               "target_label": "tube1_5ml_block_thermostatic_bath_002",
-              "instance_id": "L10200007",
+              "instance_id": "L10200083",
               "destination_standby_point": "BlockThermostaticBath",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -21734,7 +21734,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_002",
               "target_label": "tube1_5ml_block_thermostatic_bath2_002",
-              "instance_id": "L10200008",
+              "instance_id": "L10200094",
               "destination_standby_point": "BlockThermostaticBath2",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -21975,7 +21975,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_001",
               "target_label": "tube15ml_workshop_15ml_x_5_001",
-              "instance_id": "L10200009",
+              "instance_id": "L10200124",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -22204,7 +22204,7 @@
             {
               "target_instance": "tube50ml_workshop_50ml_3_001",
               "target_label": "tube50ml_workshop_50ml_3_001",
-              "instance_id": "L10200010",
+              "instance_id": "L10200135",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -22777,7 +22777,7 @@
             {
               "target_instance": "Pipette005",
               "target_label": "Pipette005",
-              "instance_id": "L10300001",
+              "instance_id": "L10300005",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -23062,7 +23062,7 @@
             {
               "target_instance": "Opener",
               "target_label": "Opener",
-              "instance_id": "L10300002",
+              "instance_id": "L10300138",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -23351,7 +23351,7 @@
             {
               "target_instance": "04_1.5mL_Tube_Holder_Left",
               "target_label": "04_1.5mL_Tube_Holder_Left",
-              "instance_id": "L10300003",
+              "instance_id": "L10300139",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -23636,7 +23636,7 @@
             {
               "target_instance": "05_1.5mL_Tube_Holder_Right",
               "target_label": "05_1.5mL_Tube_Holder_Right",
-              "instance_id": "L10300004",
+              "instance_id": "L10300140",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -23921,7 +23921,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001",
-              "instance_id": "L10300005",
+              "instance_id": "L10300010",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -24214,7 +24214,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_002",
               "target_label": "tube1_5ml_microtube_mixer_base_002",
-              "instance_id": "L10300006",
+              "instance_id": "L10300105",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -24507,7 +24507,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_002",
               "target_label": "tube1_5ml_block_thermostatic_bath_002",
-              "instance_id": "L10300007",
+              "instance_id": "L10300083",
               "destination_standby_point": "BlockThermostaticBath",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -24812,7 +24812,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_002",
               "target_label": "tube1_5ml_block_thermostatic_bath2_002",
-              "instance_id": "L10300008",
+              "instance_id": "L10300094",
               "destination_standby_point": "BlockThermostaticBath2",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -25117,7 +25117,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_001",
               "target_label": "tube15ml_workshop_15ml_x_5_001",
-              "instance_id": "L10300009",
+              "instance_id": "L10300124",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -25410,7 +25410,7 @@
             {
               "target_instance": "tube50ml_workshop_50ml_3_001",
               "target_label": "tube50ml_workshop_50ml_3_001",
-              "instance_id": "L10300010",
+              "instance_id": "L10300135",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -26043,7 +26043,7 @@
             {
               "target_instance": "Pipette005",
               "target_label": "Pipette005",
-              "instance_id": "L10400001",
+              "instance_id": "L10400005",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -26299,7 +26299,7 @@
             {
               "target_instance": "Opener",
               "target_label": "Opener",
-              "instance_id": "L10400002",
+              "instance_id": "L10400138",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -26555,7 +26555,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001",
-              "instance_id": "L10400003",
+              "instance_id": "L10400010",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -26819,7 +26819,7 @@
             {
               "target_instance": "tube1_5ml_microtube_mixer_base_002",
               "target_label": "tube1_5ml_microtube_mixer_base_002",
-              "instance_id": "L10400004",
+              "instance_id": "L10400105",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -27083,7 +27083,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath_002",
               "target_label": "tube1_5ml_block_thermostatic_bath_002",
-              "instance_id": "L10400005",
+              "instance_id": "L10400083",
               "destination_standby_point": "BlockThermostaticBath",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -27359,7 +27359,7 @@
             {
               "target_instance": "tube1_5ml_block_thermostatic_bath2_002",
               "target_label": "tube1_5ml_block_thermostatic_bath2_002",
-              "instance_id": "L10400006",
+              "instance_id": "L10400094",
               "destination_standby_point": "BlockThermostaticBath2",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -27635,7 +27635,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_001",
               "target_label": "tube15ml_workshop_15ml_x_5_001",
-              "instance_id": "L10400007",
+              "instance_id": "L10400124",
               "destination_standby_point": null,
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -27899,7 +27899,7 @@
             {
               "target_instance": "tube50ml_workshop_50ml_3_001",
               "target_label": "tube50ml_workshop_50ml_3_001",
-              "instance_id": "L10400008",
+              "instance_id": "L10400135",
               "destination_standby_point": null,
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -28507,7 +28507,7 @@
             {
               "target_instance": "Pipette005",
               "target_label": "Pipette005_to_Pipette007::slot",
-              "instance_id": "L10500001",
+              "instance_id": "L10500019",
               "destination_standby_point": "Pipette007::slot",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -28840,7 +28840,7 @@
             {
               "target_instance": "Opener",
               "target_label": "Opener_to_tube1_5ml_1_5ml_tube_storage_48_001",
-              "instance_id": "L10500002",
+              "instance_id": "L10507210",
               "destination_standby_point": "tube1_5ml_1_5ml_tube_storage_48_001",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -29169,7 +29169,7 @@
             {
               "target_instance": "04_1.5mL_Tube_Holder_Left",
               "target_label": "HolderLeft_to_tube1_5ml_1_5ml_tube_storage_48_001",
-              "instance_id": "L10500003",
+              "instance_id": "L10523826",
               "destination_standby_point": "tube1_5ml_1_5ml_tube_storage_48_001",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -29498,7 +29498,7 @@
             {
               "target_instance": "05_1.5mL_Tube_Holder_Right",
               "target_label": "HolderRight_to_tube1_5ml_1_5ml_tube_storage_48_001",
-              "instance_id": "L10500004",
+              "instance_id": "L10523978",
               "destination_standby_point": "tube1_5ml_1_5ml_tube_storage_48_001",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -29827,7 +29827,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001_to_tube1_5ml_1_5ml_tube_storage_48_002::slot",
-              "instance_id": "L10500005",
+              "instance_id": "L10500043",
               "destination_standby_point": "tube1_5ml_1_5ml_tube_storage_48_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -30156,7 +30156,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001_to_tube1_5ml_microtube_mixer_base_002::slot",
-              "instance_id": "L10500006",
+              "instance_id": "L10509547",
               "destination_standby_point": "tube1_5ml_microtube_mixer_base_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -30485,7 +30485,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001_to_tube1_5ml_block_thermostatic_bath_002::slot",
-              "instance_id": "L10500007",
+              "instance_id": "L10508491",
               "destination_standby_point": "tube1_5ml_block_thermostatic_bath_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -30826,7 +30826,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001_to_tube1_5ml_block_thermostatic_bath2_002::slot",
-              "instance_id": "L10500008",
+              "instance_id": "L10509019",
               "destination_standby_point": "tube1_5ml_block_thermostatic_bath2_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -31167,7 +31167,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_001",
               "target_label": "tube15ml_workshop_15ml_x_5_001_to_tube15ml_workshop_15ml_x_5_002::slot",
-              "instance_id": "L10500009",
+              "instance_id": "L10503397",
               "destination_standby_point": "tube15ml_workshop_15ml_x_5_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -31496,7 +31496,7 @@
             {
               "target_instance": "tube50ml_workshop_50ml_3_001",
               "target_label": "tube50ml_workshop_50ml_3_001_to_tube50ml_workshop_50ml_3_002::slot",
-              "instance_id": "L10500010",
+              "instance_id": "L10503458",
               "destination_standby_point": "tube50ml_workshop_50ml_3_002::slot",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -32165,7 +32165,7 @@
             {
               "target_instance": "Pipette005",
               "target_label": "Pipette005_to_Pipette007::slot",
-              "instance_id": "L10600001",
+              "instance_id": "L10600019",
               "destination_standby_point": "Pipette007::slot",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -32581,7 +32581,7 @@
             {
               "target_instance": "Opener",
               "target_label": "Opener_to_Opener",
-              "instance_id": "L10600002",
+              "instance_id": "L10603466",
               "destination_standby_point": "Opener",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -32981,7 +32981,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001_to_tube1_5ml_1_5ml_tube_storage_48_002::slot",
-              "instance_id": "L10600003",
+              "instance_id": "L10600043",
               "destination_standby_point": "tube1_5ml_1_5ml_tube_storage_48_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -33401,7 +33401,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001_to_tube1_5ml_microtube_mixer_base_002::slot",
-              "instance_id": "L10600004",
+              "instance_id": "L10608268",
               "destination_standby_point": "tube1_5ml_microtube_mixer_base_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -33821,7 +33821,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001_to_tube1_5ml_block_thermostatic_bath_002::slot",
-              "instance_id": "L10600005",
+              "instance_id": "L10607212",
               "destination_standby_point": "tube1_5ml_block_thermostatic_bath_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -34253,7 +34253,7 @@
             {
               "target_instance": "tube1_5ml_1_5ml_tube_storage_48_001",
               "target_label": "tube1_5ml_1_5ml_tube_storage_48_001_to_tube1_5ml_block_thermostatic_bath2_002::slot",
-              "instance_id": "L10600006",
+              "instance_id": "L10607740",
               "destination_standby_point": "tube1_5ml_block_thermostatic_bath2_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -34685,7 +34685,7 @@
             {
               "target_instance": "tube15ml_workshop_15ml_x_5_001",
               "target_label": "tube15ml_workshop_15ml_x_5_001_to_tube15ml_workshop_15ml_x_5_002::slot",
-              "instance_id": "L10600007",
+              "instance_id": "L10603397",
               "destination_standby_point": "tube15ml_workshop_15ml_x_5_002::slot",
               "robot": "MaholoLeft",
               "active_arm": "left",
@@ -35105,7 +35105,7 @@
             {
               "target_instance": "tube50ml_workshop_50ml_3_001",
               "target_label": "tube50ml_workshop_50ml_3_001_to_tube50ml_workshop_50ml_3_002::slot",
-              "instance_id": "L10600008",
+              "instance_id": "L10603458",
               "destination_standby_point": "tube50ml_workshop_50ml_3_002::slot",
               "robot": "MaholoRight",
               "active_arm": "right",
@@ -35559,7 +35559,7 @@
             {
               "target_instance": "Pipette005",
               "target_label": "Pipette005_to_tube1_5ml_1_5ml_tube_storage_48_001",
-              "instance_id": "L10700001",
+              "instance_id": "L10700513",
               "destination_standby_point": "tube1_5ml_1_5ml_tube_storage_48_001",
               "robot": "MaholoWithLeft",
               "active_arm": "both",
@@ -36021,7 +36021,7 @@
             {
               "target_instance": "Pipette005",
               "target_label": "Pipette005_to_tube15ml_workshop_15ml_x_5_001",
-              "instance_id": "L10700002",
+              "instance_id": "L10701083",
               "destination_standby_point": "tube15ml_workshop_15ml_x_5_001",
               "robot": "MaholoWithLeft",
               "active_arm": "both",
@@ -36483,7 +36483,7 @@
             {
               "target_instance": "Pipette005",
               "target_label": "Pipette005_to_tube50ml_workshop_50ml_3_001",
-              "instance_id": "L10700003",
+              "instance_id": "L10701138",
               "destination_standby_point": "tube50ml_workshop_50ml_3_001",
               "robot": "MaholoWithLeft",
               "active_arm": "both",
