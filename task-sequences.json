@@ -279,17 +279,10 @@
                   "task_id": null
                 },
                 {
-                  "stage_id": "rotate_torso",
-                  "arm": "A1 controller",
-                  "kind": "primitive",
-                  "call": "rotate_torso({instance_heading_deg})",
-                  "task_id": null
-                },
-                {
-                  "stage_id": "carry_horizontal",
+                  "stage_id": "carry_upright",
                   "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "carry_horizontal({destination}.slot.XY)",
+                  "call": "carry_upright({destination})",
                   "task_id": null
                 }
               ]
@@ -344,17 +337,10 @@
                   "task_id": null
                 },
                 {
-                  "stage_id": "rotate_torso",
-                  "arm": "A1 controller",
-                  "kind": "primitive",
-                  "call": "rotate_torso({instance_heading_deg})",
-                  "task_id": null
-                },
-                {
-                  "stage_id": "carry_horizontal",
+                  "stage_id": "carry_upright",
                   "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "carry_horizontal({destination}.slot.XY)",
+                  "call": "carry_upright({destination})",
                   "task_id": null
                 },
                 {
@@ -430,17 +416,10 @@
                   "task_id": null
                 },
                 {
-                  "stage_id": "rotate_torso",
-                  "arm": "A1 controller",
-                  "kind": "primitive",
-                  "call": "rotate_torso({instance_heading_deg})",
-                  "task_id": null
-                },
-                {
-                  "stage_id": "carry_horizontal",
+                  "stage_id": "carry_upright",
                   "arm": "physical-right",
                   "kind": "primitive",
-                  "call": "carry_horizontal({destination}.top.XY)",
+                  "call": "carry_upright({destination})",
                   "task_id": null
                 },
                 {
@@ -891,25 +870,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -917,7 +880,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -1050,25 +1013,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "holding_arm",
                       "parameters": [
                         "arm",
@@ -1076,7 +1023,7 @@
                       ],
                       "arguments": {
                         "arm": "holding_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -1296,25 +1243,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -1322,7 +1253,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -1455,25 +1386,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -1481,7 +1396,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -1841,25 +1756,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -1867,7 +1766,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -2114,25 +2013,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -2140,7 +2023,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -2273,25 +2156,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -2299,7 +2166,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -4058,25 +3925,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -4084,7 +3935,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -4217,25 +4068,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -4243,7 +4078,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -4587,25 +4422,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -4613,7 +4432,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -4746,25 +4565,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -4772,7 +4575,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -5118,25 +4921,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -5144,7 +4931,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -5277,25 +5064,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -5303,7 +5074,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -5940,25 +5711,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -5966,7 +5721,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -6099,25 +5854,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -6125,7 +5864,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -6469,25 +6208,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -6495,7 +6218,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -6628,25 +6351,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -6654,7 +6361,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -7205,25 +6912,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -7231,7 +6922,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -7490,25 +7181,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -7516,7 +7191,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -7728,25 +7403,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -7754,7 +7413,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     }
                   ]
@@ -7887,25 +7546,9 @@
                       }
                     },
                     {
-                      "skill": "rotate_torso",
-                      "target_ref": null,
-                      "target": null,
-                      "arm_role": "torso_rotation_arm",
-                      "parameters": [
-                        "arm",
-                        "facing_angle_deg"
-                      ],
-                      "arguments": {
-                        "arm": "torso_rotation_arm",
-                        "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                      },
-                      "aim_phase": "carry_horizontal",
-                      "aim_target_ref": "target"
-                    },
-                    {
-                      "skill": "carry_horizontal",
-                      "target_ref": "target",
-                      "target": "target",
+                      "skill": "carry_upright",
+                      "target_ref": "destination",
+                      "target": "destination",
                       "arm_role": "active_arm",
                       "parameters": [
                         "arm",
@@ -7913,7 +7556,7 @@
                       ],
                       "arguments": {
                         "arm": "active_arm",
-                        "target": "target"
+                        "target": "destination"
                       }
                     },
                     {
@@ -8389,25 +8032,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -8415,7 +8042,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       }
                     ],
@@ -8652,25 +8279,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -8678,7 +8289,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       },
                       {
@@ -9015,25 +8626,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -9041,7 +8636,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       }
                     ],
@@ -9169,25 +8764,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "holding_arm",
                         "parameters": [
                           "arm",
@@ -9195,7 +8774,7 @@
                         ],
                         "arguments": {
                           "arm": "holding_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       },
                       {
@@ -9404,25 +8983,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -9430,7 +8993,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       },
                       {
@@ -9767,25 +9330,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -9793,7 +9340,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       }
                     ],
@@ -10030,25 +9577,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -10056,7 +9587,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       },
                       {
@@ -10395,25 +9926,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -10421,7 +9936,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       }
                     ],
@@ -10549,25 +10064,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -10575,7 +10074,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       },
                       {
@@ -11524,25 +11023,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -11550,7 +11033,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       }
                     ]
@@ -12012,25 +11495,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -12038,7 +11505,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       }
                     ],
@@ -12166,25 +11633,9 @@
                         }
                       },
                       {
-                        "skill": "rotate_torso",
-                        "target_ref": null,
-                        "target": null,
-                        "arm_role": "torso_rotation_arm",
-                        "parameters": [
-                          "arm",
-                          "facing_angle_deg"
-                        ],
-                        "arguments": {
-                          "arm": "torso_rotation_arm",
-                          "facing_angle_deg": "nearest_supported_heading_for_target_instance"
-                        },
-                        "aim_phase": "carry_horizontal",
-                        "aim_target_ref": "target"
-                      },
-                      {
-                        "skill": "carry_horizontal",
-                        "target_ref": "target",
-                        "target": "target",
+                        "skill": "carry_upright",
+                        "target_ref": "destination",
+                        "target": "destination",
                         "arm_role": "active_arm",
                         "parameters": [
                           "arm",
@@ -12192,7 +11643,7 @@
                         ],
                         "arguments": {
                           "arm": "active_arm",
-                          "target": "target"
+                          "target": "destination"
                         }
                       },
                       {
